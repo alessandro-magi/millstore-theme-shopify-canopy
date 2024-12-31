@@ -28,7 +28,7 @@
     "custom_liquid_Kyr9V8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"danneggiate\"> \n<div class=\"plant-icon-banner\">\n  <span><img src=\"{{ 'assicurazione.png' | asset_url }}\" alt=\"Danneggiata? Sostituita?\" width=\"20px\" height=\"30px\"></span><a href=\"https://millstore.it/pages/danneggiata-sostituita?utm_source=crosslink&amp;utm_medium=link&amp;utm_campaign=orto-mio-pagina-brand\" style=\"color: black;\">Piantina danneggiata durante il trasporto? Te la sostituiamo gratis! <strong> Scopri di più &gt;</strong></a>\n </div>\n  </div>",
+        "custom_liquid": "<div class=\"danneggiate\"> \n<div class=\"plant-icon-banner\">\n  <span><img src=\"{{ 'assicurazione.png' | asset_url }}\" alt=\"Danneggiata? Sostituita?\" width=\"20px\" height=\"30px\"></span><a href=\"https://millstore.it/pages/danneggiata-sostituita\" style=\"color: black;\">Piantina danneggiata durante il trasporto? Te la sostituiamo gratis! <strong> Scopri di più &gt;</strong></a>\n</div>\n  </div>",
         "section_height": "tight",
         "full_width": false,
         "dividers": "border-top",
