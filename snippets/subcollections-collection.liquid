@@ -77,14 +77,6 @@
   {%- assign object = section -%}
 {% endif %}
 
-<script type="application/pxs-animation-mapping+json">
-  {
-    "blocks": [".subcollections-grid__item"],
-    "elements": [
-      ".subcollections-grid__item-image"
-    ]
-  }
-</script>
 
 {% assign hasNoSubcategories = false %}
 {% assign hasSubcategories = false %}
@@ -96,7 +88,6 @@
   {% endif %}
 {% endfor %}
 
-{% if hasSubcategories or layout_type == 'grid' or layout_type == 'slideshow' or onboard %}
 
   <carousel-slider class="carousel block" inactive>
     <div class="container">
@@ -143,4 +134,3 @@
       </div>
     </div>
   </carousel-slider>
-{% endif %}
