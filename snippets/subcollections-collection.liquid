@@ -76,17 +76,8 @@
       <div class="slider" id="slider-{{ section.id }}"> 
 
           <div class="container">
-            <ul class="{% if carousel %}slider__grid {% endif %}grid {{ grid_classes }} gap-x-theme gap-y-10" role="list">
-                {% if onboard %}
-                  {% for i in (1..6) %}
-                    {%
-                      render 'subcollections-grid-list-item',
-                      onboard: onboard,
-                      collection: collection,
-                      link: false
-                    %}
-                  {% endfor %}
-                {% else %}
+            <ul class="slider__grid">
+                
                   {% for link in linklists[collection.handle].links %}
                     {%
                       render 'subcollections-grid-list-item',
@@ -98,7 +89,7 @@
                       block: block
                     %}
                   {% endfor %}
-                {% endif %}
+
             </ul>
           </div>
 
