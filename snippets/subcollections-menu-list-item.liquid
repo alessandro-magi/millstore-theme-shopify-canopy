@@ -15,7 +15,6 @@
   {% endif %}
 
   {% assign collection_title = current_collection.title %}
-  {% assign collection_description = current_collection.description %}
 
   {% if current_collection.image and section.settings.thumbnail_image == 'collection-image' %}
     {% assign collection_image = current_collection.image %}
@@ -43,7 +42,7 @@
           {% unless onboard or collection_image == blank %}
             {%
               render 'image',
-              img: collection_image,
+              img: collection_image_object,
               alt: collection_image.alt,
               size: '1350x',
               lazy: true,
@@ -76,7 +75,6 @@
           <li class="subcollections-menu__link-item accordion--icon">
             <a href="{{ current_collection.url }}">
               {{ cta_text }}
-              {% render 'icon-library', id: 'icon-signpost-arrow' %}
             </a>
           </li>
         {% endif %}
