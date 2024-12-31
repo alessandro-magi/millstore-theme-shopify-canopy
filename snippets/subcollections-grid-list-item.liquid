@@ -30,8 +30,9 @@
 <li class="slider__item">
   <div clas="card hover:grow-media relative flex flex-col card__collection card__collection--with-border">
     <div class="card__media relative card__media--circle">
+      
       {% render 'image',
-        image: {{ collection_image }},
+        image: collection.image,
         widths: '320, 460, 600, 700, 800, 900, 1200',
         src_width: 460,
         src_placeholder: true,
@@ -43,7 +44,7 @@
       <a href="{{ current_collection.url }}" class="media block relative">
           {{ collection_title }} {% if show_product_count %}({{ current_collection.all_products_count }}) {% endif %}
       </a>
-      
+
     </div>
   </div>
 </li>
