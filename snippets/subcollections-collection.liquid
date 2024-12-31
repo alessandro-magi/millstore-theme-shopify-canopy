@@ -25,6 +25,10 @@
 {% endfor %}
 
 {% if hasSubcategories or layout_type == 'grid' or layout_type == 'slideshow' or onboard %}
+
+  <carousel-slider class="carousel block" inactive>
+    <div class="container">
+      <div class="slider" id="slider-{{ section.id }}">  
 <div class="subcollections__container">
   <ul class="
     subcollections-list__content
@@ -108,39 +112,4 @@
     {% endif %}
   </ul>
 </div>
-{% endif %}
-
-{% if layout_type == 'menu' and hasNoSubcategories == true %}
-  <div class="subcollections__container">
-    <ul
-      class="
-        subcollections-list__content
-        subcollections-list__no-sublinks
-        subcollections-list__{{ object.settings.thumbnail_image }}
-        subcollections-list__image-crop--{{ object.settings.image_crop }}
-      "
-      data-subcollections-layout="{{ layout_type }}">
-        {% if onboarding %}
-          {% for i in (1..6) %}
-            {%
-              render 'subcollections-menu-list-item',
-              onboarding: onboarding,
-              collection: collection,
-              link: false
-            %}
-          {% endfor %}
-        {% else %}
-          {% for link in linklists[collection.handle].links %}
-            {% if link.levels == 0 %}
-              {%
-                render 'subcollections-menu-list-item',
-                onboarding: onboarding,
-                collection: collection,
-                link: link
-              %}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-    </ul>
-  </div>
 {% endif %}

@@ -59,13 +59,6 @@
     {% assign collection_image = current_collection.products.first.featured_media.preview_image %}
   {% endif %}
 {% endunless %}
-
-<carousel-slider class="carousel block" inactive>
-  <div class="container">
-    <div class="slider" id="slider-{{ section.id }}">
-      <div class="container">
-        <ul class="{% if carousel %}slider__grid {% endif %}grid {{ grid_classes }} gap-x-theme gap-y-10" role="list">
-          {%- for block in section.blocks -%}
           
               <li class="subcollections-grid__item" data-subcollections-grid-item {% if block %}{{ block.shopify_attributes }}{% endif %}>
                 <a href="{{ current_collection.url }}">
@@ -95,21 +88,4 @@
                   </span>
                 </a>
               </li>
-          {%- endfor -%}
-        </ul>
-      </div>
-
-      {%- if settings.slider_show_arrows != 'never' -%}
-        <div class="slider-nav slide-nav--inline justify-between items-center absolute top-0 h-full {% if settings.slider_show_arrows == 'hover' %}slider-nav--show-on-hover no-hover-hidden {% endif %}hidden md:flex no-js-hidden">
-          <button type="button" class="slider-nav__btn tap-target tap-target--left btn has-ltr-icon" name="prev" aria-controls="slider-{{ section.id }}">
-            <span class="visually-hidden">{{ 'general.slider.previous' | t }}</span>
-            {% render 'icon-chevron-left' %}
-          </button>
-          <button type="button" class="slider-nav__btn tap-target tap-target--right btn has-ltr-icon" name="next" aria-controls="slider-{{ section.id }}">
-            <span class="visually-hidden">{{ 'general.slider.next' | t }}</span>
-            {% render 'icon-chevron-right' %}
-          </button>
-        </div>
-
-    </div>
-  </carousel-slider>
+ 
