@@ -32,54 +32,7 @@
 
           <div class="container">
             <ul class="{% if carousel %}slider__grid {% endif %}grid {{ grid_classes }} gap-x-theme gap-y-10" role="list">
-              {% if layout_type == 'menu' %}
-                {% if onboard %}
-                  {% for i in (1..6) %}
-                    {%
-                      render 'subcollections-menu-list-item',
-                      onboard: onboard,
-                      collection: collection,
-                      link: false,
-                      enabled_mobile_accordion: object.settings.expand_mobile_menus
-                    %}
-                  {% endfor %}
-                {% else %}
-                  {% for link in linklists[collection.handle].links %}
-                    {% if link.levels != 0 %}
-                      {%
-                        render 'subcollections-menu-list-item',
-                        onboard: onboard,
-                        collection: collection,
-                        link: link,
-                        enabled_mobile_accordion: object.settings.expand_mobile_menus
-                      %}
-                    {% endif %}
-                  {% endfor %}
-                {% endif %}
-
-              {% elsif layout_type == 'grid' %}
-                {% if onboard %}
-                  {% for i in (1..6) %}
-                    {%
-                      render 'subcollections-grid-list-item',
-                      onboard: onboard,
-                      collection: collection,
-                      link: false
-                    %}
-                  {% endfor %}
-                {% else %}
-                  {% for link in linklists[collection.handle].links %}
-                    {%
-                      render 'subcollections-grid-list-item',
-                      onboard: onboard,
-                      collection: collection,
-                      link: link,
-                      show_product_count: object.settings.show_product_count
-                    %}
-                  {% endfor %}
-                {% endif %}
-
-              {% elsif layout_type == 'slideshow' %}
+              {% if layout_type == 'slideshow' %}
                 {% if onboard %}
                   {% for i in (1..6) %}
                     {%
