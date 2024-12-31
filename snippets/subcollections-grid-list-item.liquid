@@ -1,3 +1,9 @@
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
 {% assign collection_title = 'onboarding.collection.title' | t %}
 
 {% unless onboard %}
@@ -14,15 +20,22 @@
     {% continue %}
   {% endif %}
 
+  {% if current_collection.image and object.settings.thumbnail_image == 'collection-image' %}
+    {% assign collection_image = current_collection.image %}
+  {% else %}
+    {% assign collection_image = current_collection.products.first.featured_media.preview_image %}
+  {% endif %}
 {% endunless %}
 
 <li class="slider__item">
-  {% render 'collection-card',
-    image: collection.image,
-    image_ratio: image_ratio,
-    circle_image: circle_image,
-    use_product_image: section.settings.use_product_image,
-    show_border: section.settings.show_border
+  {%
+    render 'image',
+    img: collection_image,
+    alt: collection_image.alt,
+    size: '1350x',
+    lazy: true,
+    canvas: true,
+    attr: 'data-collection-image'
   %}
   <a href="{{ current_collection.url }}">
     <span class="subcollections-grid__item-info subcollections-grid__item-title">
