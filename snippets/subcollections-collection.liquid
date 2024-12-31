@@ -32,7 +32,6 @@
 
           <div class="container">
             <ul class="{% if carousel %}slider__grid {% endif %}grid {{ grid_classes }} gap-x-theme gap-y-10" role="list">
-              {% if layout_type == 'slideshow' %}
                 {% if onboard %}
                   {% for i in (1..6) %}
                     {%
@@ -55,8 +54,6 @@
                     %}
                   {% endfor %}
                 {% endif %}
-
-              {% endif %}
             </ul>
           </div>
 
