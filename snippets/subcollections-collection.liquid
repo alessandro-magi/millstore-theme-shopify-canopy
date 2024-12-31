@@ -1,4 +1,76 @@
-{% comment %} Assign object as block or section {% endcomment %}
+{%- liquid
+  assign card_size = section.settings.card_size
+  if section.settings.layout == 'carousel'
+    assign carousel = true
+    if card_size == 'small'
+      if settings.dock_cart_drawer and settings.cart_type == 'drawer'
+        assign grid_classes = 'grid-flow-col auto-cols-2 sm:auto-cols-3 md:auto-cols-5 lg:auto-cols-6 xxl:auto-cols-7'
+      else
+        assign grid_classes = 'grid-flow-col auto-cols-2 sm:auto-cols-3 md:auto-cols-5 lg:auto-cols-6 xxl:auto-cols-7'
+      endif
+    elsif card_size == 'medium'
+      assign grid_classes = 'grid-flow-col auto-cols-2 sm:auto-cols-3 md:auto-cols-4 lg:auto-cols-5 xl:auto-cols-6'
+    else
+      assign grid_classes = 'grid-flow-col auto-cols-2 sm:auto-cols-3 lg:auto-cols-4 xl:auto-cols-5'
+    endif
+  else
+    assign carousel = false
+    if card_size == 'small'
+      assign grid_classes = 'grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xxl:grid-cols-7'
+    elsif card_size == 'medium'
+      assign grid_classes = 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6'
+    else
+      assign grid_classes = 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'
+    endif
+  endif
+
+  assign circle_image = false
+  if settings.coll_card_image_ratio == 'circle' or section.settings.circle_image == true
+    assign circle_image = true
+  endif
+
+  if settings.coll_card_image_ratio == 'shortest' and circle_image == false
+    assign image_ratio = 0
+    for block in section.blocks
+      if block.settings.collection != blank
+        assign block_collection = collections[block.settings.collection]
+        if block_collection.featured_image.aspect_ratio > image_ratio
+          assign image_ratio = block_collection.featured_image.aspect_ratio
+        endif
+      endif
+    endfor
+  elsif settings.coll_card_image_ratio == 'tallest' and circle_image == false
+    assign image_ratio = 99
+    for block in section.blocks
+      if block.settings.collection != blank
+        assign block_collection = collections[block.settings.collection]
+        if block_collection.featured_image.aspect_ratio < image_ratio
+          assign image_ratio = block_collection.featured_image.aspect_ratio
+        endif
+      endif
+    endfor
+  elsif circle_image == true
+    assign image_ratio = 1
+  else
+    assign image_ratio = settings.coll_card_image_ratio
+  endif
+
+  assign color_scheme = section.settings.color_scheme
+  assign bg_color = false
+
+  if color_scheme == '1'
+    assign bg_color = settings.color_scheme_1_bg
+  elsif color_scheme == '2'
+    assign bg_color = settings.color_scheme_2_bg
+  elsif color_scheme == '3'
+    assign bg_color = settings.color_scheme_3_bg
+  endif
+
+  if bg_color == settings.bg_color or bg_color == 'rgba(0,0,0,0)'
+    assign bg_color = false
+  endif
+-%}
+
 {% if type == 'block' %}
   {%- assign object = block -%}
 {% else %}
