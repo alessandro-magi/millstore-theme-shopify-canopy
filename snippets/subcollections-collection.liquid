@@ -4,16 +4,6 @@
 
           <div class="container">
             <ul class="slider__grid grid grid-flow-col auto-cols-2 sm:auto-cols-3 md:auto-cols-4 lg:auto-cols-5 xl:auto-cols-6 gap-x-theme gap-y-10">
-                {% if onboard %}
-                  {% for i in (1..6) %}
-                    {%
-                      render 'subcollections-grid-list-item',
-                      onboard: onboard,
-                      collection: collection,
-                      link: false
-                    %}
-                  {% endfor %}
-                {% else %}
                   {% for link in linklists[collection.handle].links %}
                     {%
                       render 'subcollections-grid-list-item',
@@ -25,7 +15,6 @@
                       block: block
                     %}
                   {% endfor %}
-                {% endif %}
             </ul>
           </div>
 
