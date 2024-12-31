@@ -17,6 +17,14 @@
 {% endunless %}
 
 <li class="slider__item">
+  {% render 'collection-card',
+    collection: block.settings.collection,
+    image: block.settings.image,
+    image_ratio: image_ratio,
+    circle_image: circle_image,
+    use_product_image: section.settings.use_product_image,
+    show_border: section.settings.show_border
+  %}
   <a href="{{ current_collection.url }}">
     <span class="subcollections-grid__item-info subcollections-grid__item-title">
       {{ collection_title }} {% if show_product_count %}({{ current_collection.all_products_count }}) {% endif %}
