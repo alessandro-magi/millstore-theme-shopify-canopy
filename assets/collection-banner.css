@@ -6,7 +6,8 @@
 }
 
 .collection-banner__media {
-  order: 2;
+  order: 1;
+  justify-content: center;
 }
 
 .collection-banner__heading {
