@@ -100,7 +100,7 @@
   </div>
 </div>
 
-{% if section.settings.enable_subcollection and linklists[collection.handle].links.size > 0 %}
+{% if linklists[collection.handle].links.size > 0 %}
   {%
     render 'subcollections-collection',
     type: 'block',
