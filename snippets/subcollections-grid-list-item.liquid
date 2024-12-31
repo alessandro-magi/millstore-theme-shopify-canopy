@@ -14,7 +14,6 @@
   {% endif %}
 
   {% assign collection_title = current_collection.title %}
-  {% assign collection_image = current_collection.image %}
 
   {% assign current_collection = link.object %}
   {% if current_collection == blank %}
@@ -66,10 +65,9 @@
       
       {% render 'collection-card',
         collection: block.settings.collection,
-        image: {{ collection_image }},
+        image: current_collection.image,
         image_ratio: image_ratio,
         circle_image: circle_image,
-        use_product_image: section.settings.use_product_image,
         show_border: section.settings.show_border
       %}
 
