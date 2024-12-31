@@ -27,6 +27,37 @@
   {% endif %}
 {% endunless %}
 
+{%- liquid
+  unless collection == empty
+    assign first_product_image = collection.all_products.first.featured_media.preview_image
+    if image == blank and use_product_image and first_product_image
+      assign image = first_product_image
+    elsif image == blank and collection.featured_image
+      assign image = collection.featured_image
+    endif
+  endunless
+
+  if image_ratio == nil
+    if section.settings.card_image_ratio == 'shortest' or section.settings.card_image_ratio == 'tallest' or section.settings.card_image_ratio == 'circle' or circle_image
+      assign image_ratio = 1
+    else
+      assign image_ratio = section.settings.card_image_ratio
+    endif
+  elsif image_ratio == 0 or image_ratio == 99
+    assign image_ratio = 1
+  endif
+
+  unless circle_image
+    if settings.coll_card_image_ratio == 'circle'
+      assign circle_image = true
+    endif
+  endunless
+
+  unless show_border == false
+    assign show_border = true
+  endunless
+-%}
+
 <li class="slider__item">
   <div clas="card hover:grow-media relative flex flex-col card__collection card__collection--with-border">
     <div class="card__media relative card__media--circle">
