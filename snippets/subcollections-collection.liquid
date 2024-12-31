@@ -4,15 +4,12 @@
 
           <div class="container">
             <ul class="slider__grid grid grid-flow-col auto-cols-2 sm:auto-cols-3 md:auto-cols-4 lg:auto-cols-5 xl:auto-cols-6 gap-x-theme gap-y-10">
-                  {% for link in linklists[collection.handle].links %}
+                  {% for i in (1..6) %}
                     {%
                       render 'subcollections-grid-list-item',
                       onboard: onboard,
                       collection: collection,
-                      link: link,
-                      show_product_count: object.settings.show_product_count,
-                      type: 'block',
-                      block: block
+                      link: false
                     %}
                   {% endfor %}
             </ul>
