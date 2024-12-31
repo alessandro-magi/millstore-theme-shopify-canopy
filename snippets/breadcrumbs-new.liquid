@@ -3,8 +3,8 @@
   Documentation - http://docs.shopify.com/support/your-website/navigation/creating-a-breadcrumb-navigation
 {%- endcomment -%}
 {%- unless template == 'index' or template == 'cart' -%}
-  <nav class="breadcrumbs-container" role="navigation" aria-label="breadcrumbs">
-    <a href="/" title="{{ 'general.breadcrumbs.home_link_title' | t }}">{{ 'general.breadcrumbs.home' | t }}</a>
+  <nav class="breadcrumbs flex justify-between w-full" role="navigation" aria-label="{{ breadcrumbs_title }}">
+    <a class="breadcrumbs-list__link" href="{{ routes.root_url }}">{{ home_title | escape }}</a>
    
         {%comment%} DETERMINE OBJECT TYPE - product, collection or page   {%endcomment%}
      
