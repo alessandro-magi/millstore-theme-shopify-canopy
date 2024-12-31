@@ -32,14 +32,14 @@
   <a href="{{ current_collection.url }}">
     <figure class="subcollections-grid__item-image">
         {% unless onboard or collection_image == blank %}
-          {%
-            render 'image',
-            img: collection_image,
-            alt: collection_image.alt,
-            size: '1350x',
-            lazy: true,
-            canvas: true,
-            attr: 'data-collection-image'
+          {% render 'image',
+            image: image,
+            widths: '320, 460, 600, 700, 800, 900, 1200',
+            src_width: 460,
+            src_placeholder: true,
+            sizes: sizes,
+            class: class,
+            disable_focal_point: true
           %}
         {% else %}
           {%- capture index -%}
