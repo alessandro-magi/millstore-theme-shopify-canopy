@@ -62,21 +62,34 @@
 <li class="slider__item">
   <div clas="card hover:grow-media relative flex flex-col card__collection card__collection--with-border">
     <div class="card__media relative card__media--circle">
-      
-      {% render 'collection-card',
-        collection: block.settings.collection,
-        image: collection_image,
-        image_ratio: image_ratio,
-        circle_image: circle_image,
-        show_border: section.settings.show_border,
-        collection_title: collection.title
-        collection.url: current_collection.url
-      %}
+     
+      <div class="card hover:grow-media relative flex flex-col card__collection card__collection--with-border">
+          <div class="card__media relative card__media--circle">
+          
+            <a href="{{ current_collection.url }}" aria-label="" class="media block relative" tabindex="-1" style="padding-top: 100%;">
+              {% render 'image',
+                image: collection_image,
+                widths: '320, 460, 600, 700, 800, 900, 1200',
+                image_ratio: image_ratio,
+                circle_image: circle_image,
+                src_width: 460,
+                src_placeholder: true,
+                sizes: sizes,
+                class: class,
+                disable_focal_point: true
+              %}
+            </a>
 
-      <a href="{{ current_collection.url }}">
-          {{ collection_title }}
-      </a>
+        </div>
+        <div class="card__info relative text-center">
+          <div class="card__title h6 mb-2 last:mb-0">
+            <a href="{{ current_collection.url }}">
+              {{ collection_title }}
+            </a>
+          </div>
+        </div>
 
+      </div>
     </div>
   </div>
 </li>
