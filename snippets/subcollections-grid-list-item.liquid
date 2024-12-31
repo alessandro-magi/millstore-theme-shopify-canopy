@@ -65,7 +65,7 @@
       
       {% render 'collection-card',
         collection: block.settings.collection,
-        image: current_collection.products.first.image,
+        image: current_collection.products.first.featured_media.preview_image,
         image_ratio: image_ratio,
         circle_image: circle_image,
         show_border: section.settings.show_border
