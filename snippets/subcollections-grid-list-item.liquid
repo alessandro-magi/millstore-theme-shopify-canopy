@@ -60,6 +60,30 @@
   {% endif %}
 {% endunless %}
 
+<carousel-slider class="carousel block" inactive>
+  <div class="container">
+    <div class="slider" id="slider-{{ section.id }}">
+      <div class="container">
+        <ul class="{% if carousel %}slider__grid {% endif %}grid {{ grid_classes }} gap-x-theme gap-y-10" role="list">
+          {%- for block in section.blocks -%}
+            <li{% if carousel %} class="slider__item"{% endif %}{% if settings.animations_enabled != "disabled" %} data-cc-animate="fade-in{% unless carousel %}-up{% endunless %}" data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"{% endif %}>
+              {% render 'collection-card',
+                collection: block.settings.collection,
+                image: block.settings.image,
+                image_ratio: image_ratio,
+                circle_image: circle_image,
+                use_product_image: section.settings.use_product_image,
+                show_border: section.settings.show_border
+              %}
+            </li>
+          {%- else -%}
+            {%- for i in (1..section.settings.products_to_show) -%}
+              <li{% if carousel %} class="slider__item"{% endif %}{% if settings.animations_enabled != "disabled" %} data-cc-animate="fade-in{% unless carousel %}-up{% endunless %}" data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"{% endif %}>
+                {% render 'collection-card', image_ratio: image_ratio, circle_image: circle_image %}
+              </li>
+            {%- endfor -%}
+          {%- endfor -%}
+
 <li class="subcollections-grid__item" data-subcollections-grid-item {% if block %}{{ block.shopify_attributes }}{% endif %}>
   <a href="{{ current_collection.url }}">
     <figure class="subcollections-grid__item-image">
