@@ -70,11 +70,11 @@
         circle_image: circle_image,
         show_border: section.settings.show_border,
         collection_title: collection.title
-        collection_title: current_collection.url
+        collection.url: current_collection.url
       %}
 
-      <a href="{{ current_collection.url }}" class="media block relative">
-          {{ collection_title }} ({{ current_collection.all_products_count }})
+      <a href="{{ current_collection.url }}">
+          {{ collection_title }}
       </a>
 
     </div>
