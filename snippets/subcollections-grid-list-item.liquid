@@ -23,7 +23,7 @@
   {% if current_collection.image and object.settings.thumbnail_image == 'collection-image' %}
     {% assign collection_image = current_collection.image %}
   {% else %}
-    {% assign collection_image = current_collection.products.first.featured_media.preview_image %}
+    {% assign collection_image = current_collection.products.first.featured_media.image %}
   {% endif %}
 {% endunless %}
 
@@ -65,7 +65,7 @@
       
       {% render 'collection-card',
         collection: block.settings.collection,
-        image: current_collection.products.first.featured_media.preview_image,
+        image: collection_image,
         image_ratio: image_ratio,
         circle_image: circle_image,
         show_border: section.settings.show_border
