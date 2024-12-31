@@ -10,3 +10,23 @@
 .read-more-collection:hover {
   cursor:pointer
 }
+
+.danneggiate {
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+  border-radius: 10px;
+  border: 2px solid #6F4F65;
+  margin-bottom: 10px;
+}
+
+.plant-icon-banner img {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.plant-icon-banner span {
+  font-size: 1.1em;
+  vertical-align: middle;
+}
