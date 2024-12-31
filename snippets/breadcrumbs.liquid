@@ -238,13 +238,13 @@
   {%- if template contains 'product' -%}
     <li class="flex items-center">
       {%- liquid render 'icon-chevron-right' -%}
-      <span>{{ product.title }}</span>
+        {{ product.title }}
     </li>
    
   {%- elsif template contains 'collection' and collection.handle -%}
     <li class="flex items-center">
       {%- liquid render 'icon-chevron-right' -%}
-        <span>{{ collection.title }}</span>
+        {{ collection.title }}
     </li>
    
   {%- elsif template == 'blog' -%}
@@ -253,9 +253,9 @@
       {%- if current_tags -%}
         {{ blog.title | link_to: blog.url }}
         {%- liquid render 'icon-chevron-right' -%}
-        <span>{{ current_tags | join: " + " }}</span>
+        {{ current_tags | join: " + " }}
       {%- else -%}
-      <span>{{ blog.title }}</span>
+        {{ blog.title }}
       {%- endif -%}
     </li>
    
@@ -266,8 +266,8 @@
       {{ blog.title | link_to: blog.url }}
     </li>
     <li class="flex items-center">
-    {%- liquid render 'icon-chevron-right' -%}
-    <span>{{ article.title }}</span>
+      {%- liquid render 'icon-chevron-right' -%}
+      {{ article.title }}
     </li>
    
   {%- elsif template contains 'page' -%}
@@ -278,8 +278,8 @@
    
   {%- else -%}
     <li class="flex items-center">
-    {%- liquid render 'icon-chevron-right' -%}
-    {{ page_title }}
+      {%- liquid render 'icon-chevron-right' -%}
+      {{ page_title }}
     </li>
    
   {% endif %}
