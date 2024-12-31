@@ -1,10 +1,3 @@
-{% comment %} Assign object as block or section {% endcomment %}
-{% if type == 'block' %}
-  {%- assign object = block -%}
-{% else %}
-  {%- assign object = section -%}
-{% endif %}
-
 {% assign collection_title = 'onboarding.collection.title' | t %}
 
 {% unless onboard %}
@@ -20,15 +13,10 @@
   {% if current_collection == blank %}
     {% continue %}
   {% endif %}
-
-  {% if current_collection.image and object.settings.thumbnail_image == 'collection-image' %}
-    {% assign collection_image = current_collection.image %}
-  {% else %}
-    {% assign collection_image = current_collection.products.first.featured_media.preview_image %}
-  {% endif %}
+  
 {% endunless %}
 
-<li class="slider__item" data-cc-animate="fade-in{% unless carousel %}-up{% endunless %}" data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s">
+<li{% if carousel %} class="slider__item"{% endif %}{% if settings.animations_enabled != "disabled" %} data-cc-animate="fade-in{% unless carousel %}-up{% endunless %}" data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"{% endif %}>
   <a href="{{ current_collection.url }}">
     <span class="subcollections-grid__item-info subcollections-grid__item-title">
       {{ collection_title }} {% if show_product_count %}({{ current_collection.all_products_count }}) {% endif %}
