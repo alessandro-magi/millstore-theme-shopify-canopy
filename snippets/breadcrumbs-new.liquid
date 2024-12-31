@@ -4,7 +4,10 @@
 {%- endcomment -%}
 {%- unless template == 'index' or template == 'cart' -%}
   <nav class="breadcrumbs flex justify-between w-full" role="navigation" aria-label="{{ breadcrumbs_title }}">
-    <a class="breadcrumbs-list__link" href="{{ routes.root_url }}">{{ home_title | escape }}</a>
+    <ol class="breadcrumbs-list flex has-ltr-icon">
+      <li class="flex items-center">
+        <a class="breadcrumbs-list__link" href="{{ routes.root_url }}">{{ home_title | escape }}</a>
+      </li>
    
         {%comment%} DETERMINE OBJECT TYPE - product, collection or page   {%endcomment%}
      
@@ -216,52 +219,70 @@
    
     {%- if bc1 -%}
       {%- liquid render 'icon-chevron-right' -%}
-      {{ bc1 }}
+      <li class="flex items-center">
+        {{ bc1 }}
+      </li>
     {%- endif -%}
     {%- if bc2 -%}
       {%- liquid render 'icon-chevron-right' -%}
-      {{ bc2 }}
+      <li class="flex items-center">
+        {{ bc2 }}
+      </li>
     {%- endif -%}
     {%- if bc3 -%}
-      {%- liquid render 'icon-chevron-right' -%}
-      {{ bc3 }}
+      <li class="flex items-center">
+        {%- liquid render 'icon-chevron-right' -%}
+        {{ bc3 }}
+      </li>
     {%- endif -%}
   {%- if template contains 'product' -%}
-    {%- liquid render 'icon-chevron-right' -%}
-    <span>{{ product.title }}</span>
+    <li class="flex items-center">
+      {%- liquid render 'icon-chevron-right' -%}
+      <span>{{ product.title }}</span>
+    </li>
    
   {%- elsif template contains 'collection' and collection.handle -%}
-    {%- liquid render 'icon-chevron-right' -%}
-      <span>{{ collection.title }}</span>
+    <li class="flex items-center">
+      {%- liquid render 'icon-chevron-right' -%}
+        <span>{{ collection.title }}</span>
+    </li>
    
   {%- elsif template == 'blog' -%}
-   
-    {%- liquid render 'icon-chevron-right' -%}
-    {%- if current_tags -%}
-      {{ blog.title | link_to: blog.url }}
+    <li class="flex items-center">
       {%- liquid render 'icon-chevron-right' -%}
-      <span>{{ current_tags | join: " + " }}</span>
-    {%- else -%}
-    <span>{{ blog.title }}</span>
-    {%- endif -%}
+      {%- if current_tags -%}
+        {{ blog.title | link_to: blog.url }}
+        {%- liquid render 'icon-chevron-right' -%}
+        <span>{{ current_tags | join: " + " }}</span>
+      {%- else -%}
+      <span>{{ blog.title }}</span>
+      {%- endif -%}
+    </li>
    
   {%- elsif template == 'article' -%}
    
-    {%- liquid render 'icon-chevron-right' -%}
-    {{ blog.title | link_to: blog.url }}
+    <li class="flex items-center">
+      {%- liquid render 'icon-chevron-right' -%}
+      {{ blog.title | link_to: blog.url }}
+    </li>
+    <li class="flex items-center">
     {%- liquid render 'icon-chevron-right' -%}
     <span>{{ article.title }}</span>
+    </li>
    
   {%- elsif template contains 'page' -%}
-   
-   {%- liquid render 'icon-chevron-right' -%}
-   <span>{{ page.title }}</span>
+    <li class="flex items-center">
+      {%- liquid render 'icon-chevron-right' -%}
+      {{ page.title }}
+    </li>
    
   {%- else -%}
-   
-   {%- liquid render 'icon-chevron-right' -%}
-   <span>{{ page_title }}</span>
+    <li class="flex items-center">
+    {%- liquid render 'icon-chevron-right' -%}
+    {{ page_title }}
+    </li>
    
   {% endif %}
+    </ol>
   </nav>
   {%- endunless -%}
