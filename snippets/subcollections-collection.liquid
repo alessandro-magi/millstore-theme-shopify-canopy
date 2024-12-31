@@ -63,7 +63,7 @@
       {% if onboard %}
         {% for i in (1..6) %}
           {%
-            render 'subcollections-grid-list-item',
+            render 'featured-collection',
             onboard: onboard,
             collection: collection,
             link: false
@@ -72,7 +72,7 @@
       {% else %}
         {% for link in linklists[collection.handle].links %}
           {%
-            render 'subcollections-grid-list-item',
+            render 'featured-collection',
             onboard: onboard,
             collection: collection,
             link: link,
@@ -85,7 +85,7 @@
       {% if onboard %}
         {% for i in (1..6) %}
           {%
-            render 'subcollections-grid-list-item',
+            render 'featured-collection',
             onboard: onboard,
             collection: collection,
             link: false
@@ -94,7 +94,7 @@
       {% else %}
         {% for link in linklists[collection.handle].links %}
           {%
-            render 'subcollections-grid-list-item',
+            render 'featured-collection',
             onboard: onboard,
             collection: collection,
             link: link,
