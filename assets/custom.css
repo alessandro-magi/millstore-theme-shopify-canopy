@@ -1,0 +1,12 @@
+.section {
+  margin: 0;
+}
+
+.collection-description {
+    max-width: 100%;
+    line-height: normal;
+}
+
+.read-more-collection:hover {
+  cursor:pointer
+}
