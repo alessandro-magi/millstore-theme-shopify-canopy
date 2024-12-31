@@ -31,14 +31,7 @@
       <div class="slider" id="slider-{{ section.id }}"> 
 
           <div class="container">
-            <ul class="
-              subcollections-list__content
-              subcollections-list__image-crop--{{ object.settings.image_crop }}
-              mobile-accordion__open--{{ object.settings.expand_mobile_menus }}
-              subcollections-list__{{ object.settings.thumbnail_image }}
-              subcollections-list__columns-{{ object.settings.thumbnail_columns_desktop }}
-              "
-              data-subcollections-layout="{{ layout_type }}">
+            <ul class="{% if carousel %}slider__grid {% endif %}grid {{ grid_classes }} gap-x-theme gap-y-10" role="list">
               {% if layout_type == 'menu' %}
                 {% if onboard %}
                   {% for i in (1..6) %}
