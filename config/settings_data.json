@@ -738,8 +738,8 @@
   "platform_customizations": {
     "custom_css": [
       ".section {margin: 0;}",
-      ".plant-icon img {max-height: 30px; padding: 0 10px; vertical-align: top;}",
-      ".plant-icon {margin: 15px 0; vertical-align: middle;}"
+      ".plant-icon img {max-height: 30px; margin: 0 10px;}",
+      ".plant-icon {margin: 15px 0;}"
     ]
   }
 }
