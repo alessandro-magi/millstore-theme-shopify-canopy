@@ -100,7 +100,7 @@
             "icon": "credit_card",
             "text": "<p>✔ Paypal, anche in 3 rate senza interessi</p><p>✔ Carta di Credito (Visa, Mastercard e American Express)</p><p>✔ Scalapay: 3 Rate senza interessi</p><p>✔ Bonifico Bancario</p><p>✔ Pagamento alla Consegna (+5€)</p>",
             "page": "",
-            "open": false
+            "open": true
           }
         },
         "1cc6422d-211f-4764-af07-884ee26ed3d7": {
