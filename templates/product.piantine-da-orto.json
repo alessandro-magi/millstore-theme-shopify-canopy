@@ -170,51 +170,6 @@
         "products_to_show": 5
       }
     },
-    "details": {
-      "type": "product-details",
-      "blocks": {
-        "highlight_text_LrmdFE": {
-          "type": "highlight-text",
-          "settings": {
-            "text": "<h3>Spediamo le tue piante in completa sicurezza e se qualcosa va storto?</h3>"
-          }
-        },
-        "richtext_CQRNVz": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Ti spediamo delle nuove piantine a costo zero, oppure se lo richiedi riceverai il rimborso delle piante danneggiate.</p><p><strong>Siamo sicuri che le tue piante arriveranno in ottime condizioni, grazie al nostro packaging.</strong></p><p><br/>Dopo anni di ricerche, abbiamo trovato un imballaggio completamente eco-sostenibile e attento alle necessità delle piante durante il trasporto.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "highlight_text_LrmdFE",
-        "richtext_CQRNVz"
-      ],
-      "settings": {
-        "content_size": "default",
-        "placement": "left",
-        "text": "<p>Ecco un'esempio</p>",
-        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
-        "show_image_first": true,
-        "color_scheme": "1",
-        "full_width": true
-      }
-    },
-    "173386234297f259df": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_rxEpr7": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_rxEpr7"
-      ],
-      "settings": {
-        "full_width": false
-      }
-    },
     "media_with_text_rn7cCn": {
       "type": "media-with-text",
       "blocks": {
@@ -268,6 +223,51 @@
         "only_content_color_scheme": false
       }
     },
+    "details": {
+      "type": "product-details",
+      "blocks": {
+        "highlight_text_LrmdFE": {
+          "type": "highlight-text",
+          "settings": {
+            "text": "<h3>Spediamo le tue piante in completa sicurezza e se qualcosa va storto?</h3>"
+          }
+        },
+        "richtext_CQRNVz": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Ti spediamo delle nuove piantine a costo zero, oppure se lo richiedi riceverai il rimborso delle piante danneggiate.</p><p><strong>Siamo sicuri che le tue piante arriveranno in ottime condizioni, grazie al nostro packaging.</strong></p><p><br/>Dopo anni di ricerche, abbiamo trovato un imballaggio completamente eco-sostenibile e attento alle necessità delle piante durante il trasporto.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_text_LrmdFE",
+        "richtext_CQRNVz"
+      ],
+      "settings": {
+        "content_size": "default",
+        "placement": "left",
+        "text": "<p>Ecco un'esempio</p>",
+        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
+        "show_image_first": true,
+        "color_scheme": "1",
+        "full_width": true
+      }
+    },
+    "173386234297f259df": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_rxEpr7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_rxEpr7"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
     "image_banner_KETeyy": {
       "type": "image-banner",
       "settings": {
@@ -292,9 +292,9 @@
   "order": [
     "main",
     "recommendations",
-    "details",
-    "173386234297f259df",
     "media_with_text_rn7cCn",
-    "image_banner_KETeyy"
+    "details",
+    "image_banner_KETeyy",
+    "173386234297f259df"
   ]
 }
