@@ -215,7 +215,7 @@
     "image_banner_anXyie": {
       "type": "image-banner",
       "custom_css": [
-        "{background-color: #fcf9f1; padding-top: 20px;}"
+        "{background-color: #fcf9f1; padding-top: 20px; display: flex; justify-content: center;}"
       ],
       "settings": {
         "image_desktop": "shopify://shop_images/come-si-coltiva-asparago-bianco.png",
