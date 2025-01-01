@@ -81,6 +81,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "custom_liquid_LweUKn": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ot-estimated-shipping\"></div>"
+          }
+        },
         "divider-1": {
           "type": "divider",
           "settings": {
@@ -112,6 +118,7 @@
         "divider-0",
         "variant-picker",
         "buy-buttons",
+        "custom_liquid_LweUKn",
         "divider-1",
         "custom_liquid_WGA39X",
         "1cc6422d-211f-4764-af07-884ee26ed3d7"
