@@ -45,7 +45,7 @@
         "message_Dr4mRg": {
           "type": "message",
           "settings": {
-            "icon": "none",
+            "icon": "question_mark",
             "title": "<p><strong>Perché scegliere la varietà </strong><strong>{{ product.metafields.custom.nome.value }}</strong><strong>?</strong></p><p>{{ product.metafields.global[\"info-utili\"] | metafield_tag }}</p>",
             "close": "once",
             "show_over_media": false,
