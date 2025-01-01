@@ -113,7 +113,7 @@
     "no_stock_text_color": "#777777",
     "no_stock_backordered_text_color": "#e02c50",
     "product_label_card_position": "top-0 start",
-    "sale_label_bg_color": "#6e4e66",
+    "sale_label_bg_color": "#e02c50",
     "sale_label_text_color": "#ffffff",
     "sale_label_icon": "price_tag",
     "sale_label_type": "percent",
