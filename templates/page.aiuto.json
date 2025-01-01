@@ -260,6 +260,28 @@
             "heading": "Quali metodi di pagamento accettate?",
             "text": "<p>Puoi pagare il tuo ordine come preferisci. Accettiamo: Paypal, Carta di Credito (Visa, Mastercard, American Express, Postepay), Scalapay o Klarna (3 rate a tasso 0), Bonifico Bancario o Pagamento alla consegna (+ 5€).</p>"
           }
+        },
+        "category_rV3kTA": {
+          "type": "category",
+          "settings": {
+            "text": "Promozioni"
+          }
+        },
+        "question_WiadYa": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Ho ricevuto un codice coupon. Dove lo posso applicare?",
+            "text": "<p>Applicare un codice promozionale è semplice! Quando sei nel carrello, oppure nel checkout, inserisci semplicemente il codice nella casella \"Codice sconto\". Quindi, fai clic sul pulsante che dice \"Applica\". Tutti i codici promozionali possono essere utilizzati una sola volta. Controlla i termini e le condizioni specificati nell'e-mail che hai ricevuto.</p>"
+          }
+        },
+        "question_zbKFeA": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Come posso ottenere uno sconto?",
+            "text": "<p>Se vuoi scoprire le nostre promozioni oppure vuoi ricevere un codice sconto, iscriviti alla nostra Newsletter. Appena ti iscrivi, riceverai codice sconto di Benvenuto del 10%.</p>"
+          }
         }
       },
       "block_order": [
@@ -277,7 +299,10 @@
         "question_GLh6eF",
         "category_UyDgza",
         "question_JfdVLJ",
-        "question_TtnGnX"
+        "question_TtnGnX",
+        "category_rV3kTA",
+        "question_WiadYa",
+        "question_zbKFeA"
       ],
       "settings": {
         "heading": "FAQ: Domande più frequenti",
