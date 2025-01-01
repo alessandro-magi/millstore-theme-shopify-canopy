@@ -90,7 +90,7 @@
         "custom_liquid_WGA39X": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "✔ Paypal, anche in 3 rate senza interessi\n✔ Carta di Credito (Visa, Mastercard e American Express)\n✔ Scalapay: 3 Rate senza interessi\n✔ Bonifico Bancario\n✔ Pagamento alla Consegna (+5€) (Attivo solo per clienti che hanno eseguito almeno 1 ordine)"
+            "custom_liquid": "<div class=\"payment-method\">\n            <h3>Accettiamo:</h3>\n              &#10004; Paypal, anche in 3 rate senza interessi<br>\n              &#10004; Carta di Credito (Visa, Mastercard e American Express)<br>\n              &#10004; Scalapay: 3 Rate senza interessi<br>\n              &#10004; Bonifico Bancario<br>\n              &#10004; Pagamento alla Consegna (+5€) (Attivo solo per clienti che hanno eseguito almeno 1 ordine)\n            </div>"
           }
         },
         "1cc6422d-211f-4764-af07-884ee26ed3d7": {
