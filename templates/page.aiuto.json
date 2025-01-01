@@ -165,8 +165,8 @@
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "How long will it take to receive my order?",
-            "text": "<p>Standard shipping normally takes 3-5 days. Next day shipping is available on all domestic orders (for an additional charge). International shipping times depend on the products and destination (estimated at checkout).</p>"
+            "heading": "Vorrei cancellare il mio ordine, come posso fare?",
+            "text": "<p>Se il tuo ordine non è ancora stato spedito, hai tempo fino alle 14:00 per chiedere l'annullamento del tuo ordine. Puoi utilizzare uno dei canali di contatto, puoi chiamarci, inviarci un messaggio su Whatsapp, una e-mail, oppure scrivere nella nostra chat.</p><p>Se abbiamo già elaborato il tuo ordine, potremmo non essere in grado di annullarlo.</p>"
           }
         },
         "category_ND4C96": {
