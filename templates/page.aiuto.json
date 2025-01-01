@@ -212,23 +212,23 @@
         "category_ND4C96": {
           "type": "category",
           "settings": {
-            "text": "Returns and Refunds"
+            "text": "Resi o Danneggiamenti"
           }
         },
         "question_t7jbnQ": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "How do I return a product?",
-            "text": "<p>Items must be returned within 30 days after receiving your order. Items must be returned in the same condition in which they were received, be unworn/unused, have any tags still attached, and include all the original packaging.</p>"
+            "heading": "Cosa devo fare se uno e più prodotti mi sono arrivati danneggiati?",
+            "text": "<p>Per avvalersi del diritto di sostituzione o di rimborso al seguito di un danneggiamento da parte del corriere,il cliente è tenuto a inviarci entro 3 giorni dalla ricezione della merce una e-mail. Questa dovrà essere inviata allegando le foto che attestino il danneggiamento dei prodotti e dell'involucro esterno. </p><p>La comunicazione dovrà essere inviata tramite e-mail a: <a href=\"mailto:aiuto@millstore.it\">aiuto@millstore.it</a>, oppure tramite Chat o Whatsapp</p><p>In mancanza di foto o una lista precisa di prodotti danneggiati, non possiamo garantire il completo rimborso o sostituzione.</p>"
           }
         },
         "question_GLh6eF": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "How long will it take to receive my refund?",
-            "text": "<p>Refunds are processed within 7 days from when we receive the item(s).</p>"
+            "heading": "Se non sono soddisfatto del prodotto, come posso restituirlo o richiedere la sostituzione con un'altro?",
+            "text": "<p>Potrà esercitare il diritto di recesso entro 14 giorni lavorativi dalla ricezione dell'ordine. Se riceviamo la richiesta dopo tale periodo, non possiamo provvedere al cambio o rimborso. Per rispettare il termine di recesso deve prima richiedere l'autorizzazione per procedere alla rispedizione. Le spese di spedizione sono a carico dell'acquirente.</p><p>Segui queste istruzioni:</p><p>1) Prima di rispedire il reso, contatti il nostro servizio clienti indicando il codice di ogni articolo che desidera restituire. Un nostro operatore le risponderà e le darà l'autorizzazione per procedere.</p><p>2) Imballa la merce come le è stata consegnata, se ci sono prodotti fragili, questi devono essere imballati adeguatamente per scongiurare il danneggiamento.</p><p>3) Compila e allega il <a href=\"https://millstore.it/media/modulo-recesso/modulo-diritto-recesso-v1.pdf\" title=\"Modulo reso\">modulo per il reso</a>, e spedisci il tutto a: Millstore Srl - Strada Provinciale Metaurense, 20 – 61033 Fermignano (PU)</p><p>4) Attendi che arrivi presso il nostro magazzino, un operatore la contatterà tramite e-mail per informarla sui tempi di spedizione o rimborso. </p>"
           }
         }
       },
