@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify://shop_images/3x2_Bulbi_Autunnali.png",
+            "image_desktop": "shopify://shop_images/modern-and-stylish-design.jpg",
             "url": "shopify://collections/arredo-casa",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
@@ -136,7 +136,7 @@
         "color_scheme": "white",
         "full_width": true,
         "tint_color": "#000000",
-        "tint_opacity": 0,
+        "tint_opacity": 40,
         "accessibility_info": "",
         "prevent_animation": true
       }
