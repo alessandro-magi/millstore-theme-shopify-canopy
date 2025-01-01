@@ -533,31 +533,35 @@
 </script>
 
 <!--EndCFFPersistentCartCart-->
-  
-{% if content contains 'sticky-atc-panel' %}
-  <style>
-    .woot-widget-bubble {
-      margin-bottom: 100px;
-    }
-  </style>
-{% endif %}
-  
+
  <script>
-  window.chatwootSettings = {"position":"right","type":"expanded_bubble","launcherTitle":"Chatta con noi"};
-  (function(d,t) {
-    var BASE_URL="https://app.chatwoot.com";
-    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=BASE_URL+"/packs/js/sdk.js";
-    g.defer = true;
-    g.async = true;
-    s.parentNode.insertBefore(g,s);
-    g.onload=function(){
-      window.chatwootSDK.run({
-        websiteToken: 't8XuT66LXVTYvn6Py18tZQgo',
-        baseUrl: BASE_URL
-      })
+    document.addEventListener("DOMContentLoaded", function () {
+    if (document.querySelector(".sticky-atc-panel")) {
+      const style = document.createElement("style");
+      style.textContent = `
+        .woot-widget-bubble {
+        margin-bottom: 100px;
+      }
+      `;
+      document.head.appendChild(style);
     }
-  })(document,"script");
+    });
+   
+    window.chatwootSettings = {"position":"right","type":"expanded_bubble","launcherTitle":"Chatta con noi"};
+    (function(d,t) {
+      var BASE_URL="https://app.chatwoot.com";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.chatwootSDK.run({
+          websiteToken: 't8XuT66LXVTYvn6Py18tZQgo',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
 </script>
   
 </body>
