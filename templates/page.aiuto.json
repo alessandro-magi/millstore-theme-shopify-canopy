@@ -209,6 +209,14 @@
             "text": "<p>Il tuo pacco verrà evaso con GLS o TNT a seconda delle zone e della natura della merce.</p>"
           }
         },
+        "question_x9fNmp": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Come faccio ad ordinare?",
+            "text": "<p>Per effettuare un ordine, assicurati di aver effettuato l'accesso al tuo account Millstore o creane uno nuovo.</p><p>Quindi, cerca gli articoli che desideri ordinare. Utilizza la barra di ricerca nella parte superiore della pagina per cercare i prodotti. In alternativa, fai clic su uno delle voci di Menà per sfogliare le diverse categorie. Fare clic su un prodotto se vuoi visualizzare maggiori dettagli. Per aggiungere il prodotto al carrello, fare clic sul pulsante arancione che dice \"Aggiungi al carrello\".</p><p>Dopo aver aggiunto qualcosa al carrello, puoi continuare a fare acquisti o concludere l'ordine. Per concluderlo, fai clic sul pulsante arancione che dice \"Concludi l'ordine\". Durante gli acquisti, puoi sempre fare clic sul carrello nell'angolo in alto a destra dello schermo per visualizzare il carrello o procedere al pagamento.</p><p>Nel checkout, aggiungi o seleziona il tuo indirizzo di spedizione. Al momento, spediamo solo in Italia. Successivamente, scegli il tuo metodo di pagamento preferito. Prima di effettuare l'ordine, controlla gli articoli nel carrello. Eventuali sconti o promozioni si rifletteranno nel totale dell'ordine. Quando sei pronto, fai clic sul pulsante arancione che dice \"Effettua ordine\". Ti invieremo un'e-mail di conferma tramite e-mail.</p>"
+          }
+        },
         "category_ND4C96": {
           "type": "category",
           "settings": {
@@ -230,6 +238,28 @@
             "heading": "Se non sono soddisfatto del prodotto, come posso restituirlo o richiedere la sostituzione con un'altro?",
             "text": "<p>Potrà esercitare il diritto di recesso entro 14 giorni lavorativi dalla ricezione dell'ordine. Se riceviamo la richiesta dopo tale periodo, non possiamo provvedere al cambio o rimborso. Per rispettare il termine di recesso deve prima richiedere l'autorizzazione per procedere alla rispedizione. Le spese di spedizione sono a carico dell'acquirente.</p><p>Segui queste istruzioni:</p><p>1) Prima di rispedire il reso, contatti il nostro servizio clienti indicando il codice di ogni articolo che desidera restituire. Un nostro operatore le risponderà e le darà l'autorizzazione per procedere.</p><p>2) Imballa la merce come le è stata consegnata, se ci sono prodotti fragili, questi devono essere imballati adeguatamente per scongiurare il danneggiamento.</p><p>3) Compila e allega il <a href=\"https://millstore.it/media/modulo-recesso/modulo-diritto-recesso-v1.pdf\" title=\"Modulo reso\">modulo per il reso</a>, e spedisci il tutto a: Millstore Srl - Strada Provinciale Metaurense, 20 – 61033 Fermignano (PU)</p><p>4) Attendi che arrivi presso il nostro magazzino, un operatore la contatterà tramite e-mail per informarla sui tempi di spedizione o rimborso. </p>"
           }
+        },
+        "category_UyDgza": {
+          "type": "category",
+          "settings": {
+            "text": "Pagamenti"
+          }
+        },
+        "question_JfdVLJ": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Non riesco a completare il pagamento o a concludere l'ordine, come faccio?",
+            "text": "<p>Se non riesci a completare il pagamento o l'ordine, contattaci tramite i nostri canali di assistenza, un nostro operatore ti darà supporto immediato e ti aiuterà a completare il tuo acquisto.</p>"
+          }
+        },
+        "question_TtnGnX": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Quali metodi di pagamento accettate?",
+            "text": "<p>Puoi pagare il tuo ordine come preferisci. Accettiamo: Paypal, Carta di Credito (Visa, Mastercard, American Express, Postepay), Scalapay o Klarna (3 rate a tasso 0), Bonifico Bancario o Pagamento alla consegna (+ 5€).</p>"
+          }
         }
       },
       "block_order": [
@@ -241,9 +271,13 @@
         "question_WeAnXQ",
         "question_Myg9p8",
         "question_xeQ4EF",
+        "question_x9fNmp",
         "category_ND4C96",
         "question_t7jbnQ",
-        "question_GLh6eF"
+        "question_GLh6eF",
+        "category_UyDgza",
+        "question_JfdVLJ",
+        "question_TtnGnX"
       ],
       "settings": {
         "heading": "FAQ: Domande più frequenti",
