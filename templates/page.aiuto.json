@@ -16,9 +16,80 @@
         "heading_size": "h2",
         "heading_align": "text-center"
       }
+    },
+    "icons_with_text_abeBW3": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_n8CWCR": {
+          "type": "item",
+          "settings": {
+            "icon": "phone",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Chiamaci",
+            "text": "<p>+39 344 121 2273</p>",
+            "link": ""
+          }
+        },
+        "item_B8AaQ4": {
+          "type": "item",
+          "settings": {
+            "icon": "email",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "E-mail",
+            "text": "<p>Ti risponderemo tramite e-mail</p>",
+            "link": ""
+          }
+        },
+        "item_PKm6t4": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Chatta con noi ora",
+            "text": "<p>Alessandro è a tua disposizione</p>",
+            "link": ""
+          }
+        },
+        "item_BBwe3R": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "custom_icon": "shopify://shop_images/whatsapp.png",
+            "heading": "Whatsapp",
+            "text": "<p>Scrivici su Whatsapp al 344 1212 273</p>",
+            "link": "https://wa.me/393441212273"
+          }
+        }
+      },
+      "block_order": [
+        "item_n8CWCR",
+        "item_B8AaQ4",
+        "item_PKm6t4",
+        "item_BBwe3R"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "icons_with_text_abeBW3"
   ]
 }
