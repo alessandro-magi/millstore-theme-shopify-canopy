@@ -63,16 +63,15 @@
       <div class="card hover:grow-media relative flex flex-col card__collection card__collection--with-border">
           <div class="card__media relative card__media--circle">
           
-            <a href="{{ current_collection.url }}" aria-label="" class="media block relative" tabindex="-1" style="padding-top: 100%;">
+            <a href="{{ current_collection.url }}" class="media block relative" tabindex="-1" style="padding-top: 100%;">
               {% render 'image',
                 image: collection_image,
-                widths: '320, 460, 600, 700, 800, 900, 1200',
                 image_ratio: image_ratio,
                 circle_image: circle_image,
                 src_width: 460,
                 src_placeholder: true,
                 sizes: sizes,
-                class: class,
+                class: img-fit  no-js-hidden,
                 disable_focal_point: true
               %}
             </a>
