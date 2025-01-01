@@ -17,9 +17,9 @@
           "settings": {
             "image_desktop": "shopify://shop_images/3x2_Bulbi_Autunnali.png",
             "url": "shopify://collections/arredo-casa",
-            "overlay_position": "justify-center items-end",
+            "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
-            "mob_center_text": false,
+            "mob_center_text": true,
             "subheading": "Arredamento Casa",
             "heading": "Iniziano i Saldi",
             "heading_size": "h0",
