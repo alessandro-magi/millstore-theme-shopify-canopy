@@ -143,6 +143,69 @@
         "dividers": "none",
         "prevent_animation": true
       }
+    },
+    "faq_Lqh466": {
+      "type": "faq",
+      "blocks": {
+        "category_pzR4mL": {
+          "type": "category",
+          "settings": {
+            "text": "Ordini e Spedizione"
+          }
+        },
+        "question_jgX9xP": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Come capisco se il mio ordine è stato spedito?",
+            "text": "<p>Per verificare lo stato del tuo ordine, devi andare nella sezione <a href=\"https://www.millstore.it/sales/order/history/\">Ordini</a>. Se non hai fatto la registrazione, quindi hai ordinato come Utente Ospite, allora dovrai attendere la nostra e-mail di spedizione con il tracking.</p><p>Ci sono 2 stati d'ordine:</p><p>In Elaborazione: significa che al momento stiamo elaborando e imballando i prodotti che hai ordinando. Riceverai un'email per informarti che abbiamo ricevuto il tuo ordine. Quando il tuo ordine verrà spedito, invieremo un'altra email con le informazioni di tracciamento.</p><p>In Attesa: Hai deciso di pagare con \"Bonifico Bancario\", quindi devi attendere che visualizziamo il pagamento in banca. Appena verrà visualizzato, lo spediamo e riceverai un'avviso tramite e-mail.</p><p>Spedito: il tuo ordine è stato spedito, dovresti aver ricevuto la e-mail con il codice per tracciare la spedizione. I nostri corrieri impiegato dalle 24 alle 48H per eseguire le consegne. Nel caso in cui l'indirizzo sia in una zona disagiata, ci possono volere fino a 4 giorni lavorativi.</p>"
+          }
+        },
+        "question_yK7kJY": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How long will it take to receive my order?",
+            "text": "<p>Standard shipping normally takes 3-5 days. Next day shipping is available on all domestic orders (for an additional charge). International shipping times depend on the products and destination (estimated at checkout).</p>"
+          }
+        },
+        "category_ND4C96": {
+          "type": "category",
+          "settings": {
+            "text": "Returns and Refunds"
+          }
+        },
+        "question_t7jbnQ": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How do I return a product?",
+            "text": "<p>Items must be returned within 30 days after receiving your order. Items must be returned in the same condition in which they were received, be unworn/unused, have any tags still attached, and include all the original packaging.</p>"
+          }
+        },
+        "question_GLh6eF": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How long will it take to receive my refund?",
+            "text": "<p>Refunds are processed within 7 days from when we receive the item(s).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_pzR4mL",
+        "question_jgX9xP",
+        "question_yK7kJY",
+        "category_ND4C96",
+        "question_t7jbnQ",
+        "question_GLh6eF"
+      ],
+      "settings": {
+        "heading": "FAQ: Domande più frequenti",
+        "heading_align": "text-center",
+        "color_scheme": "2",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -150,6 +213,7 @@
     "image_banner_8xf9R9",
     "icons_with_text_abeBW3",
     "rich_text_fdhmYD",
-    "custom_liquid_e7cG7m"
+    "custom_liquid_e7cG7m",
+    "faq_Lqh466"
   ]
 }
