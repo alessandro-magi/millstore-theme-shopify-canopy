@@ -1,0 +1,289 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_weight": false
+          }
+        },
+        "613a93aa-8edd-4bb9-b8f1-df3133990e99": {
+          "type": "vendor-sku",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": true,
+            "show_barcode": true
+          }
+        },
+        "judge_me_reviews_preview_badge_dAQLgR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "custom_liquid_JVykbi": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% render 'scalapay-widget', price: product.selected_or_first_available_variant.price, selector: '#productPrice .price', price_box_selector: '#productPrice' %}"
+          }
+        },
+        "custom_liquid_qefCkw": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"flex flex-col\">\n\n    <div class=\"plant-icon flex\">\n        <img src=\"{{ 'caratteristiche.png' | asset_url }}\" alt=\"Caratteristiche\">{{ product.metafields.global.caratteristiche }}\n    </div>\n\n    <div class=\"plant-icon flex\">\n        <img src=\"{{ 'trapianto.png' | asset_url }}\" alt=\"Quando si trapianta\">Si trapianta a {{ product.metafields.global.si-trapianta-a }}\n    </div>\n\n    <div class=\"plant-icon flex\">\n        <img src=\"{{ 'info-utili.png' | asset_url }}\" alt=\"Informazioni utili\">{{ product.metafields.global.info-utili }}\n    </div>\n\n    <div class=\"plant-icon flex\">\n        <img src=\"{{ 'consigli-utili.png' | asset_url }}.png\" alt=\"Consigli utili\">{{ product.metafields.global.consigli-utili }}\n    </div>\n\n    <div class=\"plant-icon flex\">\n        <img src=\"{{ 'no-ogm.png' | asset_url }}\" alt=\"No OGM\">{{ product.metafields.global.ogm }}\n    </div>\n\n    <div class=\"plant-icon flex\">\n        <img src=\"{{ 'piantagione.png' | asset_url }}\" alt=\"Distanza di trapianto\">Distanza di trapianto: {{ product.metafields.global.distanza }}\n    </div>\n\n    <div class=\"plant-icon flex\">\n        <img src=\"{{ 'raccolta-produzione.png' | asset_url }}\" alt=\"Raccolta e Produzione\">Si raccoglie dopo {{ product.metafields.global.raccolta }} - Produzione: {{ product.metafields.global.produzione-peso }}\n    </div>\n\n    <hr style=\"margin: 20px 0;\">\n\n    <div class=\"plant-icon flex\"><img src=\"{{ 'packaging.png' | asset_url }}\" alt=\"Nuovo packaging\">Nuovo packaging Eco-sostenibile\n    </div>\n\n    <div class=\"plant-icon flex \"><img src=\"{{ 'danneggiata-sostituita.png' | asset_url }}\" alt=\"Assicurazione Danneggiata Sostituita\">Piantina danneggiata durante il trasporto? Te la sostituiamo gratis!\n    </div>\n\n</div>"
+          }
+        },
+        "dr_stacked_discounts_volume_discount_promotion_MhJthh": {
+          "type": "shopify://apps/dr-stacked-discounts/blocks/volume-discount-promotion/f428e1ae-8a34-4767-8189-f8339f3ab12b",
+          "settings": {
+            "widget_alignment": "left",
+            "text_alignment": "left",
+            "font_size": 16,
+            "text_color": "#393939",
+            "secondary_text_color": "#ffaa00",
+            "border_color": "#656565",
+            "border_size": 0
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "selector_style": "dropdown",
+            "enable_dynamic_availability": true,
+            "dynamic_availability_downwards": true,
+            "show_backorder_text": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": true,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_LweUKn": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ot-estimated-shipping\"></div>"
+          }
+        },
+        "collapsible_content_R77rxi": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Spedizione in Italia ed Europa",
+            "icon": "truck",
+            "text": "<p>Con un ordine di soli <strong>79,00 €</strong>, consegna GRATIS in Italia, altrimenti paghi solamente € 7,90</p><p>Spedizione in Italia con GLS e TNT IN 24h/72h, con Fedex e Ups 4/5 giorni in Europa</p>",
+            "page": "",
+            "open": true
+          }
+        },
+        "collapsible_content_FknY83": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Pagamenti",
+            "icon": "credit_card",
+            "text": "<p>✔ Paypal, anche in 3 rate senza interessi</p><p>✔ Carta di Credito (Visa, Mastercard e American Express)</p><p>✔ Scalapay e Klarna: 3 Rate senza interessi</p><p>✔ Bonifico Bancario</p><p>✔ Pagamento alla Consegna in contanti (+5€)</p>",
+            "page": "",
+            "open": true
+          }
+        },
+        "1cc6422d-211f-4764-af07-884ee26ed3d7": {
+          "type": "description",
+          "settings": {
+            "show_as_collapsible_content": true,
+            "icon": "briefcase",
+            "open": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "613a93aa-8edd-4bb9-b8f1-df3133990e99",
+        "judge_me_reviews_preview_badge_dAQLgR",
+        "price",
+        "custom_liquid_JVykbi",
+        "custom_liquid_qefCkw",
+        "dr_stacked_discounts_volume_discount_promotion_MhJthh",
+        "variant-picker",
+        "buy-buttons",
+        "custom_liquid_LweUKn",
+        "collapsible_content_R77rxi",
+        "collapsible_content_FknY83",
+        "1cc6422d-211f-4764-af07-884ee26ed3d7"
+      ],
+      "settings": {
+        "stick_on_scroll": true,
+        "sticky_atc_panel": true,
+        "sticky_atc_position": "end-dock",
+        "sticky_atc_mobile": true,
+        "media_layout": "slider",
+        "media_size": "default",
+        "media_ratio": "1",
+        "media_crop": "none",
+        "enable_video_looping": false,
+        "enable_zoom": true,
+        "zoom_mode": "hover",
+        "enable_lightbox_mobile": false,
+        "hover_zoom": "large",
+        "stacked_scroll": "always",
+        "underline_active": true,
+        "media_arrows": "desktop",
+        "show_slide_count": true,
+        "media_thumbs": "desktop",
+        "lightbox_thumbnails": true,
+        "thumb_ratio": "1",
+        "thumb_crop": "none",
+        "border_color": "#eeeeee",
+        "bg_color": "#f4f4f4",
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Potrebbe interessarti anche...",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 5
+      }
+    },
+    "media_with_text_rn7cCn": {
+      "type": "media-with-text",
+      "blocks": {
+        "subheading_QWLmbX": {
+          "type": "subheading",
+          "settings": {
+            "text": "Imballaggio a prova di corriere"
+          }
+        },
+        "heading_nWQzGW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spediamo le tue piante in completa sicurezza e se qualcosa va storto?",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_azJWeL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ti spediamo delle nuove piantine a costo zero, oppure se lo richiedi riceverai il rimborso delle piante danneggiate.</p><p><strong>Siamo sicuri che le tue piante arriveranno in ottime condizioni, grazie al nostro packaging.</strong><br/></p><p>Dopo anni di ricerche, abbiamo trovato un imballaggio completamente eco-sostenibile e attento alle necessità delle piante durante il trasporto.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_6m497p": {
+          "type": "button",
+          "settings": {
+            "button_label": "Vuoi vedere come le spediamo?",
+            "button_link": "shopify://pages/danneggiata-sostituita",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QWLmbX",
+        "heading_nWQzGW",
+        "text_azJWeL",
+        "button_6m497p"
+      ],
+      "custom_css": [
+        "{margin-top: 20px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 60,
+        "media_scale": 100,
+        "text_align": "text-center",
+        "color_scheme": "2",
+        "only_content_color_scheme": false
+      }
+    },
+    "details": {
+      "type": "product-details",
+      "disabled": true,
+      "settings": {
+        "content_size": "default",
+        "placement": "left",
+        "text": "<p>Ecco un'esempio</p>",
+        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
+        "show_image_first": true,
+        "color_scheme": "1",
+        "full_width": true
+      }
+    },
+    "image_banner_KETeyy": {
+      "type": "image-banner",
+      "custom_css": [
+        "{background-color: #fcf9f1; padding-top: 20px;}"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Guida_orto_B.jpg",
+        "url": "shopify://pages/guida-come-iniziare-a-coltivare-lorto",
+        "height_mode": "auto",
+        "fixed_height_desktop": 480,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": false,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": true
+      }
+    },
+    "173386234297f259df": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_rxEpr7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_rxEpr7"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations",
+    "media_with_text_rn7cCn",
+    "details",
+    "image_banner_KETeyy",
+    "173386234297f259df"
+  ]
+}
