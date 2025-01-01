@@ -169,6 +169,22 @@
             "text": "<p>Se il tuo ordine non è ancora stato spedito, hai tempo fino alle 14:00 per chiedere l'annullamento del tuo ordine. Puoi utilizzare uno dei canali di contatto, puoi chiamarci, inviarci un messaggio su Whatsapp, una e-mail, oppure scrivere nella nostra chat.</p><p>Se abbiamo già elaborato il tuo ordine, potremmo non essere in grado di annullarlo.</p>"
           }
         },
+        "question_PRKDnH": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Devo aggiungere un prodotto o devo modificare il mio ordine?",
+            "text": "<p>Puoi modificare l'ordine o eseguire le aggiunte solo se lo segnali al nostro servizio clienti, entro e non oltre<strong>1 ora</strong>dalla conclusione dell'ordine. Purtroppo successivamente non ci sarà più possibile accettare modifiche o variazioni perché l'ordine è già entrato in fase di preparazione.</p>"
+          }
+        },
+        "question_UMFK36": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Quando riceverò il mio ordine?",
+            "text": "<p>Normalmente i nostri corrieri consegnano gli ordini da 1 a 3 giorni lavorativi. In alcuni casi i tempi posono essere più lunghi, in questo caso troverai le info sui tempi di consegna in ogni scheda prodotto e durante la conclusione dell'ordine.</p>"
+          }
+        },
         "category_ND4C96": {
           "type": "category",
           "settings": {
@@ -196,6 +212,8 @@
         "category_pzR4mL",
         "question_jgX9xP",
         "question_yK7kJY",
+        "question_PRKDnH",
+        "question_UMFK36",
         "category_ND4C96",
         "question_t7jbnQ",
         "question_GLh6eF"
