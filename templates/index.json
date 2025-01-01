@@ -676,6 +676,38 @@
         "full_width": true,
         "prevent_animation": true
       }
+    },
+    "featured_collection_B4rEVr": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Novità Orto e Giardino",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "ultimi-arrivi",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "color_scheme": "none",
+        "card_contain": true,
+        "full_width": true
+      }
+    },
+    "featured_collection_qCeYf9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "color_scheme": "none",
+        "card_contain": true,
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -690,6 +722,8 @@
     "link_lists_gP8pzV",
     "featured_blog_Rm6jWF",
     "1734603991d7a9e2fd",
-    "rich_text_gxLTMw"
+    "rich_text_gxLTMw",
+    "featured_collection_B4rEVr",
+    "featured_collection_qCeYf9"
   ]
 }
