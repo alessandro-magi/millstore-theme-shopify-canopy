@@ -177,26 +177,6 @@
         "products_to_show": 5
       }
     },
-    "image_banner_anXyie": {
-      "type": "image-banner",
-      "settings": {
-        "image_desktop": "shopify://shop_images/come-si-coltiva-asparago-bianco.png",
-        "url": "",
-        "height_mode": "auto",
-        "fixed_height_desktop": 200,
-        "fixed_height_mobile": 250,
-        "overlay_position": "justify-center items-center",
-        "overlay_text_align": "text-center",
-        "mob_center_text": false,
-        "mobile_stacked": false,
-        "color_scheme": "white",
-        "full_width": false,
-        "transparent_content_color": "#ffffff",
-        "tint_color": "#000000",
-        "tint_opacity": 40,
-        "prevent_animation": false
-      }
-    },
     "rich_text_AeCDBn": {
       "type": "rich-text",
       "blocks": {
@@ -229,6 +209,29 @@
         "mob_center_text": true,
         "color_scheme": "2",
         "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "image_banner_anXyie": {
+      "type": "image-banner",
+      "custom_css": [
+        "{background-color: #fcf9f1; padding-top: 20px;}"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/come-si-coltiva-asparago-bianco.png",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 200,
+        "fixed_height_mobile": 250,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": false,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
         "prevent_animation": false
       }
     },
@@ -282,8 +285,8 @@
   "order": [
     "main",
     "recommendations",
-    "image_banner_anXyie",
     "rich_text_AeCDBn",
+    "image_banner_anXyie",
     "details",
     "173386234297f259df"
   ]
