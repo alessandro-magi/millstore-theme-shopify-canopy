@@ -1,0 +1,268 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_weight": false
+          }
+        },
+        "613a93aa-8edd-4bb9-b8f1-df3133990e99": {
+          "type": "vendor-sku",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": true,
+            "show_barcode": true
+          }
+        },
+        "judge_me_reviews_preview_badge_dAQLgR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "custom_liquid_JVykbi": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% render 'scalapay-widget', price: product.selected_or_first_available_variant.price, selector: '#productPrice .price', price_box_selector: '#productPrice' %}"
+          }
+        },
+        "message_Dr4mRg": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "icon": "question_mark",
+            "title": "<p><strong>Perché scegliere la varietà </strong><strong>{{ product.metafields.custom.nome.value }}</strong><strong>?</strong></p><p>{{ product.metafields.global[\"info-utili\"] | metafield_tag }}</p>",
+            "close": "once",
+            "show_over_media": false,
+            "visibility_duration": 7,
+            "bg_color": "#fcf9f1",
+            "text_color": "#303030"
+          }
+        },
+        "dr_stacked_discounts_volume_discount_promotion_MhJthh": {
+          "type": "shopify://apps/dr-stacked-discounts/blocks/volume-discount-promotion/f428e1ae-8a34-4767-8189-f8339f3ab12b",
+          "settings": {
+            "widget_alignment": "left",
+            "text_alignment": "left",
+            "font_size": 16,
+            "text_color": "#393939",
+            "secondary_text_color": "#ffaa00",
+            "border_color": "#656565",
+            "border_size": 0
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "selector_style": "dropdown",
+            "enable_dynamic_availability": true,
+            "dynamic_availability_downwards": true,
+            "show_backorder_text": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": true,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_LweUKn": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ot-estimated-shipping\"></div>"
+          }
+        },
+        "collapsible_content_R77rxi": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Spedizione in Italia ed Europa",
+            "icon": "truck",
+            "text": "<p>Con un ordine di soli <strong>79,00 €</strong>, consegna GRATIS in Italia, altrimenti paghi solamente € 7,90</p><p>Spedizione in Italia con GLS e TNT IN 24h/72h, con Fedex e Ups 4/5 giorni in Europa</p>",
+            "page": "",
+            "open": true
+          }
+        },
+        "collapsible_content_FknY83": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Pagamenti",
+            "icon": "credit_card",
+            "text": "<p>✔ Paypal, anche in 3 rate senza interessi</p><p>✔ Carta di Credito (Visa, Mastercard e American Express)</p><p>✔ Scalapay e Klarna: 3 Rate senza interessi</p><p>✔ Bonifico Bancario</p><p>✔ Pagamento alla Consegna in contanti (+5€)</p>",
+            "page": "",
+            "open": true
+          }
+        },
+        "1cc6422d-211f-4764-af07-884ee26ed3d7": {
+          "type": "description",
+          "settings": {
+            "show_as_collapsible_content": true,
+            "icon": "briefcase",
+            "open": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "613a93aa-8edd-4bb9-b8f1-df3133990e99",
+        "judge_me_reviews_preview_badge_dAQLgR",
+        "price",
+        "custom_liquid_JVykbi",
+        "message_Dr4mRg",
+        "dr_stacked_discounts_volume_discount_promotion_MhJthh",
+        "variant-picker",
+        "buy-buttons",
+        "custom_liquid_LweUKn",
+        "collapsible_content_R77rxi",
+        "collapsible_content_FknY83",
+        "1cc6422d-211f-4764-af07-884ee26ed3d7"
+      ],
+      "settings": {
+        "stick_on_scroll": true,
+        "sticky_atc_panel": true,
+        "sticky_atc_position": "end-dock",
+        "sticky_atc_mobile": true,
+        "media_layout": "slider",
+        "media_size": "default",
+        "media_ratio": "1",
+        "media_crop": "none",
+        "enable_video_looping": false,
+        "enable_zoom": true,
+        "zoom_mode": "hover",
+        "enable_lightbox_mobile": false,
+        "hover_zoom": "large",
+        "stacked_scroll": "always",
+        "underline_active": true,
+        "media_arrows": "desktop",
+        "show_slide_count": true,
+        "media_thumbs": "desktop",
+        "lightbox_thumbnails": true,
+        "thumb_ratio": "1",
+        "thumb_crop": "none",
+        "border_color": "#eeeeee",
+        "bg_color": "#f4f4f4",
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Potrebbe interessarti anche...",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 5
+      }
+    },
+    "rich_text_AeCDBn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wCzYmU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Come coltivare gli Asparagi \t\t\t\t\t\t\t\t\t\t\t\t\t\tVerde, Violetto e Selvatico",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "text_9HRN89": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Preparare un solco a forma di trapezio rovesciato profondo 15-20 cm, largo 30 cm alla base e 40 cm nella parte superiore, ben drenato e ben concimato con sostanza organica.</p><p>L’epoca ottimale per il trapianto va da novembre ad aprile. Le zampe devono essere sistemate a fila singola sul fondo del solco e distanziate di 30 cm l’una dall’altra (3 zampe per metro lineare), avendo cura di stendere bene orizzontalmente le radici e ricoprirle subito con 5 cm di terreno.</p><p>La distanza fra le file varia da 100 a 20 cm. Alla fine del 1° anno d’impianto si ricopre con ulteriori 5 cm; si consiglia una raccolta di 2-3 asparagi per pianta (ciò favorisce l’irrobustimento dell’asparagiaia).</p><p><br/>Terminata la raccolta (fine primavera-inizio estate) lasciare sviluppare il fogliame e concimare durante l’estate, con concimi azotati e potassici. In autunno, a fogliame<br/>ingiallito, tagliare lo stesso pari terra e concimare con letame maturo o similari. Durante la coltivazione tenere pulita l’asparagiaia dalle erbe infestanti.</p><p>Le zappettature di pulizia devono essere molto superficiali. Irrigare nei periodi asciutti.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wCzYmU",
+        "text_9HRN89"
+      ],
+      "custom_css": [
+        "{padding-top: 20px;}"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "2",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "details": {
+      "type": "product-details",
+      "blocks": {
+        "highlight_text_LrmdFE": {
+          "type": "highlight-text",
+          "settings": {
+            "text": "<h3>Come coltivare i minituberi di Patata</h3>"
+          }
+        },
+        "richtext_CQRNVz": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>A primavera, con l’innalzamento della temperatura, le gemme cominciano a sviluppare formando i germogli che  fuoriescono dal terreno. Quando la loro altezza è soddisfacente, prima che la punta si apra, si possono raccogliere gli asparagi. È importante tagliare l’asparago sotto il livello del terreno.</p><p>La raccolta normalmente si protrae per circa 60-70 giorni, dopodiché è consigliabile interrompere la raccolta per rivitalizzare il proprio impianto. I turioni non raccolti crescono in altezza, aprono le cime e danno origine al fogliame. La parte aerea, che raggiunge in età adulta anche 1,5 m di altezza, comincia l’elaborazione delle sostanze utili assorbite dal terreno.</p><p>In questa fase (estate) è importante effettuare una concimazione, soprattutto a base di azoto. Il fogliame nel tardo autunno comincia ad ingiallire e quando è completamente secco va tagliato pari terra ed asportato. </p><p>Dopo questa operazione, si consiglia un’abbondante concimazione organica ed un’eventuale rincalzatura per coprire ottimamente il cordone produttivo.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_text_LrmdFE",
+        "richtext_CQRNVz"
+      ],
+      "settings": {
+        "content_size": "default",
+        "placement": "left",
+        "text": "",
+        "image": "shopify://shop_images/come-si-coltiva-asparago-bianco.png",
+        "show_image_first": true,
+        "color_scheme": "1",
+        "full_width": false
+      }
+    },
+    "173386234297f259df": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_rxEpr7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_rxEpr7"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations",
+    "rich_text_AeCDBn",
+    "details",
+    "173386234297f259df"
+  ]
+}
