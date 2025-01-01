@@ -159,36 +159,15 @@
         "media_grouping_option": "Color,Colour,Couleur,Farbe"
       }
     },
-    "rich_text_AeCDBn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wCzYmU": {
-          "type": "heading",
-          "settings": {
-            "heading": "I vantaggi di utilizzo nell'orto dei Mini Tuberi",
-            "heading_size": "h2",
-            "heading_h1": false
-          }
-        },
-        "text_9HRN89": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>VELOCITÀ:</strong> non essendo necessario tagliare i tuberi, si possono piantare direttamente nel terreno. Nel caso non si fosse pronti per la semina, si può effettuare il pregermogliamento togliendo i minituberi dal sacchetto e posizionandoli in una cassettina bassa di legno in un unico strato, in ambiente fresco e dotato di luce. Questa operazione consente una resa in campo superiore.<br/><br/><strong>SANITÀ:</strong> i minituberi sono accompagnati da tutte le certificazioni fi tosanitarie ed inoltre, con la semina del minitubero intero, si evita la perdita di piante post-trapianto; infatti essi non marciscono facilmente con la pioggia o l’irrigazione, come a volte succede con i tuberi tagliati.</p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_wCzYmU",
-        "text_9HRN89"
-      ],
+    "recommendations": {
+      "type": "product-recommendations",
       "settings": {
-        "text_position": "justify-center",
-        "text_align": "text-center",
-        "mob_center_text": true,
-        "color_scheme": "2",
-        "full_width": true,
-        "prevent_animation": false
+        "heading": "Potrebbe interessarti anche...",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 5
       }
     },
     "details": {
@@ -197,13 +176,13 @@
         "highlight_text_LrmdFE": {
           "type": "highlight-text",
           "settings": {
-            "text": "<h3>Come coltivare i minituberi di Patata</h3>"
+            "text": "<h3>Spediamo le tue piante in completa sicurezza e se qualcosa va storto?</h3>"
           }
         },
         "richtext_CQRNVz": {
           "type": "richtext",
           "settings": {
-            "text": "<p>I minituberi hanno un alto rendimento, bastano  7 mini tuberi per metro quadrato (0,60-0,70 mt fra le file x  0,25 mt sulla fila ). Sono più produttivi, infatti la resa media di 1 minitubero è di circa 1 kg di ottime patate.</p>"
+            "text": "<p>Ti spediamo delle nuove piantine a costo zero, oppure se lo richiedi riceverai il rimborso delle piante danneggiate.</p><p><strong>Siamo sicuri che le tue piante arriveranno in ottime condizioni, grazie al nostro packaging.</strong></p><p><br/>Dopo anni di ricerche, abbiamo trovato un imballaggio completamente eco-sostenibile e attento alle necessità delle piante durante il trasporto.</p>"
           }
         }
       },
@@ -214,22 +193,11 @@
       "settings": {
         "content_size": "default",
         "placement": "left",
-        "text": "",
-        "image": "shopify://shop_images/come-coltivare-minituberi.jpg",
+        "text": "<p>Ecco un'esempio</p>",
+        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
         "show_image_first": true,
         "color_scheme": "1",
-        "full_width": false
-      }
-    },
-    "recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "Potrebbe interessarti anche...",
-        "heading_align": "text-start",
-        "layout": "carousel",
-        "card_size_mobile": "small",
-        "card_size": "small",
-        "products_to_show": 5
+        "full_width": true
       }
     },
     "173386234297f259df": {
@@ -246,13 +214,87 @@
       "settings": {
         "full_width": false
       }
+    },
+    "media_with_text_rn7cCn": {
+      "type": "media-with-text",
+      "blocks": {
+        "subheading_QWLmbX": {
+          "type": "subheading",
+          "settings": {
+            "text": "Imballaggio a prova di corriere"
+          }
+        },
+        "heading_nWQzGW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spediamo le tue piante in completa sicurezza e se qualcosa va storto?",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_azJWeL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ti spediamo delle nuove piantine a costo zero, oppure se lo richiedi riceverai il rimborso delle piante danneggiate.</p><p><strong>Siamo sicuri che le tue piante arriveranno in ottime condizioni, grazie al nostro packaging.</strong><br/></p><p>Dopo anni di ricerche, abbiamo trovato un imballaggio completamente eco-sostenibile e attento alle necessità delle piante durante il trasporto.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_6m497p": {
+          "type": "button",
+          "settings": {
+            "button_label": "Vuoi vedere come le spediamo?",
+            "button_link": "shopify://pages/danneggiata-sostituita",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QWLmbX",
+        "heading_nWQzGW",
+        "text_azJWeL",
+        "button_6m497p"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2",
+        "only_content_color_scheme": false
+      }
+    },
+    "image_banner_KETeyy": {
+      "type": "image-banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Guida_orto_B.jpg",
+        "url": "shopify://pages/guida-come-iniziare-a-coltivare-lorto",
+        "height_mode": "auto",
+        "fixed_height_desktop": 480,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": true
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_AeCDBn",
-    "details",
     "recommendations",
-    "173386234297f259df"
+    "details",
+    "173386234297f259df",
+    "media_with_text_rn7cCn",
+    "image_banner_KETeyy"
   ]
 }
