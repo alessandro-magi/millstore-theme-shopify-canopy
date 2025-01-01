@@ -44,6 +44,7 @@
         },
         "message_Dr4mRg": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "icon": "question_mark",
             "title": "<p><strong>Perché scegliere la varietà </strong><strong>{{ product.metafields.custom.nome.value }}</strong><strong>?</strong></p><p>{{ product.metafields.global[\"info-utili\"] | metafield_tag }}</p>",
@@ -76,17 +77,6 @@
             "enable_size_chart": false,
             "size_chart_variant": "Size",
             "size_chart_page": ""
-          }
-        },
-        "inventory_status_jfTVMF": {
-          "type": "inventory-status",
-          "settings": {
-            "show_urgency_message": true,
-            "text_very_low": "<p>- Sta per finire! Affrettati</p>",
-            "text_low": "<p>- Disponibili gli ultimi pezzi</p>",
-            "text_normal": "",
-            "text_no_stock": "",
-            "text_no_stock_backordered": "<p>Questo prodotto è su ordinazione</p>"
           }
         },
         "buy-buttons": {
@@ -182,7 +172,7 @@
         "heading_wCzYmU": {
           "type": "heading",
           "settings": {
-            "heading": "I vantaggi di utilizzo nell'orto dei Mini Tuberi",
+            "heading": "Come coltivare gli Asparagi \t\t\t\t\t\t\t\t\t\t\t\t\t\tVerde, Violetto e Selvatico",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -190,7 +180,7 @@
         "text_9HRN89": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>VELOCITÀ:</strong> non essendo necessario tagliare i tuberi, si possono piantare direttamente nel terreno. Nel caso non si fosse pronti per la semina, si può effettuare il pregermogliamento togliendo i minituberi dal sacchetto e posizionandoli in una cassettina bassa di legno in un unico strato, in ambiente fresco e dotato di luce. Questa operazione consente una resa in campo superiore.<br/><br/><strong>SANITÀ:</strong> i minituberi sono accompagnati da tutte le certificazioni fi tosanitarie ed inoltre, con la semina del minitubero intero, si evita la perdita di piante post-trapianto; infatti essi non marciscono facilmente con la pioggia o l’irrigazione, come a volte succede con i tuberi tagliati.</p>",
+            "text": "<p>Preparare un solco a forma di trapezio rovesciato profondo 15-20 cm, largo 30 cm alla base e 40 cm nella parte superiore, ben drenato e ben concimato con sostanza organica.</p><p>L’epoca ottimale per il trapianto va da novembre ad aprile. Le zampe devono essere sistemate a fila singola sul fondo del solco e distanziate di 30 cm l’una dall’altra (3 zampe per metro lineare), avendo cura di stendere bene orizzontalmente le radici e ricoprirle subito con 5 cm di terreno.</p><p>La distanza fra le file varia da 100 a 20 cm. Alla fine del 1° anno d’impianto si ricopre con ulteriori 5 cm; si consiglia una raccolta di 2-3 asparagi per pianta (ciò favorisce l’irrobustimento dell’asparagiaia).</p><p><br/>Terminata la raccolta (fine primavera-inizio estate) lasciare sviluppare il fogliame e concimare durante l’estate, con concimi azotati e potassici. In autunno, a fogliame<br/>ingiallito, tagliare lo stesso pari terra e concimare con letame maturo o similari. Durante la coltivazione tenere pulita l’asparagiaia dalle erbe infestanti.</p><p>Le zappettature di pulizia devono essere molto superficiali. Irrigare nei periodi asciutti.</p>",
             "enlarge_text": false
           }
         }
@@ -220,7 +210,7 @@
         "richtext_CQRNVz": {
           "type": "richtext",
           "settings": {
-            "text": "<p>I minituberi hanno un alto rendimento, bastano  7 mini tuberi per metro quadrato (0,60-0,70 mt fra le file x  0,25 mt sulla fila ). Sono più produttivi, infatti la resa media di 1 minitubero è di circa 1 kg di ottime patate.</p>"
+            "text": "<p>A primavera, con l’innalzamento della temperatura, le gemme cominciano a sviluppare formando i germogli che  fuoriescono dal terreno. Quando la loro altezza è soddisfacente, prima che la punta si apra, si possono raccogliere gli asparagi. È importante tagliare l’asparago sotto il livello del terreno.</p><p>La raccolta normalmente si protrae per circa 60-70 giorni, dopodiché è consigliabile interrompere la raccolta per rivitalizzare il proprio impianto. I turioni non raccolti crescono in altezza, aprono le cime e danno origine al fogliame. La parte aerea, che raggiunge in età adulta anche 1,5 m di altezza, comincia l’elaborazione delle sostanze utili assorbite dal terreno.</p><p>In questa fase (estate) è importante effettuare una concimazione, soprattutto a base di azoto. Il fogliame nel tardo autunno comincia ad ingiallire e quando è completamente secco va tagliato pari terra ed asportato. </p><p>Dopo questa operazione, si consiglia un’abbondante concimazione organica ed un’eventuale rincalzatura per coprire ottimamente il cordone produttivo.<br/></p>"
           }
         }
       },
@@ -232,7 +222,7 @@
         "content_size": "default",
         "placement": "left",
         "text": "",
-        "image": "shopify://shop_images/come-coltivare-minituberi.jpg",
+        "image": "shopify://shop_images/come-si-coltiva-asparago-bianco.png",
         "show_image_first": true,
         "color_scheme": "1",
         "full_width": false
