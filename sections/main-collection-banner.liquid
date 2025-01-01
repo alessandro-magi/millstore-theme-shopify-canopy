@@ -101,11 +101,22 @@
 </div>
 
 <!-- start sub menu custom -->
+
+{% assign menu_handle = collection.handle %}
+{% assign menu = linklists[menu_handle] %}
+
+{% if menu != blank and menu.links.size > 0 %}
+  <!-- Il menu esiste ed è associato alla collezione -->
   {%
     render 'subcollections-collection',
     type: 'block',
     block: section,
   %}
+{% else %}
+  <!-- Il menu non esiste o è vuoto -->
+  <p>Non esiste un menu associato alla collezione "{{ collection.title }}".</p>
+{% endif %}
+
 <!-- end sub menu custom -->
 
 <!-- start js for load more -->
