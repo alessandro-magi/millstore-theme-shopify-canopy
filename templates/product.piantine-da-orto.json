@@ -241,6 +241,9 @@
     },
     "image_banner_KETeyy": {
       "type": "image-banner",
+      "custom_css": [
+        "{background-color: #fcf9f1; padding-top: 20px;}"
+      ],
       "settings": {
         "image_desktop": "shopify://shop_images/Guida_orto_B.jpg",
         "url": "shopify://pages/guida-come-iniziare-a-coltivare-lorto",
