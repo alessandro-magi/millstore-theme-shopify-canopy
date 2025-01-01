@@ -66,12 +66,6 @@
             "border_size": 0
           }
         },
-        "divider-0": {
-          "type": "divider",
-          "settings": {
-            "show_line": true
-          }
-        },
         "variant-picker": {
           "type": "variant-picker",
           "settings": {
@@ -136,7 +130,6 @@
         "custom_liquid_JVykbi",
         "message_Dr4mRg",
         "dr_stacked_discounts_volume_discount_promotion_MhJthh",
-        "divider-0",
         "variant-picker",
         "buy-buttons",
         "custom_liquid_LweUKn",
