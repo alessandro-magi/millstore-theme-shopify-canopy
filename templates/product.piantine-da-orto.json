@@ -42,16 +42,10 @@
             "custom_liquid": "{% render 'scalapay-widget', price: product.selected_or_first_available_variant.price, selector: '#productPrice .price', price_box_selector: '#productPrice' %}"
           }
         },
-        "message_Dr4mRg": {
-          "type": "message",
+        "custom_liquid_qefCkw": {
+          "type": "custom-liquid",
           "settings": {
-            "icon": "none",
-            "title": "<p><strong>Caratteristiche </strong><strong>{{ product.metafields.custom.nome.value }}</strong></p><p>{{ product.metafields.global.caratteristiche | metafield_tag }}</p>",
-            "close": "once",
-            "show_over_media": false,
-            "visibility_duration": 7,
-            "bg_color": "#fcf9f1",
-            "text_color": "#303030"
+            "custom_liquid": "<div class=\"plant-icon\"><img src=\"{{ 'caratteristiche.png' | asset_url }}\" alt=\"Caratteristiche\"> {{ product.metafields.global.caratteristiche }}\n</div>\n\n<div class=\"plant-icon\"><img src=\"{{ 'trapianto.png' | asset_url }}\" alt=\"Quando si trapianta\"> Si trapianta a {{ product.metafields.global.si-trapianta-a }}\n</div>\n\n<div class=\"plant-icon\"><img src=\"{{ 'info-utili.png' | asset_url }}\" alt=\"Informazioni utili\"> {{ product.metafields.global.info-utili }}\n</div>\n\n<div class=\"plant-icon\"><img src=\"{{ 'consigli-utili.png' | asset_url }}.png\" alt=\"Consigli utili\"> {{ product.metafields.global.consigli-utili }}\n</div>\n\n<div class=\"plant-icon\"><img src=\"{{ 'no-ogm.png' | asset_url }}\" alt=\"No OGM\"> {{ product.metafields.global.ogm }}\n\n<div class=\"plant-icon\"><img src=\"{{ 'piantagione.png' | asset_url }}\" alt=\"Distanza di trapianto\"> Distanza di trapianto: {{ product.metafields.global.distanza }}\n\n<div class=\"plant-icon\"><img src=\"{{ 'raccolta-produzione.png' | asset_url }}\" alt=\"Raccolta e Produzione\"> Si raccoglie dopo {{ product.metafields.global.raccolta }} - Produzione: {{ product.metafields.global.produzione-peso }}\n\n\n<hr style=\"margin: 20px 0 ;\">\n<div class=\"plant-icon\"><img src=\"{{ 'packaging.png' | asset_url }}\" alt=\"Nuovo packaging\"> Nuovo packaging Eco-sostenibile\n</div>\n\n<div class=\"plant-icon\"><img src=\"{{ 'danneggiata-sostituita.png' | asset_url }}\" alt=\"Assicurazione Danneggiata Sostituita\"> Piantina danneggiata durante il trasporto? Te la sostituiamo gratis!\n</div>"
           }
         },
         "dr_stacked_discounts_volume_discount_promotion_MhJthh": {
@@ -128,7 +122,7 @@
         "judge_me_reviews_preview_badge_dAQLgR",
         "price",
         "custom_liquid_JVykbi",
-        "message_Dr4mRg",
+        "custom_liquid_qefCkw",
         "dr_stacked_discounts_volume_discount_promotion_MhJthh",
         "variant-picker",
         "buy-buttons",
