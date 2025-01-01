@@ -15,26 +15,27 @@
         "slide-1": {
           "type": "slide",
           "settings": {
-            "url": "",
-            "overlay_position": "justify-center items-center",
+            "image_desktop": "shopify://shop_images/3x2_Bulbi_Autunnali.png",
+            "url": "shopify://collections/arredo-casa",
+            "overlay_position": "justify-center items-end",
             "overlay_text_align": "text-center",
             "mob_center_text": false,
-            "subheading": "Subheading",
-            "heading": "Tell your story",
+            "subheading": "Arredamento Casa",
+            "heading": "Iniziano i Saldi",
             "heading_size": "h0",
             "heading_h1": false,
-            "text": "<p>Pair text with an image to tell a story</p>",
-            "enlarge_text": true,
-            "button_1_label": "Optional Button",
-            "button_1_link": "",
+            "text": "<p>Da oggi partono gli sconti dal 20 al 50% sull'arredamento per la casa</p>",
+            "enlarge_text": false,
+            "button_1_label": "Vai ai Saldi",
+            "button_1_link": "shopify://collections/arredo-casa",
             "button_1_style": "btn btn--primary",
-            "button_2_label": "Optional Button",
+            "button_2_label": "",
             "button_2_link": "",
             "button_2_style": "btn btn--primary",
             "transparent_content_color": "#ffffff",
             "countdown_show": false,
-            "countdown_end_date": "",
-            "countdown_end_time": "",
+            "countdown_end_date": "2024-01-07",
+            "countdown_end_time": "23:59",
             "countdown_end_text": "",
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
@@ -123,7 +124,7 @@
       "settings": {
         "height_mode": "fixed",
         "fixed_height_desktop": 480,
-        "fixed_height_mobile": 360,
+        "fixed_height_mobile": 300,
         "mobile_stacked": false,
         "nav_style": "slideshow_nav_dots",
         "pagination_color": "#ffffff",
@@ -135,7 +136,7 @@
         "color_scheme": "white",
         "full_width": true,
         "tint_color": "#000000",
-        "tint_opacity": 40,
+        "tint_opacity": 0,
         "accessibility_info": "",
         "prevent_animation": true
       }
@@ -421,6 +422,38 @@
         "overlay_border_radius": 4
       }
     },
+    "featured_collection_B4rEVr": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Novità Orto e Giardino",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "ultimi-arrivi",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "color_scheme": "none",
+        "card_contain": true,
+        "full_width": true
+      }
+    },
+    "featured_collection_qCeYf9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Novità per la Fattoria",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "le-novita-per-la-fattoria",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "color_scheme": "none",
+        "card_contain": true,
+        "full_width": true
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -437,176 +470,20 @@
         "full_width": true
       }
     },
-    "product_comparison_grid_tEphXb": {
-      "type": "product-comparison-grid",
-      "blocks": {
-        "product_zHgmFy": {
-          "type": "product",
-          "settings": {
-            "show_image": true,
-            "show_title": true,
-            "show_button": true
-          }
-        },
-        "vendor_Rinm39": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "price_VrAEY4": {
-          "type": "price",
-          "settings": {}
-        },
-        "description_4jyTBx": {
-          "type": "description",
-          "settings": {
-            "truncate_description": false,
-            "words_to_show": 20
-          }
-        }
-      },
-      "block_order": [
-        "product_zHgmFy",
-        "vendor_Rinm39",
-        "price_VrAEY4",
-        "description_4jyTBx"
-      ],
-      "disabled": true,
+    "featured_collection_Dti7Hy": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "Product comparison grid",
-        "text": "<p>Add content here to explain a bit about the range of products on offer and which ones may be most suitable for your customers.</p>",
-        "heading_align": "text-center",
-        "view_more_label": "View more",
-        "view_more_link": "",
-        "product_list": [],
-        "empty_field_text": "-",
-        "image_ratio": "shortest",
-        "image_crop": "center",
-        "num_rows": 0,
-        "color_scheme": "none",
-        "highlight_row": false
-      }
-    },
-    "scrolling_banner_TMrgrE": {
-      "type": "scrolling-banner",
-      "blocks": {
-        "text_nTjbxA": {
-          "type": "text",
-          "settings": {
-            "text": "Tell customers about a promotion",
-            "link": "",
-            "font": "heading",
-            "heading_size": "h1"
-          }
-        },
-        "icon_wka9WP": {
-          "type": "icon",
-          "settings": {
-            "icon": "heart",
-            "icon_size": 64
-          }
-        },
-        "text_6QAzCH": {
-          "type": "text",
-          "settings": {
-            "text": "Make an announcement",
-            "link": "",
-            "font": "body",
-            "heading_size": "h1"
-          }
-        },
-        "button_wePAqg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Optional Button",
-            "button_link": "",
-            "button_style": "btn btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "text_nTjbxA",
-        "icon_wka9WP",
-        "text_6QAzCH",
-        "button_wePAqg"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "medium",
-        "spacing": 40,
-        "speed": 24,
-        "direction": "normal",
-        "pausable": true,
-        "color_scheme": "1",
-        "dividers": "none",
-        "prevent_animation": false
-      }
-    },
-    "link_lists_gP8pzV": {
-      "type": "link-lists",
-      "blocks": {
-        "column_gM8DaY": {
-          "type": "column",
-          "settings": {
-            "heading": "Column",
-            "heading_bg_color": "#ebebeb",
-            "heading_text_color": "#222222",
-            "menu": "",
-            "button_label": "Optional button",
-            "button_link": "/"
-          }
-        },
-        "column_8kchcV": {
-          "type": "column",
-          "settings": {
-            "heading": "Column",
-            "heading_bg_color": "#ebebeb",
-            "heading_text_color": "#222222",
-            "menu": "",
-            "button_label": "Optional button",
-            "button_link": "/"
-          }
-        },
-        "column_tkLxFt": {
-          "type": "column",
-          "settings": {
-            "heading": "Column",
-            "heading_bg_color": "#ebebeb",
-            "heading_text_color": "#222222",
-            "menu": "",
-            "button_label": "Optional button",
-            "button_link": "/"
-          }
-        },
-        "column_Vke9mR": {
-          "type": "column",
-          "settings": {
-            "heading": "Column",
-            "heading_bg_color": "#ebebeb",
-            "heading_text_color": "#222222",
-            "menu": "",
-            "button_label": "Optional button",
-            "button_link": "/"
-          }
-        }
-      },
-      "block_order": [
-        "column_gM8DaY",
-        "column_8kchcV",
-        "column_tkLxFt",
-        "column_Vke9mR"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Link lists",
+        "title": "Novità per Cani e Gatti",
         "heading_align": "text-start",
-        "button_label": "View all",
-        "button_link": "",
+        "show_view_all": true,
+        "collection": "gli-ultimi-arrivi-per-gli-animali",
         "layout": "carousel",
-        "column_size": "small",
-        "column_align": "left",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
         "color_scheme": "none",
-        "image_ratio": "1.77",
-        "button_style": "btn--primary"
+        "card_contain": true,
+        "full_width": true
       }
     },
     "featured_blog_Rm6jWF": {
@@ -676,54 +553,6 @@
         "full_width": true,
         "prevent_animation": true
       }
-    },
-    "featured_collection_B4rEVr": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Novità Orto e Giardino",
-        "heading_align": "text-start",
-        "show_view_all": true,
-        "collection": "ultimi-arrivi",
-        "layout": "carousel",
-        "card_size_mobile": "small",
-        "card_size": "small",
-        "products_to_show": 8,
-        "color_scheme": "none",
-        "card_contain": true,
-        "full_width": true
-      }
-    },
-    "featured_collection_qCeYf9": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Novità per la Fattoria",
-        "heading_align": "text-start",
-        "show_view_all": true,
-        "collection": "le-novita-per-la-fattoria",
-        "layout": "carousel",
-        "card_size_mobile": "small",
-        "card_size": "small",
-        "products_to_show": 8,
-        "color_scheme": "none",
-        "card_contain": true,
-        "full_width": true
-      }
-    },
-    "featured_collection_Dti7Hy": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Novità per Cani e Gatti",
-        "heading_align": "text-start",
-        "show_view_all": true,
-        "collection": "gli-ultimi-arrivi-per-gli-animali",
-        "layout": "carousel",
-        "card_size_mobile": "small",
-        "card_size": "small",
-        "products_to_show": 8,
-        "color_scheme": "none",
-        "card_contain": true,
-        "full_width": true
-      }
     }
   },
   "order": [
@@ -732,15 +561,12 @@
     "collection-list",
     "1734605157de47f097",
     "promo_grid_DMUYkR",
-    "featured-collection",
-    "product_comparison_grid_tEphXb",
-    "scrolling_banner_TMrgrE",
-    "link_lists_gP8pzV",
-    "featured_blog_Rm6jWF",
-    "1734603991d7a9e2fd",
-    "rich_text_gxLTMw",
     "featured_collection_B4rEVr",
     "featured_collection_qCeYf9",
-    "featured_collection_Dti7Hy"
+    "featured-collection",
+    "featured_collection_Dti7Hy",
+    "featured_blog_Rm6jWF",
+    "1734603991d7a9e2fd",
+    "rich_text_gxLTMw"
   ]
 }
