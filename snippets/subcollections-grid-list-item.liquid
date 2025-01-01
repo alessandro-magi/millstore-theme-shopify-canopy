@@ -63,15 +63,23 @@
       <div class="card hover:grow-media relative flex flex-col card__collection card__collection--with-border">
           <div class="card__media relative card__media--circle">
           
-            <a href="{{ current_collection.url }}" class="media block relative" tabindex="-1" style="padding-top: 100%;">
+            <a href="{{ current_collection.url }}" aria-label= "{{ collection_title }}" class="media block relative{% if settings.blend_collection_images %} image-blend{% endif %}" tabindex="-1" style="padding-top: {{ 1 | divided_by: image_ratio | times: 100 }}%;">
+              {%- if collection != empty and image != blank -%}
+                {%- capture sizes %}{% render 'sizes-attribute', grid: true, min: 1, sm: 2, lg: 3, xl: 4 %}{% endcapture -%}
+                {%- liquid
+                  if settings.coll_card_image_fit == 'contain'
+                    assign class = 'img-fit img-fit--contain'
+                  else
+                    assign class = 'img-fit ' | append: settings.coll_image_align
+                  endif
+                -%}
               {% render 'image',
                 image: collection_image,
-                image_ratio: image_ratio,
-                circle_image: circle_image,
+                widths: '320, 460, 600, 700, 800, 900, 1200',
                 src_width: 460,
                 src_placeholder: true,
                 sizes: sizes,
-                class: img-fit  no-js-hidden,
+                class: class,
                 disable_focal_point: true
               %}
             </a>
