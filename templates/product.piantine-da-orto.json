@@ -218,10 +218,10 @@
         "video_description": "",
         "video_autoplay": false,
         "layout": "left",
-        "image_fit": "cover",
-        "media_width": 50,
+        "image_fit": "contain",
+        "media_width": 60,
         "media_scale": 100,
-        "text_align": "text-start",
+        "text_align": "text-center",
         "color_scheme": "2",
         "only_content_color_scheme": false
       }
