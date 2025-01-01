@@ -101,13 +101,11 @@
 </div>
 
 <!-- start sub menu custom -->
-{% if linklists[collection.handle].links == true %}
   {%
     render 'subcollections-collection',
     type: 'block',
     block: section,
   %}
-{% endif %}
 <!-- end sub menu custom -->
 
 <!-- start js for load more -->
