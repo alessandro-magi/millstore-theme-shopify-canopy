@@ -165,60 +165,65 @@
         "media_grouping_option": "Color,Colour,Couleur,Farbe"
       }
     },
-    "details": {
-      "type": "product-details",
+    "rich_text_AeCDBn": {
+      "type": "rich-text",
       "blocks": {
-        "71057e1b-320d-4706-a43a-06d66046c5a7": {
-          "type": "tabs",
+        "heading_wCzYmU": {
+          "type": "heading",
           "settings": {
-            "style": "collapsible",
-            "open_first": false,
-            "show_description": true,
-            "show_reviews": true,
-            "show_reviews_count": true,
-            "custom_reviews": "",
-            "show_specification": false,
-            "spec_heading": "Specifications",
-            "spec_metafields": "",
-            "spec_right_align": false,
-            "spec_show_empty_metafields": true,
-            "spec_empty_field_text": "-",
-            "tab_1_title": "",
-            "tab_1_text": "",
-            "tab_1_page": "",
-            "tab_2_title": "",
-            "tab_2_text": "",
-            "tab_2_page": "",
-            "tab_3_title": "",
-            "tab_3_text": "",
-            "tab_3_page": ""
+            "heading": "I vantaggi di utilizzo nell'orto dei Mini Tuberi",
+            "heading_size": "h2",
+            "heading_h1": false
           }
         },
-        "highlight_text_qEpJN4": {
-          "type": "highlight-text",
+        "text_9HRN89": {
+          "type": "text",
           "settings": {
-            "text": "<h4>Highlight title</h4><p>Text to highlight a key feature of your product</p>"
-          }
-        },
-        "highlight_text_r3c7Pb": {
-          "type": "highlight-text",
-          "settings": {
-            "text": "<h4>Highlight title</h4><p>Text to highlight a key feature of your product</p>"
+            "text": "<p><strong>VELOCITÀ:</strong> non essendo necessario tagliare i tuberi, si possono piantare direttamente nel terreno. Nel caso non si fosse pronti per la semina, si può effettuare il pregermogliamento togliendo i minituberi dal sacchetto e posizionandoli in una cassettina bassa di legno in un unico strato, in ambiente fresco e dotato di luce. Questa operazione consente una resa in campo superiore.<br/><br/><strong>SANITÀ:</strong> i minituberi sono accompagnati da tutte le certificazioni fi tosanitarie ed inoltre, con la semina del minitubero intero, si evita la perdita di piante post-trapianto; infatti essi non marciscono facilmente con la pioggia o l’irrigazione, come a volte succede con i tuberi tagliati.</p>",
+            "enlarge_text": false
           }
         }
       },
       "block_order": [
-        "71057e1b-320d-4706-a43a-06d66046c5a7",
-        "highlight_text_qEpJN4",
-        "highlight_text_r3c7Pb"
+        "heading_wCzYmU",
+        "text_9HRN89"
       ],
-      "disabled": true,
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "2",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "details": {
+      "type": "product-details",
+      "blocks": {
+        "highlight_text_LrmdFE": {
+          "type": "highlight-text",
+          "settings": {
+            "text": "<h3>Come coltivare i minituberi di Patata</h3>"
+          }
+        },
+        "richtext_CQRNVz": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>I minituberi hanno un alto rendimento, bastano  7 mini tuberi per metro quadrato (0,60-0,70 mt fra le file x  0,25 mt sulla fila ). Sono più produttivi, infatti la resa media di 1 minitubero è di circa 1 kg di ottime patate.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_text_LrmdFE",
+        "richtext_CQRNVz"
+      ],
       "settings": {
         "content_size": "default",
         "placement": "left",
-        "text": "<h3>Key product features</h3><p>Can be highlighted here.</p>",
-        "show_image_first": false,
-        "color_scheme": "default",
+        "text": "",
+        "image": "shopify://shop_images/come-coltivare-minituberi.jpg",
+        "show_image_first": true,
+        "color_scheme": "1",
         "full_width": false
       }
     },
@@ -251,6 +256,7 @@
   },
   "order": [
     "main",
+    "rich_text_AeCDBn",
     "details",
     "recommendations",
     "173386234297f259df"
