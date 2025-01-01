@@ -241,6 +241,7 @@
     },
     "image_banner_KETeyy": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         "{background-color: #fcf9f1; padding-top: 20px;}"
       ],
