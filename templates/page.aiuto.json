@@ -17,6 +17,26 @@
         "heading_align": "text-center"
       }
     },
+    "image_banner_8xf9R9": {
+      "type": "image-banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/aiuto_c94cb1d9-0274-418b-9f82-94441ca71d86.png",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 480,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": false,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": false
+      }
+    },
     "icons_with_text_abeBW3": {
       "type": "icons-with-text",
       "blocks": {
@@ -86,10 +106,36 @@
         "dividers": "none",
         "prevent_animation": false
       }
+    },
+    "rich_text_fdhmYD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jhHYxq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Siamo disponibili dalle 9:00 - 12:30 / 16:00 - 19:00, dal Lunedì al Venerdì.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_jhHYxq"
+      ],
+      "custom_css": [],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": false,
+        "color_scheme": "1",
+        "full_width": false,
+        "prevent_animation": false
+      }
     }
   },
   "order": [
     "main",
-    "icons_with_text_abeBW3"
+    "image_banner_8xf9R9",
+    "icons_with_text_abeBW3",
+    "rich_text_fdhmYD"
   ]
 }
