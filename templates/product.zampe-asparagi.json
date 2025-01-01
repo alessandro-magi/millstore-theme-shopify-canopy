@@ -200,6 +200,9 @@
         "heading_wCzYmU",
         "text_9HRN89"
       ],
+      "custom_css": [
+        "{padding-top: 20px;}"
+      ],
       "settings": {
         "text_position": "justify-center",
         "text_align": "text-center",
