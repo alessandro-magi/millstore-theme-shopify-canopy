@@ -696,10 +696,10 @@
     "featured_collection_qCeYf9": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Novità per la Fattoria",
         "heading_align": "text-start",
         "show_view_all": true,
-        "collection": "",
+        "collection": "le-novita-per-la-fattoria",
         "layout": "carousel",
         "card_size_mobile": "small",
         "card_size": "small",
