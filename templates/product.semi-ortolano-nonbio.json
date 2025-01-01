@@ -42,6 +42,18 @@
             "custom_liquid": "{% render 'scalapay-widget', price: product.selected_or_first_available_variant.price, selector: '#productPrice .price', price_box_selector: '#productPrice' %}"
           }
         },
+        "message_axCcRW": {
+          "type": "message",
+          "settings": {
+            "icon": "question_mark",
+            "title": "<h6><strong>Caratteristiche semi:</strong></h6><p>- <strong>Ogm Free</strong>: Questo seme non provengono da organismi geneticamente modificati</p><p>- <strong>Nessun trattamento</strong>: Non vengono eseguiti trattamenti dopo il raccolto</p>",
+            "close": "once",
+            "show_over_media": false,
+            "visibility_duration": 7,
+            "bg_color": "#fcf9f1",
+            "text_color": "#303030"
+          }
+        },
         "dr_stacked_discounts_volume_discount_promotion_MhJthh": {
           "type": "shopify://apps/dr-stacked-discounts/blocks/volume-discount-promotion/f428e1ae-8a34-4767-8189-f8339f3ab12b",
           "settings": {
@@ -127,6 +139,7 @@
         "judge_me_reviews_preview_badge_dAQLgR",
         "price",
         "custom_liquid_JVykbi",
+        "message_axCcRW",
         "dr_stacked_discounts_volume_discount_promotion_MhJthh",
         "variant-picker",
         "inventory_status_jfTVMF",
