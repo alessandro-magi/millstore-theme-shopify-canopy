@@ -102,32 +102,13 @@
 
 <!-- start sub menu custom -->
 
-{% assign menu_handle = section.settings.menu %}
-{% if menu_handle %}
-  {% assign menu = linklists[menu_handle] %}
-
-  {% if menu.links.size > 0 %}
-    {% assign collection_handle = collection.handle %}
-
-    {% for link in menu.links %}
-      {% if link.type == 'collection' and link.object.handle == collection_handle %}
-        {% if link.links.size > 0 %}
-          <!-- La collection ha sotto-collezioni -->
-          {%
-            render 'subcollections-collection',
-            type: 'block',
-            block: section,
-          %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  {% else %}
-    <p>Il menu non contiene collegamenti.</p>
-  {% endif %}
-{% else %}
-  <p>Menu non configurato.</p>
+{% if link in linklists[collection.handle].links == true %}
+  {%
+    render 'subcollections-collection',
+    type: 'block',
+    block: section,
+  %}
 {% endif %}
-
 
 <!-- end sub menu custom -->
 
