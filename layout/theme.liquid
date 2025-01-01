@@ -533,7 +533,15 @@
 </script>
 
 <!--EndCFFPersistentCartCart-->
-
+  
+{% if content contains 'sticky-atc-panel' %}
+  <style>
+    .woot-widget-bubble {
+      margin-bottom: 100px;
+    }
+  </style>
+{% endif %}
+  
  <script>
   window.chatwootSettings = {"position":"right","type":"expanded_bubble","launcherTitle":"Chatta con noi"};
   (function(d,t) {
