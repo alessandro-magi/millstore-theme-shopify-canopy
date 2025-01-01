@@ -739,7 +739,7 @@
     "custom_css": [
       ".section {margin: 0;}",
       ".plant-icon img {max-height: 30px; margin: 0 10px;}",
-      ".plant-icon {margin: 15px 0;}"
+      ".plant-icon {margin: 10px 0;}"
     ]
   }
 }
