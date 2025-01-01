@@ -193,6 +193,14 @@
             "text": "<p>Se ti sei registrato al nostro sito, devi accedere al tuo account ed entrare nella sezione \"Ordini\". Cerca l'ultimo ordine che hai eseguito e clicca su \"Visualizza ordine\". Troverai di fronte a te lo stato della consegna.</p>"
           }
         },
+        "question_Myg9p8": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Quanto costa la spedizione?",
+            "text": "<p>Se il tuo ordine supera i 79€, la consegna è gratis. Se invece l'importo è inferiore, allora il contributo è di 7,90 €.</p>"
+          }
+        },
         "category_ND4C96": {
           "type": "category",
           "settings": {
@@ -223,6 +231,7 @@
         "question_PRKDnH",
         "question_UMFK36",
         "question_WeAnXQ",
+        "question_Myg9p8",
         "category_ND4C96",
         "question_t7jbnQ",
         "question_GLh6eF"
