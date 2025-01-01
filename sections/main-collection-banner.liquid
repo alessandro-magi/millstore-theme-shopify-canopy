@@ -101,7 +101,7 @@
 </div>
 
 <!-- start sub menu custom -->
-{% if link in linklists[collection.handle].links == true %}
+{% if linklists[collection.handle].links == true %}
   {%
     render 'subcollections-collection',
     type: 'block',
