@@ -75,6 +75,17 @@
             "show_gift_card_recipient": false
           }
         },
+        "inventory_status_jfTVMF": {
+          "type": "inventory-status",
+          "settings": {
+            "show_urgency_message": true,
+            "text_very_low": "<p>- Almost gone!</p>",
+            "text_low": "<p>- Hurry while stocks last!</p>",
+            "text_normal": "",
+            "text_no_stock": "",
+            "text_no_stock_backordered": "<p>Backordered</p>"
+          }
+        },
         "custom_liquid_LweUKn": {
           "type": "custom-liquid",
           "settings": {
@@ -119,6 +130,7 @@
         "dr_stacked_discounts_volume_discount_promotion_MhJthh",
         "variant-picker",
         "buy-buttons",
+        "inventory_status_jfTVMF",
         "custom_liquid_LweUKn",
         "collapsible_content_R77rxi",
         "collapsible_content_FknY83",
