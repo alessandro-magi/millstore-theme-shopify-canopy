@@ -102,9 +102,9 @@
         "1cc6422d-211f-4764-af07-884ee26ed3d7": {
           "type": "description",
           "settings": {
-            "show_as_collapsible_content": false,
-            "icon": "none",
-            "open": false
+            "show_as_collapsible_content": true,
+            "icon": "briefcase",
+            "open": true
           }
         }
       },
