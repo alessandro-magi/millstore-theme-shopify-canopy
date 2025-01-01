@@ -106,12 +106,12 @@
     "compare_empty_field_text": "N/A",
     "inventory_threshold_low": 20,
     "inventory_threshold_very_low": 8,
-    "inventory_show_notice": "always",
+    "inventory_show_notice": "low",
     "inventory_show_count": "low",
     "in_stock_text_color": "#2c7e3f",
     "very_low_stock_text_color": "#b40c1c",
     "no_stock_text_color": "#777777",
-    "no_stock_backordered_text_color": "#777777",
+    "no_stock_backordered_text_color": "#e02c50",
     "product_label_card_position": "top-0 start",
     "sale_label_bg_color": "#6e4e66",
     "sale_label_text_color": "#ffffff",
@@ -137,7 +137,7 @@
     "variant_picker_color_style": "variant-images",
     "variant_picker_swatch_shape": "circle",
     "variant_picker_swatch_size": 28,
-    "card_colors_style": "native",
+    "card_colors_style": "variant-images",
     "card_swatch_shape": "circle",
     "card_swatch_size": 24,
     "filter_color_style": "native",
@@ -741,7 +741,7 @@
       ".plant-icon img {margin-right: 10px; width: 30px; max-height: 39px;}",
       ".plant-icon {margin: 10px 0; align-items: center;}",
       ".info-background {background-color: #fcf9f1; padding: 5px 10px;}",
-      ".info-background h3{padding: 10px 0;}"
+      ".info-background h3 {padding: 10px 0;}"
     ]
   }
 }
