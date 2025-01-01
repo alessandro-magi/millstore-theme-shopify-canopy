@@ -739,7 +739,8 @@
     "custom_css": [
       ".section {margin: 0;}",
       ".plant-icon img {margin-right: 10px; width: 30px; max-height: 39px;}",
-      ".plant-icon {margin: 10px 0; align-items: center;}"
+      ".plant-icon {margin: 10px 0; align-items: center;}",
+      ".woot-widget-bubble {margin-bottom: 100px;}"
     ]
   }
 }
