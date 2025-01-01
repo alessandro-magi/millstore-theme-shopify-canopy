@@ -209,6 +209,9 @@
         "text_azJWeL",
         "button_6m497p"
       ],
+      "custom_css": [
+        "{margin: 20px 0;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
         "video_external": "",
