@@ -1,0 +1,21 @@
+<script src="{{ 'webcomponents-bundle.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'scalapay-widget.js' | asset_url }}" defer="defer"></script>
+
+{%- if selector != blank -%}{%- capture selector -%}["{{ selector }}"]{%- endcapture -%}{%- endif -%}
+<div class="scalapayWidget" style="margin: 0 0 10px 0;min-height:20px;">
+  <scalapay-widget
+    amount="{{ price | plus: 0 | divided_by: 100.00 }}"
+    min="5"
+    max=""
+    amountSelectorArray='{{ selector }}'
+    size="100px"
+    logoSize="100%"
+    priceColor="#000000"
+    logoColor="#000000"
+    logoAlignment="-7px"
+    numberOfPayments="3"
+    hideLogo="false"
+    locale="{{ shop.locale }}"
+    priceBoxSelector="{{ price_box_selector }}">
+  </scalapay-widget>
+</div>
