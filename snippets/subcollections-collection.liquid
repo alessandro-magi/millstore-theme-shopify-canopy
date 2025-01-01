@@ -1,4 +1,4 @@
-<carousel-slider class="carousel block" style="padding: 10px 0;">
+<carousel-slider class="carousel block" style="padding: 20px 0 10px 0;">
     <div class="container">
       <div class="slider"> 
           <div class="container">
@@ -27,18 +27,6 @@
                 {% endif %}
             </ul>
           </div>
-
-          <div class="slider-nav slide-nav--inline justify-between items-center absolute top-0 h-full {% if settings.slider_show_arrows == 'hover' %}slider-nav--show-on-hover no-hover-hidden {% endif %}hidden md:flex no-js-hidden">
-            <button type="button" class="slider-nav__btn tap-target tap-target--left btn has-ltr-icon" name="prev" aria-controls="slider-{{ section.id }}">
-              <span class="visually-hidden">{{ 'general.slider.previous' | t }}</span>
-              {% render 'icon-chevron-left' %}
-            </button>
-            <button type="button" class="slider-nav__btn tap-target tap-target--right btn has-ltr-icon" name="next" aria-controls="slider-{{ section.id }}">
-              <span class="visually-hidden">{{ 'general.slider.next' | t }}</span>
-              {% render 'icon-chevron-right' %}
-            </button>
-          </div>
-
       </div>
     </div>
   </carousel-slider>
