@@ -740,7 +740,7 @@
       ".section {margin: 0;}",
       ".plant-icon img {margin-right: 10px; width: 30px; max-height: 39px;}",
       ".plant-icon {margin: 10px 0; align-items: center;}",
-      ".info-background {background-color: #fcf9f1;}"
+      ".info-background {background-color: #fcf9f1; padding: 5px 10px;}"
     ]
   }
 }
