@@ -201,6 +201,14 @@
             "text": "<p>Se il tuo ordine supera i 79€, la consegna è gratis. Se invece l'importo è inferiore, allora il contributo è di 7,90 €.</p>"
           }
         },
+        "question_xeQ4EF": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Che corrieri utilizzate le consegne?",
+            "text": "<p>Il tuo pacco verrà evaso con GLS o TNT a seconda delle zone e della natura della merce.</p>"
+          }
+        },
         "category_ND4C96": {
           "type": "category",
           "settings": {
@@ -232,6 +240,7 @@
         "question_UMFK36",
         "question_WeAnXQ",
         "question_Myg9p8",
+        "question_xeQ4EF",
         "category_ND4C96",
         "question_t7jbnQ",
         "question_GLh6eF"
