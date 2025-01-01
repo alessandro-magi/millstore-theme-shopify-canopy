@@ -185,6 +185,14 @@
             "text": "<p>Normalmente i nostri corrieri consegnano gli ordini da 1 a 3 giorni lavorativi. In alcuni casi i tempi posono essere più lunghi, in questo caso troverai le info sui tempi di consegna in ogni scheda prodotto e durante la conclusione dell'ordine.</p>"
           }
         },
+        "question_WeAnXQ": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Come posso tracciare il mio ordine?",
+            "text": "<p>Se ti sei registrato al nostro sito, devi accedere al tuo account ed entrare nella sezione \"Ordini\". Cerca l'ultimo ordine che hai eseguito e clicca su \"Visualizza ordine\". Troverai di fronte a te lo stato della consegna.</p>"
+          }
+        },
         "category_ND4C96": {
           "type": "category",
           "settings": {
@@ -214,6 +222,7 @@
         "question_yK7kJY",
         "question_PRKDnH",
         "question_UMFK36",
+        "question_WeAnXQ",
         "category_ND4C96",
         "question_t7jbnQ",
         "question_GLh6eF"
