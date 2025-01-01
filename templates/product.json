@@ -107,12 +107,6 @@
             "open": true
           }
         },
-        "divider-1": {
-          "type": "divider",
-          "settings": {
-            "show_line": true
-          }
-        },
         "1cc6422d-211f-4764-af07-884ee26ed3d7": {
           "type": "description",
           "settings": {
@@ -135,7 +129,6 @@
         "custom_liquid_LweUKn",
         "collapsible_content_R77rxi",
         "collapsible_content_FknY83",
-        "divider-1",
         "1cc6422d-211f-4764-af07-884ee26ed3d7"
       ],
       "settings": {
