@@ -100,16 +100,19 @@
   </div>
 </div>
 
-  {%
-    render 'subcollections-collection',
-    type: 'block',
-    block: section,
-    layout_type: 'slideshow',
-  %}
-  <div class="subcollections-collection__border"></div>
+<!-- start sub menu custom -->
+{%
+  render 'subcollections-collection',
+  type: 'block',
+  block: section,
+%}
 
+<!-- end sub menu custom -->
 
+<!-- start js for load more -->
 <script src="{{ 'custom.js' | asset_url }}" type="module" defer="defer"></script>
+
+<!-- end js for load more -->
 
 {% schema %}
 {

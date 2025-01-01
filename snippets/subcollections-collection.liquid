@@ -1,7 +1,23 @@
-<carousel-slider class="carousel block">
+{% comment %} Assign object as block or section {% endcomment %}
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
+{% assign hasNoSubcategories = false %}
+{% assign hasSubcategories = false %}
+{% for link in linklists[collection.handle].links %}
+  {% if link.levels == 0 %}
+    {% assign hasNoSubcategories = true %}
+  {% elsif link.levels != 0 %}
+    {% assign hasSubcategories = true %}
+  {% endif %}
+{% endfor %}
+
+<carousel-slider class="carousel block" style="padding: 10px 0;">
     <div class="container">
       <div class="slider"> 
-
           <div class="container">
             <ul class="slider__grid grid grid-flow-col auto-cols-2 sm:auto-cols-3 md:auto-cols-4 lg:auto-cols-5 xl:auto-cols-6 gap-x-theme gap-y-10">
                 {% if onboard %}
