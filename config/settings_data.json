@@ -137,7 +137,7 @@
     "variant_picker_color_style": "native",
     "variant_picker_swatch_shape": "circle",
     "variant_picker_swatch_size": 28,
-    "card_colors_style": "variant-images",
+    "card_colors_style": "native",
     "card_swatch_shape": "circle",
     "card_swatch_size": 24,
     "filter_color_style": "native",
