@@ -62,7 +62,7 @@
     "featured_blog_hknRmU": {
       "type": "featured-blog",
       "settings": {
-        "title": "Featured blog",
+        "title": "Gli ultimi articoli per gli Animali",
         "heading_align": "text-start",
         "show_view_all": true,
         "blog": "pet-shop",
