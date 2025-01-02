@@ -77,11 +77,31 @@
         "color_scheme": "none",
         "image_ratio": "1.77"
       }
+    },
+    "featured_blog_WWFiae": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "Gli ultimi articoli sulla Fattoria",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "blog": "fattoria",
+        "layout": "carousel",
+        "posts_to_show": 8,
+        "show_featured_image": true,
+        "show_tags": false,
+        "show_excerpt": true,
+        "show_author": true,
+        "show_date": true,
+        "show_button": true,
+        "color_scheme": "none",
+        "image_ratio": "1.77"
+      }
     }
   },
   "order": [
     "main",
     "featured_blog_Hnzb7K",
-    "featured_blog_hknRmU"
+    "featured_blog_hknRmU",
+    "featured_blog_WWFiae"
   ]
 }
