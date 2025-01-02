@@ -573,24 +573,6 @@
     <script src="{{ 'instant-page.js' | asset_url }}" type="module" defer="defer"></script>
   {%- endif -%}
 
-  <!--BeginCFFPersistentCartCart-->
-{% if customer %}
-<script>
-    window.cffCustomer = {
-        name: '{{customer.name}}',
-        email: '{{customer.email}}',
-        hasAccount: '{{customer.has_account}}',
-        id: '{{customer.id}}'
-    };
-</script>
-
-{% endif %}
-  
-<script>
-    window.cffPCLiquidPlaced = true
-</script>
-
-<!--EndCFFPersistentCartCart-->
 
  <script>
     window.chatwootSettings = {"position":"right","type":"expanded_bubble","launcherTitle":"Chatta con noi"};
