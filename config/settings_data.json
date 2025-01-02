@@ -156,7 +156,7 @@
     "search_input_placeholder_3": "Ricerca per categorie",
     "search_input_font": "body",
     "prompts_mobile": true,
-    "enable_speech_search": false,
+    "enable_speech_search": true,
     "speech_icon_color": "#ffaa00",
     "show_currency_code": false,
     "superscript_decimals": true,
