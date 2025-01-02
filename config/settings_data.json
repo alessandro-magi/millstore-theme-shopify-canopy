@@ -86,7 +86,7 @@
     "prod_card_text_align": "start",
     "card_show_hover_image": false,
     "card_show_weight": false,
-    "card_show_vendor": true,
+    "card_show_vendor": false,
     "card_show_subtitle": false,
     "card_show_rating": true,
     "card_show_inventory": true,
