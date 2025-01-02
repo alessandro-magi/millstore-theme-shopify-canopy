@@ -110,15 +110,15 @@
     "3721924b-630b-4a60-b724-521fef7aa78e": {
       "type": "icons-with-text",
       "blocks": {
-        "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-1": {
+        "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-3": {
           "type": "item",
           "settings": {
-            "icon": "box",
+            "icon": "truck",
             "use_custom_icon_color": false,
             "icon_color": "#000000",
-            "heading": "30 giorni per il reso",
-            "text": "<p>Su tutti gli ordini</p>",
-            "link": "shopify://policies/terms-of-service"
+            "heading": "Consegna gratis da 79€",
+            "text": "<p>Sotto, la paghi solo 7,90€</p>",
+            "link": "shopify://policies/shipping-policy"
           }
         },
         "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-2": {
@@ -132,17 +132,6 @@
             "link": "shopify://pages/aiuto-chiedi-a-noi"
           }
         },
-        "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-3": {
-          "type": "item",
-          "settings": {
-            "icon": "truck",
-            "use_custom_icon_color": false,
-            "icon_color": "#000000",
-            "heading": "Consegna gratis da 79€",
-            "text": "<p>Sotto, la paghi solo 7,90€</p>",
-            "link": "shopify://policies/shipping-policy"
-          }
-        },
         "item_BF9fk4": {
           "type": "item",
           "settings": {
@@ -153,13 +142,24 @@
             "text": "<p>Paypal, Carta, Scalapay, Bonifico e alla Consegna</p>",
             "link": "shopify://policies/terms-of-service"
           }
+        },
+        "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "box",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "30 giorni per il reso",
+            "text": "<p>Su tutti gli ordini</p>",
+            "link": "shopify://policies/terms-of-service"
+          }
         }
       },
       "block_order": [
-        "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-1",
-        "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-2",
         "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-3",
-        "item_BF9fk4"
+        "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-2",
+        "item_BF9fk4",
+        "template--16154615972040__3721924b-630b-4a60-b724-521fef7aa78e-item-1"
       ],
       "settings": {
         "heading": "",
