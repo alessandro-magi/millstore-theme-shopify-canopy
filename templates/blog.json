@@ -9,6 +9,38 @@
  */
 {
   "sections": {
+    "rich_text_cMWTge": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CgCkxx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Blog",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        },
+        "text_rB8mH7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your store with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CgCkxx",
+        "text_rB8mH7"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
     "main": {
       "type": "main-blog",
       "disabled": true,
@@ -99,6 +131,7 @@
     }
   },
   "order": [
+    "rich_text_cMWTge",
     "main",
     "featured_blog_Hnzb7K",
     "featured_blog_hknRmU",
