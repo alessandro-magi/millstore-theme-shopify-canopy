@@ -117,7 +117,7 @@
             "use_custom_icon_color": false,
             "icon_color": "#000000",
             "heading": "Consegna gratis da 79€",
-            "text": "<p>Sotto, la paghi solo 7,90€</p>",
+            "text": "<p>Sotti i 79€ paghi 7,90€</p>",
             "link": "shopify://policies/shipping-policy"
           }
         },
