@@ -576,18 +576,39 @@
   <!--BeginCFFPersistentCartCart-->
 {% if customer %}
 <script>
-
     window.cffCustomer = {
         name: '{{customer.name}}',
         email: '{{customer.email}}',
         hasAccount: '{{customer.has_account}}',
         id: '{{customer.id}}'
     };
-
-
 </script>
 
 {% endif %}
   
+<script>
+    window.cffPCLiquidPlaced = true
+</script>
+
+<!--EndCFFPersistentCartCart-->
+
+ <script>
+    window.chatwootSettings = {"position":"right","type":"expanded_bubble","launcherTitle":"Chatta con noi"};
+    (function(d,t) {
+      var BASE_URL="https://app.chatwoot.com";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.chatwootSDK.run({
+          websiteToken: 't8XuT66LXVTYvn6Py18tZQgo',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
+</script>
+
 </body>
 </html>
