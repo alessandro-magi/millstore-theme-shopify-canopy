@@ -573,21 +573,6 @@
     <script src="{{ 'instant-page.js' | asset_url }}" type="module" defer="defer"></script>
   {%- endif -%}
 
-  {%- if request.design_mode and settings.hide_theme_update_notification == false and settings.header_col -%}
-    {%- capture message -%}
-      <div class="text-start" style="max-width: 400px;">
-        <h2 class="h4 mb-4">Important</h2>
-        <p><strong>It is not possible to auto-update to Canopy v6 as this is a major version upgrade.</strong></p>
-        <p>Canopy v6 restructures sections, colors, settings and content, meaning older versions will not map over faithfully.</p>
-        <p>To update, you should install Canopy v6 as a new theme and configure it to match your current live store. This version will also give you access to a range of new features, enhancements and sections.</p>
-        <p>Updating to Canopy v6 is optional.</p>
-        <p><a class="link" href="https://cleancanvas.co.uk/support/canopy/updating-to-v6" target="_blank">Read more</a></p>
-        <p class="panel text-body-extra_small mb-0 mt-8">This notification can be disabled in Theme Settings > Advanced > Hide theme update notification.</p>
-      </div>
-    {%- endcapture -%}
-    {%- render 'theme-notification', id: 'update-notification', message: message -%}
-  {%- endif -%}
-
   <!--BeginCFFPersistentCartCart-->
 {% if customer %}
 <script>
@@ -611,18 +596,6 @@
 <!--EndCFFPersistentCartCart-->
 
  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-    if (document.querySelector(".sticky-atc-panel")) {
-      const style = document.createElement("style");
-      style.textContent = `
-        .woot-widget-bubble {
-        margin-bottom: 100px;
-      }
-      `;
-      document.head.appendChild(style);
-    }
-    });
-   
     window.chatwootSettings = {"position":"right","type":"expanded_bubble","launcherTitle":"Chatta con noi"};
     (function(d,t) {
       var BASE_URL="https://app.chatwoot.com";
