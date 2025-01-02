@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "show_blog_title": true,
         "heading_size": "h1",
@@ -42,7 +43,7 @@
     "featured_blog_Hnzb7K": {
       "type": "featured-blog",
       "settings": {
-        "title": "Featured blog",
+        "title": "Gli ultimi articoli sull'Orto e Giardino",
         "heading_align": "text-start",
         "show_view_all": true,
         "blog": "orto",
