@@ -16,9 +16,25 @@
         "heading_size": "h2",
         "heading_align": "text-center"
       }
+    },
+    "173583075875a67ac4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_page_C86TCF": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_page/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_page_C86TCF"
+      ],
+      "settings": {
+        "full_width": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "173583075875a67ac4"
   ]
 }
