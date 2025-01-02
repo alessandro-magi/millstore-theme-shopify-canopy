@@ -180,7 +180,7 @@
     "animation_speed": "medium",
     "favicon": "shopify://shop_images/images.png",
     "hide_theme_update_notification": true,
-    "image_quality": "0.75",
+    "image_quality": "1",
     "show_blur_messages": false,
     "blur_message_1": "Don't leave us hanging!",
     "blur_message_delay": 6,
