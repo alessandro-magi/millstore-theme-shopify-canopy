@@ -735,8 +735,7 @@
       ".info-background {background-color: #fcf9f1; padding: 5px 10px;}",
       ".info-background h3 {padding: 10px 0;}",
       ".sticky-atc-panel {position: fixed; z-index: 21474830030;}",
-      ".drawer[aria-modal] {z-index: 21474830031;}",
-      ".iubenda-tp-alert-btn[data-tp-float][data-tp-float=bottom-right], .iubenda-tp-alert-btn[data-tp-float][data-tp-float=top-right], .iubenda-tp-btn[data-tp-float][data-tp-float=bottom-right], .iubenda-tp-btn[data-tp-float][data-tp-float=top-right], .iubenda-uspr-btn[data-tp-float][data-tp-float=bottom-right], .iubenda-uspr-btn[data-tp-float][data-tp-float=top-right] {left: 0 !important; z-index: 9999;}"
+      ".drawer[aria-modal] {z-index: 21474830031;}"
     ]
   }
 }
