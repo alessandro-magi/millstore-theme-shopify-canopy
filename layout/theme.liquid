@@ -26,6 +26,12 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% if rtl %}rtl{% else %}ltr{% endif %}">
 <head>
+
+<!-- This Script is the exclusive property of Website Speedy, Copyright © 2025. All rights reserved. -->
+<script type='text/javascript' src="https://shopify-websitespeedy.b-cdn.net/speedyscripts/ecmrx_219/ecmrx_219_1.js"></script>
+<script type='text/javascript' src="https://shopify-websitespeedy.b-cdn.net/speedyscripts/ecmrx_219/ecmrx_219_2.js"></script>
+<script type='text/javascript' src="https://shopify-websitespeedy.b-cdn.net/speedyscripts/ecmrx_219/ecmrx_219_3.js"></script>
+<!-- This Script is the exclusive property of Website Speedy, Copyright © 2025. All rights reserved. -->
   
   {%- render 'doc-head-core' -%}
   {%- render 'doc-head-social' -%}
@@ -333,13 +339,25 @@
     <!-- CC Custom Head End -->
   {%- endif -%}
 
-
-  
   {%- comment -%} START IUBENDA {%- endcomment -%}
-
-            <script type="text/javascript">
+    
+        <script type="text/javascript">
             var _iub = _iub || [];
-          _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"emailMarketing":{"styles":{"backgroundColor":"#000000","buttonsBackgroundColor":"#0073CE","buttonsTextColor":"#FFFFFF","footerBackgroundColor":"#212121","footerTextColor":"#FFFFFF","textColor":"#FFFFFF"},"theme":"dark"},"enableTcf":true,"googleAdditionalConsentMode":true,"perPurposeConsent":true,"siteId":3258446,"tcfPurposes":{"2":"consent_only","7":"consent_only","8":"consent_only","9":"consent_only","10":"consent_only","11":"consent_only"},"whitelabel":false,"cookiePolicyId":72671541,"lang":"it","banner":{"acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"logo":"https://millstore.it/cdn/shop/files/millstore-bianco_1.png","ownerName":"millstore.it","position":"float-top-center","rejectButtonDisplay":true,"showPurposesToggles":true,"showTitle":false,"showTotalNumberOfProviders":true}};
+            _iub.csConfiguration = {
+                "countryDetection": true,
+                "consentOnContinuedBrowsing": false,
+                "perPurposeConsent": true,
+                "lang": "en",
+                "siteId": 3258446, //millstore site id
+                "cookiePolicyId": 72671541, //millstore cookiePolicyId
+                "floatingPreferencesButtonDisplay": "bottom-right",
+                "banner": {
+                    "acceptButtonDisplay": true,
+                    "customizeButtonDisplay": true,
+                    "rejectButtonDisplay": true,
+                    "position": "float-top-center"
+                }
+            };
         <!-- code for Shopify (1 of 2) -->
             var onPreferenceExpressedOrNotNeededCallback = function(prefs) {
                 var isPrefEmpty = !prefs || Object.keys(prefs).length === 0;
@@ -393,8 +411,8 @@
           }
         );
         </script>
-  
-  {%- comment -%} END IUBENDA {%- endcomment -%}
+
+    {%- comment -%} END IUBENDA {%- endcomment -%}
   
 </head>
 
