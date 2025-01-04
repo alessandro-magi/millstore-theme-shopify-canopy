@@ -201,11 +201,6 @@
     "heading_type_scale": "1.3",
     "content_for_index": [],
     "blocks": {
-      "8660026769530893754": {
-        "type": "shopify://apps/synctrack-estimated-delivery/blocks/omega-estimated-shipping-embed-app/054646a4-d5ab-4b85-b028-f3b169802e74",
-        "disabled": false,
-        "settings": {}
-      },
       "1530068250781986104": {
         "type": "shopify://apps/fast-bundle/blocks/fast_bundle/9e87fbe2-9041-4c23-acf5-322413994cef",
         "disabled": false,
@@ -236,6 +231,16 @@
       "17327048248777170309": {
         "type": "shopify://apps/dr-stacked-discounts/blocks/instant-load/f428e1ae-8a34-4767-8189-f8339f3ab12b",
         "disabled": false,
+        "settings": {}
+      },
+      "4608251692753025422": {
+        "type": "shopify://apps/sales-discounts/blocks/sale-labels/29205fb1-2e68-4d81-a905-d828a51c8413",
+        "disabled": false,
+        "settings": {}
+      },
+      "8660026769530893754": {
+        "type": "shopify://apps/synctrack-estimated-delivery/blocks/omega-estimated-shipping-embed-app/054646a4-d5ab-4b85-b028-f3b169802e74",
+        "disabled": true,
         "settings": {}
       }
     }
