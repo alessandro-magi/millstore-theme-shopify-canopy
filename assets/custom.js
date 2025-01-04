@@ -406,49 +406,56 @@
  * Have fun! - The Clean Canvas Development Team.
  */
 
-document.querySelector('#truncated').addEventListener('click', function() {
-    fadeOut(document.querySelector('#truncated'), 300, function() {
-        fadeIn(document.querySelector('#fullDescription'), 500);
-    });
-});
+document.addEventListener("DOMContentLoaded", function () {
+    const truncatedElement = document.querySelector('#truncated');
+    const fullDescriptionElement = document.querySelector('#fullDescription');
 
-function fadeIn(element, duration = 400, callback) {
-    element.style.opacity = 0;
-    element.style.display = 'block'; // Rende visibile l'elemento
-    const startTime = performance.now();
-
-    function animate(time) {
-        const elapsed = time - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-        element.style.opacity = progress;
-
-        if (progress < 1) {
-            requestAnimationFrame(animate);
-        } else if (callback) {
-            callback(); // Esegue il callback al termine dell'animazione
-        }
+    if (truncatedElement && fullDescriptionElement) {
+        truncatedElement.addEventListener('click', function () {
+            fadeOut(truncatedElement, 300, function () {
+                fadeIn(fullDescriptionElement, 500);
+            });
+        });
     }
 
-    requestAnimationFrame(animate);
-}
+    function fadeIn(element, duration = 400, callback) {
+        element.style.opacity = 0;
+        element.style.display = 'block'; // Rende visibile l'elemento
+        const startTime = performance.now();
 
-function fadeOut(element, duration = 400, callback) {
-    const startTime = performance.now();
+        function animate(time) {
+            const elapsed = time - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            element.style.opacity = progress;
 
-    function animate(time) {
-        const elapsed = time - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-        element.style.opacity = 1 - progress;
-
-        if (progress < 1) {
-            requestAnimationFrame(animate);
-        } else {
-            element.style.display = 'none'; // Nasconde l'elemento alla fine dell'animazione
-            if (callback) {
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            } else if (callback) {
                 callback(); // Esegue il callback al termine dell'animazione
             }
         }
+
+        requestAnimationFrame(animate);
     }
 
-    requestAnimationFrame(animate);
-}
+    function fadeOut(element, duration = 400, callback) {
+        const startTime = performance.now();
+
+        function animate(time) {
+            const elapsed = time - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            element.style.opacity = 1 - progress;
+
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                element.style.display = 'none'; // Nasconde l'elemento alla fine dell'animazione
+                if (callback) {
+                    callback(); // Esegue il callback al termine dell'animazione
+                }
+            }
+        }
+
+        requestAnimationFrame(animate);
+    }
+});
