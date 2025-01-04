@@ -77,11 +77,22 @@
         "show_feat_sort_opt": true,
         "sort_first": true
       }
+    },
+    "custom_liquid_EqX4MU": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"collection-description\">\n    {{ collection.description }}\n</div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
     }
   },
   "order": [
     "collection-banner",
     "custom_liquid_Kyr9V8",
-    "collection-products"
+    "collection-products",
+    "custom_liquid_EqX4MU"
   ]
 }
