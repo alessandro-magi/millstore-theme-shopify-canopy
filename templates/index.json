@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image_desktop": "shopify://shop_images/modern-and-stylish-design.jpg",
+            "image_mobile": "shopify://shop_images/modern-and-stylish-design.jpg",
             "url": "shopify://collections/arredo-casa",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
@@ -51,6 +52,7 @@
           "type": "slide",
           "settings": {
             "image_desktop": "shopify://shop_images/overhead-view-of-potatoes.jpg",
+            "image_mobile": "shopify://shop_images/overhead-view-of-potatoes.jpg",
             "url": "shopify://collections/patate-da-semina",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
