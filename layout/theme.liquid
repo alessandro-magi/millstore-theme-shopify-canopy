@@ -340,12 +340,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {%- endif -%} 
 </head>
 
-<body
-  <!-- Google Tag Manager (noscript) -->
+<body{% if settings.animations_enabled != "disabled" %} class="cc-animate-enabled"{% endif %}>
+    <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKBHVT"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  {% if settings.animations_enabled != "disabled" %} class="cc-animate-enabled"{% endif %}>
   <a class="skip-link btn btn--primary visually-hidden" href="#main-content" data-cc-role="skip">
     {{- 'accessibility.skip_to_content' | t -}}
   </a>
@@ -507,8 +506,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   {%- if request.design_mode == false and settings.preload_links -%}
     <script src="{{ 'instant-page.js' | asset_url }}" type="module" defer="defer"></script>
   {%- endif -%}
-
- <script defer id="supportfast-script" src="https://cdn.supportfast.ai/chatbot.js" data-chatbot-id="bot-qc2cltolrz"></script>
 
 </body>
 </html>
