@@ -735,7 +735,8 @@
       ".info-background {background-color: #fcf9f1; padding: 5px 10px;}",
       ".info-background h3 {padding: 10px 0;}",
       ".sticky-atc-panel {position: fixed; z-index: 21474830030;}",
-      ".drawer[aria-modal] {z-index: 21474830031;}"
+      ".drawer[aria-modal] {z-index: 21474830031;}",
+      ".woot-widget-bubble.woot-widget--expanded {z-index: 210000 !important; position: fixed;}"
     ]
   }
 }
