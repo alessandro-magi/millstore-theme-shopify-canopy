@@ -112,12 +112,15 @@
     type: 'block',
     block: section,
   %}
+{% else %}
+  <!-- Il menu non esiste o è vuoto -->
+  <p>Non esiste un menu associato alla collezione "{{ collection.title }}".</p>
 {% endif %}
 
 <!-- end sub menu custom -->
 
 <!-- start js for load more -->
-
+<script src="{{ 'custom.js' | asset_url }}" type="module" defer="defer"></script>
 <!-- end js for load more -->
 
 {% schema %}
