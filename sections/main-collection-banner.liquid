@@ -88,7 +88,8 @@
             <div class="rte mt-4">
               <!--- start load more collection page -->
                 <div class="collection-description">
-                  {{ collection.description }}
+                    <div id="truncated">{{ collection.description | truncatewords: 30, "... <a class='read-more-collection'>Leggi di più</a>" }}</div>
+                    <div id="fullDescription" style="display: none">{{ collection.description }}</div>
                 </div>
               <!--- end load more collection page -->
             </div>
@@ -116,7 +117,7 @@
 <!-- end sub menu custom -->
 
 <!-- start js for load more -->
-<script src="{{ 'custom.js' | asset_url }}" type="module" defer="defer"></script>
+
 <!-- end js for load more -->
 
 {% schema %}
