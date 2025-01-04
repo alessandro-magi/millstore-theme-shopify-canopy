@@ -3,16 +3,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const fullDescriptionElement = document.querySelector('#fullDescription');
 
     if (truncatedElement && fullDescriptionElement) {
-        // Gestisce il click sul link "Leggi di più"
-        truncatedElement.querySelector('.read-more-collection').addEventListener('click', function (event) {
-            event.preventDefault(); // Evita il comportamento predefinito del link
-            fadeOut(truncatedElement, 300, function () {
-                fadeIn(fullDescriptionElement, 500);
+        const readMoreLink = truncatedElement.querySelector('.read-more-collection');
+        if (readMoreLink) {
+            readMoreLink.addEventListener('click', function (event) {
+                event.preventDefault(); // Previene il comportamento predefinito del link
+                fadeOut(truncatedElement, 300, function () {
+                    fadeIn(fullDescriptionElement, 500);
+                });
             });
-        });
+        }
     }
 
-    // Funzione per il fadeIn
     function fadeIn(element, duration = 400, callback) {
         element.style.opacity = 0;
         element.style.display = 'block'; // Rende visibile l'elemento
@@ -33,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
         requestAnimationFrame(animate);
     }
 
-    // Funzione per il fadeOut
     function fadeOut(element, duration = 400, callback) {
         const startTime = performance.now();
 
