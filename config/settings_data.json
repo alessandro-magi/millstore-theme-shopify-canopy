@@ -216,11 +216,6 @@
         "disabled": false,
         "settings": {}
       },
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      },
       "17327048248777170309": {
         "type": "shopify://apps/dr-stacked-discounts/blocks/instant-load/f428e1ae-8a34-4767-8189-f8339f3ab12b",
         "disabled": false,
@@ -238,10 +233,15 @@
       },
       "1530068250781986104": {
         "type": "shopify://apps/fast-bundle/blocks/fast_bundle/9e87fbe2-9041-4c23-acf5-322413994cef",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "home": true
         }
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {}
       }
     }
   },
