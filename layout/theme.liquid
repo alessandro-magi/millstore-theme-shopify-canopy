@@ -25,7 +25,7 @@
 -%}
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% if rtl %}rtl{% else %}ltr{% endif %}">
-<head>
+<head>{% render 'spdn' %}
   
   {%- render 'doc-head-core' -%}
   {%- render 'doc-head-social' -%}
@@ -499,5 +499,5 @@
 
  <script defer id="supportfast-script" src="https://cdn.supportfast.ai/chatbot.js" data-chatbot-id="bot-qc2cltolrz"></script>
 
-</body>
+{% render 'spdn4' %}</body>
 </html>
