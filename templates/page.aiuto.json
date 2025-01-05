@@ -22,15 +22,13 @@
     },
     "image_banner_8xf9R9": {
       "type": "image-banner",
-      "custom_css": [
-        "{padding: 0px; margin: 0px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image_desktop": "shopify://shop_images/aiuto_c94cb1d9-0274-418b-9f82-94441ca71d86.png",
         "url": "",
-        "height_mode": "auto",
-        "fixed_height_desktop": 310,
-        "fixed_height_mobile": 350,
+        "height_mode": "fixed",
+        "fixed_height_desktop": 200,
+        "fixed_height_mobile": 250,
         "overlay_position": "justify-center items-end",
         "overlay_text_align": "text-center",
         "mob_center_text": false,
