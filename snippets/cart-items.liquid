@@ -177,9 +177,21 @@
                   </div>
                 {%- endif -%}
 
-                {%- if section.settings.show_backorder_text -%}
-                  {% render 'backorder', product: item.product, variant: item.variant %}
-                {%- endif -%}
+                {% if product_available or product.variants.first.inventory_policy == 'continue' %}
+                {% if product.tags contains 'Piante e Fiori' %}
+                  {% if product_available %}
+                    <p>{% render 'icon', icon: 'check_mark', height: 24, width: 24 %} Disponibile <strong>in magazzino</strong>, ordina e ricevi in 24/72h. {% render 'icon', icon: 'leaf', height: 24, width: 24 %} <strong>Le piante le spediamo da Lunedì a Mercoledì</strong></p>
+                  {% else %}
+                    <p>{% render 'icon', icon: 'box', height: 24, width: 24 %} Disponibile su ordinazione, Consegna in 10 giorni lavorativi</p>
+                  {% endif %}
+                {% else %}
+                  {% if product_available %}
+                    <p>{% render 'icon', icon: 'check_mark', height: 24, width: 24 %} Disponibile <strong>in magazzino</strong>, ordina e ricevi in <strong>24/72h</strong></p>
+                  {% else %}
+                    <p>{% render 'icon', icon: 'box', height: 24, width: 24 %} Disponibile su ordinazione, Consegna in 10 giorni lavorativi</p>
+                  {% endif %}
+                {% endif %}
+              {% endif %}
 
                 {%- if item.discounts.size > 0 -%}
                   <ul class="mt-3 mb-2 font-bold" role="list" aria-label="{{ 'customer.order.discount' | t }}">
