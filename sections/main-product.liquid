@@ -399,15 +399,15 @@
               {% if product_available or product.variants.first.inventory_policy == 'continue' %}
                 {% if product.tags contains 'Piante e Fiori' %}
                   {% if product_available %}
-                    <p>{% render 'icon', icon: 'truck', height: 24, width: 24 %} Disponibile <strong>in magazzino</strong>, ordina e ricevi in 24/72h. <strong>Le piante le spediamo da Lunedì a Mercoledì</strong></p>
+                    <p>{% render 'icon', icon: 'check_mark', height: 24, width: 24 %} Disponibile <strong>in magazzino</strong>, ordina e ricevi in 24/72h. {% render 'icon', icon: 'leaf', height: 24, width: 24 %} <strong>Le piante le spediamo da Lunedì a Mercoledì</strong></p>
                   {% else %}
-                    <p>{% render 'icon', icon: 'truck', height: 24, width: 24 %} Disponibile su ordinazione, Consegna in 10 giorni lavorativi</p>
+                    <p>{% render 'icon', icon: 'box', height: 24, width: 24 %} Disponibile su ordinazione, Consegna in 10 giorni lavorativi</p>
                   {% endif %}
                 {% else %}
                   {% if product_available %}
-                    <p>{% render 'icon', icon: 'truck', height: 24, width: 24 %} Disponibile <strong>in magazzino</strong>, ordina e ricevi in <strong>24/72h</strong></p>
+                    <p>{% render 'icon', icon: 'check_mark', height: 24, width: 24 %} Disponibile <strong>in magazzino</strong>, ordina e ricevi in <strong>24/72h</strong></p>
                   {% else %}
-                    <p>{% render 'icon', icon: 'truck', height: 24, width: 24 %} Disponibile su ordinazione, Consegna in 10 giorni lavorativi</p>
+                    <p>{% render 'icon', icon: 'box', height: 24, width: 24 %} Disponibile su ordinazione, Consegna in 10 giorni lavorativi</p>
                   {% endif %}
                 {% endif %}
               {% endif %}
