@@ -88,12 +88,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "custom_liquid_LweUKn": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"ot-estimated-shipping\"></div>"
-          }
-        },
         "collapsible_content_R77rxi": {
           "type": "collapsible-content",
           "settings": {
