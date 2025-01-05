@@ -26,8 +26,8 @@
       "settings": {
         "image_desktop": "shopify://shop_images/aiuto.jpg",
         "url": "",
-        "height_mode": "auto",
-        "fixed_height_desktop": 560,
+        "height_mode": "fixed",
+        "fixed_height_desktop": 380,
         "fixed_height_mobile": 250,
         "overlay_position": "justify-center items-end",
         "overlay_text_align": "text-center",
