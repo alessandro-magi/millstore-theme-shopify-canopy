@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "{padding-bottom: 0px; margin:0px}"
+        "{padding-bottom: 0px; margin: 0px;}"
       ],
       "settings": {
         "show_page_title": true,
@@ -23,7 +23,7 @@
     "image_banner_8xf9R9": {
       "type": "image-banner",
       "custom_css": [
-        "{padding-top: 0px;}"
+        "{padding: 0px; margin: 0px;}"
       ],
       "settings": {
         "image_desktop": "shopify://shop_images/aiuto_c94cb1d9-0274-418b-9f82-94441ca71d86.png",
@@ -40,7 +40,7 @@
         "transparent_content_color": "#ffffff",
         "tint_color": "#000000",
         "tint_opacity": 0,
-        "prevent_animation": false
+        "prevent_animation": true
       }
     },
     "icons_with_text_abeBW3": {
