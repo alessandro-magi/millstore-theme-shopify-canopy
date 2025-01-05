@@ -22,7 +22,7 @@
         "show_additional_checkout_buttons": false,
         "cart_terms_page": "",
         "continue_shopping_page": "",
-        "cart_notification_show": true,
+        "cart_notification_show": false,
         "cart_notification_text": "<p>🌱 <strong>SPEDIZIONE PIANTINE</strong>! Le piantine vengono spedite solo da Lunedì a Mercoledì!</p><p>🚚 <strong>Prodotti su ORDINAZIONE</strong>! Se hai inserito prodotti <strong>Su Ordinazione</strong>, i tempi di consegna dell'intero ordine si baseranno sulle tempistiche riportate nell'articolo.</p>",
         "cart_notification_pos": "",
         "show_shipping_calculator": false,
