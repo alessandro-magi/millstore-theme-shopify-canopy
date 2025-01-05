@@ -233,14 +233,14 @@
         "disabled": false,
         "settings": {}
       },
-      "5439026248262864547": {
-        "type": "shopify://apps/preorder-globo/blocks/app-embed/e547a0ad-8212-4bcc-b02f-761faa9b8af2",
-        "disabled": false,
-        "settings": {}
-      },
       "13180643132867056963": {
         "type": "shopify://apps/gdpr-legal-cookie/blocks/bc-block/e49729f0-d37d-4e24-ac65-e0e2f472ac27",
         "disabled": false,
+        "settings": {}
+      },
+      "5439026248262864547": {
+        "type": "shopify://apps/preorder-globo/blocks/app-embed/e547a0ad-8212-4bcc-b02f-761faa9b8af2",
+        "disabled": true,
         "settings": {}
       }
     }
