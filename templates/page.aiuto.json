@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "{padding-bottom: 0px;}"
+        "{padding-bottom: 0px; margin:0px}"
       ],
       "settings": {
         "show_page_title": true,
