@@ -11,24 +11,14 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
-    "1735834159bbf2764c": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_PnEbkG": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "V4yNiW"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_PnEbkG"
-      ],
-      "custom_css": [
-        "{background-color: #fcf9f1; padding: 20px; margin: 0;}"
-      ],
+    "custom_liquid_rg9bF4": {
+      "type": "custom-liquid",
       "settings": {
-        "full_width": false
+        "custom_liquid": "<div class=\"klaviyo-form-V4yNiW\"></div>",
+        "section_height": "tight",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": true
       }
     },
     "icons-with-text": {
@@ -156,7 +146,7 @@
     }
   },
   "order": [
-    "1735834159bbf2764c",
+    "custom_liquid_rg9bF4",
     "icons-with-text",
     "footer"
   ]
