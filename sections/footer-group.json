@@ -17,7 +17,7 @@
         "custom_liquid": "<div class=\"klaviyo-form-V4yNiW\"></div>",
         "section_height": "tight",
         "full_width": false,
-        "dividers": "none",
+        "dividers": "border-bottom",
         "prevent_animation": true
       }
     },
