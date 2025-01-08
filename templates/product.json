@@ -86,6 +86,14 @@
             "show_gift_card_recipient": false
           }
         },
+        "complementary_yMj9wn": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Abbina uno di questi prodotti",
+            "products_to_show": 4,
+            "layout": "carousel"
+          }
+        },
         "custom_liquid_LweUKn": {
           "type": "custom-liquid",
           "settings": {
@@ -131,6 +139,7 @@
         "variant-picker",
         "inventory_status_jfTVMF",
         "buy-buttons",
+        "complementary_yMj9wn",
         "custom_liquid_LweUKn",
         "collapsible_content_R77rxi",
         "collapsible_content_FknY83",
