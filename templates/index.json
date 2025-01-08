@@ -253,6 +253,9 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_6jVUrA"
       ],
+      "custom_css": [
+        ".jdgm-carousel-wrapper {width: 100%;}"
+      ],
       "settings": {
         "full_width": true
       }
