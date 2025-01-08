@@ -5,7 +5,7 @@ const observer=new MutationObserver(mutations=>{mutations.forEach(({addedNodes})
 if(node.tagName==='SCRIPT'&&node.innerHTML.includes('asyncLoad')){node.type='text/spdnscript'}
 if(node.nodeType===1&&node.tagName==='SCRIPT'&&node.innerHTML.includes('hotjar')){node.type='text/spdnscript'}
 if(node.nodeType===1&&node.tagName==='SCRIPT'&&node.innerHTML.includes('xklaviyo')){node.type='text/spdnscript'}
-if(node.nodeType===1&&node.tagName==='SCRIPT'&&node.innerHTML.includes('recaptcha')){node.type='text/spdnscript'}
+if(node.nodeType===1&&node.tagName==='SCRIPT'&&node.innerHTML.includes('norecaptcha')){node.type='text/spdnscript'}
 if(node.nodeType===1&&node.tagName==='SCRIPT'&&node.src.includes('klaviyo')){node.type='text/spdnscript'}
 if(node.nodeType===1&&node.tagName==='SCRIPT'&&node.src.includes('shop.app')){node.type='text/spdnscript'}
 if(node.nodeType===1&&node.tagName==='SCRIPT'&&node.src.includes('chat')){node.type='text/spdnscript'}
