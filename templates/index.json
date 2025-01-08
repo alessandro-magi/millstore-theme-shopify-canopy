@@ -210,6 +210,12 @@
           "settings": {
             "collection": "semi-per-orto-e-giardino"
           }
+        },
+        "collection_rg6dML": {
+          "type": "collection",
+          "settings": {
+            "collection": "attrezzi-e-accessori"
+          }
         }
       },
       "block_order": [
@@ -217,7 +223,8 @@
         "collection_N8pKTf",
         "collection-1",
         "collection-2",
-        "collection_LQwk4W"
+        "collection_LQwk4W",
+        "collection_rg6dML"
       ],
       "settings": {
         "title": "Cose da non perdere a Gennaio",
