@@ -305,11 +305,6 @@
     <link rel="stylesheet" href="{{ 'customer.css' | asset_url }}">
   {%- endif -%}
 
-  {%- if settings.swatch_colors != blank -%}
-    <link rel="stylesheet" href="{{ 'swatches.css' | asset_url }}" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="{{ 'swatches.css' | asset_url }}"></noscript>
-  {%- endif -%}
-
   {{ content_for_header }}
 
   {%- if request.design_mode -%}
