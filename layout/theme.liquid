@@ -286,7 +286,7 @@
     }
   {% endstyle -%}
 
-  <link rel="stylesheet" href="{{ 'main.css' | asset_url }}">
+  <link rel="preload" rel="stylesheet" href="{{ 'main.css' | asset_url }}">
   <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
 
   {%- unless settings.body_font.system? -%}
@@ -319,11 +319,6 @@
   {%- if settings.show_blur_messages -%}
     <script src="{{ 'blur-messages.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
-
-  {% if settings.animations_enabled != "disabled" %}
-    <script src="{{ 'animate-on-scroll.js' | asset_url }}" defer="defer"></script>
-    <link rel="stylesheet" href="{{ 'animate-on-scroll.css' | asset_url }}">
-  {% endif %}
 
   <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
 
