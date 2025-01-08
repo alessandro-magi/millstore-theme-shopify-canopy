@@ -14,10 +14,10 @@
     "custom_liquid_rg9bF4": {
       "type": "custom-liquid",
       "custom_css": [
-        "{}"
+        "{background-color: #fcf9f1;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-V4yNiW max-w-text-overlay\"></div>",
+        "custom_liquid": "<div class=\"klaviyo-form-V4yNiW \"></div>",
         "section_height": "tight",
         "full_width": false,
         "dividers": "border-bottom",
