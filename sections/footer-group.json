@@ -13,6 +13,9 @@
   "sections": {
     "custom_liquid_rg9bF4": {
       "type": "custom-liquid",
+      "custom_css": [
+        "{}"
+      ],
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-V4yNiW\"></div>",
         "section_height": "tight",
