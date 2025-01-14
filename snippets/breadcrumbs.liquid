@@ -390,4 +390,9 @@
   </nav>
   {%- endunless -%}
 
-  
+  {%- if show_crumbs -%}
+  {%- if show_structured_data -%}
+    {{ crumbs_structured_data }}
+  {%- endif -%}
+  {{ crumbs_html }}
+{%- endif -%}
