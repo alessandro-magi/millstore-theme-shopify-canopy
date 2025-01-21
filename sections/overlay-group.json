@@ -13,7 +13,6 @@
   "sections": {
     "cart-drawer": {
       "type": "cart-drawer",
-      "disabled": true,
       "settings": {
         "show_cart_page_link": true,
         "show_backorder_text": true,
