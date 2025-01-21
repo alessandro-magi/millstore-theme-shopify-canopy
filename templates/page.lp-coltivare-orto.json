@@ -119,12 +119,57 @@
         "color_scheme": "none",
         "only_content_color_scheme": false
       }
+    },
+    "rich_text_7eNjHm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kCgrye": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fare l'orto da zero è facile con i consigli giusti 😍",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "text_CzceaP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dentro la nostra guida troverai tutto ciò che ti serve per iniziare a coltivare l’orto con successo. Dacci un'occhiata 😉</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_kanwLY": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "VAI ALLA GUIDA >",
+            "button_1_link": "https://millstore.it/pages/guida-come-iniziare-a-coltivare-lorto#guida",
+            "button_1_style": "btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kCgrye",
+        "text_CzceaP",
+        "button_kanwLY"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "1",
+        "full_width": true,
+        "prevent_animation": false
+      }
     }
   },
   "order": [
     "main",
     "media_with_text_pwfGME",
     "custom_liquid_TjfQNL",
-    "media_with_text_WbNeGf"
+    "media_with_text_WbNeGf",
+    "rich_text_7eNjHm"
   ]
 }
