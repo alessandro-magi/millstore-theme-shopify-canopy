@@ -322,6 +322,12 @@
     {{- settings.custom_html_head -}}
     <!-- CC Custom Head End -->
   {%- endif -%}
+<script type="text/javascript">if(typeof window.hulkappsWishlist === 'undefined') {
+        window.hulkappsWishlist = {};
+        }
+        window.hulkappsWishlist.baseURL = '/apps/advanced-wishlist/api';
+        window.hulkappsWishlist.hasAppBlockSupport = '1';
+        </script>
 </head>
 
 <body{% if settings.animations_enabled != "disabled" %} class="cc-animate-enabled"{% endif %}>
@@ -489,5 +495,6 @@
 
  <script defer id="supportfast-script" src="https://cdn.supportfast.ai/chatbot.js" data-chatbot-id="bot-qc2cltolrz"></script>
   
+{% render 'hulkappsWishlistPopup' %}
 </body>
 </html>
