@@ -73,11 +73,58 @@
         "dividers": "none",
         "prevent_animation": false
       }
+    },
+    "media_with_text_WbNeGf": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_kFkRXT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vuoi iniziare a coltivare l'orto ma non sai da dove partire?",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_P4kJzW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Con i nostri consigli sarà più semplice di quanto credi! Parola di Millstore 😉</p><p>La prima buona notizia è che per iniziare a coltivare l'orto non servono centinaia di ettari di terreno. <strong>Basta un piccolo spazio o un po’ di vasi in balcone</strong>.</p><p>In questa guida ti sveleremo quali sono i passaggi fondamentali per iniziare a coltivare l’orto, quali sono gli strumenti e le operazioni essenziali da eseguire.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_Wbw6pV": {
+          "type": "button",
+          "settings": {
+            "button_label": "SCARICA LA GUIDA",
+            "button_link": "https://millstore.it/pages/guida-come-iniziare-a-coltivare-lorto#guida",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kFkRXT",
+        "text_P4kJzW",
+        "button_Wbw6pV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Orto-guida-1.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
     }
   },
   "order": [
     "main",
     "media_with_text_pwfGME",
-    "custom_liquid_TjfQNL"
+    "custom_liquid_TjfQNL",
+    "media_with_text_WbNeGf"
   ]
 }
