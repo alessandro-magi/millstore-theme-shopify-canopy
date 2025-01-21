@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "localization": {
@@ -174,7 +183,7 @@
       "low_stock": "Disponibilità ridotta",
       "very_low_stock": "In esaurimento",
       "only_x_left": "{{ quantity }} disponibili a magazzino",
-      "backordered": "In arretrato",
+      "backordered": "Su ordinazione o Pre ordine",
       "available_count": {
         "one": "{{ count }} unità",
         "other": "{{ count }} unità"
