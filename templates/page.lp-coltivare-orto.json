@@ -18,6 +18,16 @@
         "heading_align": "text-center"
       }
     },
+    "custom_liquid_xUCEXz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"background-color: #03916f; text-align: center; padding: 20px 0\">\n<img src=\"https://millstore.it/cdn/shop/files/millstore-bianco_1.png\" alt=\"Logo Millstore\">\n \n</div>",
+        "section_height": "tight",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
     "media_with_text_pwfGME": {
       "type": "media-with-text",
       "blocks": {
@@ -167,6 +177,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_xUCEXz",
     "media_with_text_pwfGME",
     "custom_liquid_TjfQNL",
     "media_with_text_WbNeGf",

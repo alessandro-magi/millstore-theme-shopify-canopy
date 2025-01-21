@@ -31,7 +31,6 @@
         "announcement-1",
         "announcement_drNTqy"
       ],
-      "disabled": true,
       "settings": {
         "announcement_homepage_only": false,
         "link1": "shopify://collections/novita-orto-giardinaggio",
@@ -48,7 +47,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "mobile_menu_position": "burger-right",
         "enable_sticky": true,
@@ -124,22 +122,11 @@
         "dividers": "border-bottom",
         "prevent_animation": false
       }
-    },
-    "custom_liquid_WrYyfk": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div style=\"background-color: #03916f; text-align: center; padding: 20px 0\">\n<img src=\"https://millstore.it/cdn/shop/files/millstore-bianco_1.png\" alt=\"Logo Millstore\">\n \n</div>",
-        "section_height": "tight",
-        "full_width": true,
-        "dividers": "none",
-        "prevent_animation": true
-      }
     }
   },
   "order": [
     "announcement",
     "header",
-    "promo_strip_QLcH46",
-    "custom_liquid_WrYyfk"
+    "promo_strip_QLcH46"
   ]
 }
