@@ -496,5 +496,74 @@
  <script defer id="supportfast-script" src="https://cdn.supportfast.ai/chatbot.js" data-chatbot-id="bot-qc2cltolrz"></script>
   
 {% render 'hulkappsWishlistPopup' %}
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Funzione per creare la pop-up
+    function createPopup(message) {
+      // Controlla se la pop-up esiste già
+      if (document.querySelector('.discount-popup')) return;
+
+      // Crea l'elemento della pop-up
+      const popup = document.createElement('div');
+      popup.className = 'discount-popup';
+      popup.style.position = 'fixed';
+      popup.style.bottom = '20px';
+      popup.style.right = '20px';
+      popup.style.padding = '15px';
+      popup.style.backgroundColor = '#f8f9fa';
+      popup.style.border = '1px solid #ccc';
+      popup.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+      popup.style.borderRadius = '5px';
+      popup.style.zIndex = '1000';
+      popup.style.fontSize = '14px';
+      popup.style.color = '#333';
+      popup.innerHTML = `
+        <span>${message}</span>
+        <button style="margin-left: 10px; padding: 5px 10px; background: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;">Chiudi</button>
+      `;
+
+      // Aggiunge il pulsante di chiusura
+      popup.querySelector('button').addEventListener('click', function () {
+        popup.remove();
+      });
+
+      // Aggiunge la pop-up al corpo della pagina
+      document.body.appendChild(popup);
+    }
+
+    // Funzione per rimuovere la pop-up
+    function removePopup() {
+      const popup = document.querySelector('.discount-popup');
+      if (popup) popup.remove();
+    }
+
+    // Controlla se l'URL contiene il codice sconto
+    const urlParams = new URLSearchParams(window.location.search);
+    const discountCode = urlParams.get('discount');
+
+    // Se il codice è presente e valido, mostra la pop-up
+    if (discountCode === 'PATATE2025') {
+      createPopup("Il codice sconto 'PATATE2025' è stato applicato con successo al carrello!");
+
+      // Rimuove il codice dalla URL per evitare pop-up ripetuti al refresh
+      const newUrl = window.location.href.split('?')[0];
+      window.history.replaceState({}, document.title, newUrl);
+    }
+
+    // Monitoraggio delle modifiche al carrello
+    const observer = new MutationObserver(function () {
+      // Logica per verificare se il codice sconto è stato rimosso
+      const discountApplied = document.body.innerText.includes('PATATE2025');
+      if (!discountApplied) {
+        removePopup();
+      }
+    });
+
+    // Configura l'osservatore per monitorare il corpo della pagina
+    observer.observe(document.body, { childList: true, subtree: true });
+  });
+</script>
+
 </body>
 </html>
