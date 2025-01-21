@@ -13,6 +13,7 @@
   "sections": {
     "custom_liquid_rg9bF4": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "{background-color: #fcf9f1;}"
       ],
@@ -78,6 +79,7 @@
         "icons-with-text-3",
         "icons-with-text-4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_align": "text-start",
@@ -136,6 +138,7 @@
         "link-list-1",
         "link_list_wJXpKx"
       ],
+      "disabled": true,
       "settings": {
         "show_back_to_top": true,
         "show_payment_icons": true,
