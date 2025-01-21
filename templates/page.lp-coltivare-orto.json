@@ -21,7 +21,7 @@
     "custom_liquid_xUCEXz": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.header__grid {\ndisplay:none;}\n\n.announcement {\ndisplay:none;}\n\n.header {\ndisplay:none;}\n\n#shopify-section-sections--24431249490269__cart-drawer {\ndisplay:none;}\n\n#shopify-section-sections--24431249490269__cart-drawer {\ndisplay:none;}\n\n\n</style>\n\n<div style=\"background-color: #03916f; text-align: center; padding: 20px 0\">\n<img src=\"https://millstore.it/cdn/shop/files/millstore-bianco_1.png\" alt=\"Logo Millstore\">\n \n</div>",
+        "custom_liquid": "<style>\n.header__grid {\ndisplay:none;}\n\n.announcement {\ndisplay:none;}\n\n.header {\ndisplay:none;}\n\n.klaviyo-form {\ndisplay:none;}\n\n.shopify-section-group-footer-group {\ndisplay:none;}\n\n\n</style>\n\n<div style=\"background-color: #03916f; text-align: center; padding: 20px 0\">\n<img src=\"https://millstore.it/cdn/shop/files/millstore-bianco_1.png\" alt=\"Logo Millstore\">\n \n</div>",
         "section_height": "tight",
         "full_width": true,
         "dividers": "none",
