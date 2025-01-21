@@ -67,7 +67,7 @@
     "custom_liquid_TjfQNL": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"media-with-text\">\n\n<div class=\"media-with-text__text flex flex-col justify-center  mie-auto\">\n<img src=\"https://cdn.shopify.com/s/files/1/0615/2159/2563/files/Ebook-come-coltivare-orto-33_431x518_crop_center.png\" alt=\"Ebook come iniziare a coltivare l'orto?\">\n</div>\n\n<div class=\"media-with-text__media relative flex flex-col justify-center overflow-hidden\">\n<a name=\"guida\"></a>\n\n<div class=\"klaviyo-form-W8FYSq\"></div>\n</div>\n\n</div>",
+        "custom_liquid": "<div class=\"container\">\n\n<div class=\"media-with-text__text flex flex-col justify-center  mie-auto\">\n<img src=\"https://cdn.shopify.com/s/files/1/0615/2159/2563/files/Ebook-come-coltivare-orto-33_431x518_crop_center.png\" alt=\"Ebook come iniziare a coltivare l'orto?\">\n</div>\n\n<div class=\"media-with-text__media relative flex flex-col justify-center overflow-hidden\">\n<a name=\"guida\"></a>\n\n<div class=\"klaviyo-form-W8FYSq\"></div>\n</div>\n\n</div>",
         "section_height": "default",
         "full_width": false,
         "dividers": "none",
