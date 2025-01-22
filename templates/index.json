@@ -240,6 +240,72 @@
         "full_width": true
       }
     },
+    "media_grid_8FXWDq": {
+      "type": "media-grid",
+      "blocks": {
+        "media_ReWYCF": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/le-prime-piantine.webp",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h5",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25,
+            "tint_gradient": ""
+          }
+        },
+        "media_kP3QqH": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/i-primi-fiori-di-gennaio.webp",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25,
+            "tint_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_ReWYCF",
+        "media_kP3QqH"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 2,
+        "mobile_carousel": true,
+        "enable_gap": true,
+        "text_overlay_spacing": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 340,
+        "fixed_height_mobile": 340,
+        "section_color_scheme": "1",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "overlay_border_radius": 6
+      }
+    },
     "1734605157de47f097": {
       "type": "apps",
       "blocks": {
@@ -528,6 +594,7 @@
     "slideshow",
     "3721924b-630b-4a60-b724-521fef7aa78e",
     "collection-list",
+    "media_grid_8FXWDq",
     "1734605157de47f097",
     "promo_grid_DMUYkR",
     "featured_collection_B4rEVr",
