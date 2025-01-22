@@ -147,7 +147,7 @@
           </a>
         {%- endunless -%}
       {%- endif -%}
-      {% render 'hulkapps-wishlist-header-icon' %}
+      
       {%- if shop.customer_accounts_enabled -%}
         {%- if customer -%}
           <a class="header__icon text-current" href="{{ routes.account_url }}">
@@ -162,6 +162,7 @@
         {%- endif -%}
       {%- endif -%}
 
+      {% render 'hulkapps-wishlist-header-icon' %}
       <a class="header__icon{% if settings.cart_shaking and cart != empty %} header__icon--cart-shake has-motion{% endif %} relative text-current" id="cart-icon" href="{{ routes.cart_url }}"{% if settings.cart_shaking and cart != empty %} data-shake-frequency="{{ settings.cart_shaking_frequency }}"{% endif %}{% if settings.preload_links %} data-no-instant{% endif %}>
         {%- if settings.cart_icon == 'bag' -%}
           {%- render 'icon-bag' -%}
