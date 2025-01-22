@@ -1,0 +1,19 @@
+<script>
+  document.querySelectorAll('.js-quick-add').length &&
+    document.querySelectorAll('.js-quick-add').forEach(el => {
+      el.addEventListener('click', function(){
+        appSetInterval(function(){
+          typeof Globo !== 'undefined' && typeof Globo.Preorder !== 'undefined' && Globo.Preorder.initPreorder()
+        }, 500, 2)
+      })
+    })
+
+  function appSetInterval(callback, delay, repetitions) {
+    callback();
+    var x = 0;
+    var intervalID = window.setInterval(function () {
+        callback();
+        if (++x === repetitions) window.clearInterval(intervalID);
+    }, delay);
+  }
+</script>
