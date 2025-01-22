@@ -113,6 +113,7 @@
   <product-card class="card card--product{{ card_class }} h-full{% if card_contain %} card--product-contained{% if settings.card_contain_image_inset == false %} card--product-contained-outset{% endif %}{% endif %} card--no-lines{% if show_compare %} card--product-compare{% endif %} relative flex{% if product.available != true and settings.card_grey_sold_out %} card--product-sold-out{% endif %}">
 
     <div class="card__media{% if show_hover_image %} has-hover-image{% endif %} relative">
+      {% render 'hulkapps-wishlist-collection-btn', productId: product.id, variantId: product.selected_or_first_available_variant.id %}
       <a href="{{ product_url }}" aria-label="{{ product.title | escape }}" class="media block relative{% if settings.blend_product_images %} image-blend{% endif %} js-prod-link" style="padding-top: {{ 1 | divided_by: image_ratio | times: 100 }}%;" tabindex="-1">
         {%- if product.featured_media -%}
           {%- capture attributes %}data-media-id="{{ product.featured_media.id }}"{% endcapture -%}
