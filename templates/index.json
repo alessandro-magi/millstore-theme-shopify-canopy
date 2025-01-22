@@ -240,70 +240,50 @@
         "full_width": true
       }
     },
-    "media_grid_8FXWDq": {
-      "type": "media-grid",
+    "multi_column_wjJRjk": {
+      "type": "multi-column",
       "blocks": {
-        "media_ReWYCF": {
-          "type": "media",
+        "column_93bCfU": {
+          "type": "column",
           "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/le-prime-piantine.webp",
-            "link_url": "",
-            "columns": 1,
-            "rows": 1,
-            "subheading": "",
-            "title": "",
-            "heading_size": "h5",
-            "button_label": "",
-            "button_link": "",
-            "overlay_position": "justify-start items-end",
-            "text_alignment": "text-start",
-            "button_style": "btn btn--primary",
-            "tint_color": "#000000",
-            "tint_opacity": 25,
-            "tint_gradient": ""
+            "media_scale": 100,
+            "heading": "Riapriamo il Garden",
+            "text": "<p>Sono appena arrivate le nuove piantine da orto della nuova stagione</p>",
+            "button_label": "Vai al Garden",
+            "button_link": "shopify://collections/piantine-da-orto"
           }
         },
-        "media_kP3QqH": {
-          "type": "media",
+        "column_KtyMca": {
+          "type": "column",
           "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/i-primi-fiori-di-gennaio.webp",
-            "link_url": "",
-            "columns": 1,
-            "rows": 1,
-            "subheading": "",
-            "title": "",
-            "heading_size": "h3",
-            "button_label": "",
-            "button_link": "",
-            "overlay_position": "justify-start items-end",
-            "text_alignment": "text-start",
-            "button_style": "btn btn--primary",
-            "tint_color": "#000000",
-            "tint_opacity": 25,
-            "tint_gradient": ""
+            "media_scale": 100,
+            "heading": "Sbocciano i primi Fiori",
+            "text": "<p>Sono disponibili le Primule, le Viole e i Garofani, vieni a scoprirli</p>",
+            "button_label": "Vai ai Fiori",
+            "button_link": "shopify://collections/fiori-utili-e-da-recidere"
           }
         }
       },
       "block_order": [
-        "media_ReWYCF",
-        "media_kP3QqH"
+        "column_93bCfU",
+        "column_KtyMca"
       ],
       "settings": {
         "title": "",
-        "heading_align": "text-center",
+        "heading_align": "text-start",
         "button_label": "",
         "button_link": "",
-        "gallery_cols_max": 2,
-        "mobile_carousel": true,
-        "enable_gap": true,
-        "text_overlay_spacing": true,
-        "gallery_cols_min": "1",
-        "fixed_height_desktop": 340,
-        "fixed_height_mobile": 340,
-        "section_color_scheme": "1",
-        "color_scheme": "white",
-        "transparent_content_color": "#ffffff",
-        "overlay_border_radius": 6
+        "layout": "carousel",
+        "column_size": "large",
+        "column_align": "center",
+        "media_align": "text-center",
+        "image_ratio": "natural",
+        "color_scheme": "none",
+        "button_style": "btn btn--secondary"
       }
     },
     "1734605157de47f097": {
@@ -594,7 +574,7 @@
     "slideshow",
     "3721924b-630b-4a60-b724-521fef7aa78e",
     "collection-list",
-    "media_grid_8FXWDq",
+    "multi_column_wjJRjk",
     "1734605157de47f097",
     "promo_grid_DMUYkR",
     "featured_collection_B4rEVr",
