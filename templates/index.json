@@ -259,6 +259,18 @@
           "type": "column",
           "settings": {
             "enable_media": true,
+            "image": "shopify://shop_images/bulbi-primaverili-smartphone.webp",
+            "media_scale": 100,
+            "heading": "Bulbi Primaverili, disponibili!",
+            "text": "<p>Sono appena arrivati, freschi e pronti per essere piantati</p>",
+            "button_label": "Vai ai Bulbi",
+            "button_link": "shopify://collections/bulbi-primaverili"
+          }
+        },
+        "column_XzBiHd": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/i-primi-fiori-di-gennaio.webp",
             "media_scale": 100,
             "heading": "Sbocciano i primi Fiori",
@@ -270,7 +282,8 @@
       },
       "block_order": [
         "column_93bCfU",
-        "column_KtyMca"
+        "column_KtyMca",
+        "column_XzBiHd"
       ],
       "settings": {
         "title": "",
