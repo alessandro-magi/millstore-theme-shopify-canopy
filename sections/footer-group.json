@@ -141,7 +141,7 @@
         "show_payment_icons": true,
         "show_powered_by": false,
         "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_language_selector": true,
         "secondary_menu": "",
         "bg_color": "#303030",
         "text_color": "#ffffff"
