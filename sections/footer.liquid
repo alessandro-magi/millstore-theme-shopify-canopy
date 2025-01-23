@@ -180,7 +180,7 @@
     <div class="footer__base mt-8 grid grid-cols-1 {% if settings.dock_cart_drawer and settings.cart_type == 'drawer' and request.page_type != 'cart' %}xl:grid-cols-2{% else %}lg:grid-cols-2{% endif %} gap-x-theme gap-y-6 text-xs"{% if settings.animations_enabled != "disabled" %} data-cc-animate{% endif %}>
       <div>
         {%- assign copyright_year = 'now' | date: '%Y' -%}
-        <span>{{ 'sections.footer.copyright_html' | t: year: copyright_year, shop_url: routes.root_url, shop_name: shop.name }}</span>
+        <span>© 2006 - 2025 - Millstore Srl - Str. Prov. Metaurense, 20 - 61033 Fermignano (PU) - P.I. e C.F. 02603420411 - REA PU – 195021 - Capitale Sociale 2.500 EURO i.v.</span>
         {% if section.settings.show_powered_by %}
           <span>{{ powered_by_link }}</span>
         {% endif %}
