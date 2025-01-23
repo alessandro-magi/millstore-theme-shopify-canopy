@@ -18,8 +18,15 @@
             "show_weight": false
           }
         },
-        "advanced_wishlist_wishlist_btn_EQWNGT": {
+        "custom_liquid_4KcLzg": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% render ‘hulkapps-wishlist-product-btn’ %}"
+          }
+        },
+        "advanced_wishlist_wishlist_btn_mMzej3": {
           "type": "shopify://apps/advanced-wishlist/blocks/wishlist-btn/330d9272-08ea-4193-b3e0-475a69fa65fa",
+          "disabled": true,
           "settings": {
             "button_style": "style_3",
             "button_border": 0,
@@ -29,21 +36,21 @@
             "button_vertical_space": 9,
             "button_horizontal_space": 16,
             "button_text_color": "#ffffff",
-            "button_background": "#303030",
-            "border_color": "#303030",
+            "button_background": "#5c6ac4",
+            "border_color": "#5c6ac4",
             "hover_button_text_color": "#ffffff",
-            "hover_button_background_color": "#303030",
-            "hover_button_border_color": "#303030",
+            "hover_button_background_color": "#5c6ac4",
+            "hover_button_border_color": "#5c6ac4",
             "is_new_icon_settings": false,
             "icon_type": "outline",
             "icon_size": 16,
             "icon_background_type": "icon_round_background",
-            "icon_background_color": "#303030",
+            "icon_background_color": "#5c6ac4",
             "icon_fill_color": "#ffffff",
             "icon_border_color": "#ffffff",
-            "icon_hover_color": "#303030",
-            "selected_icon_fill_color": "#303030",
-            "selected_icon_border_color": "#303030"
+            "icon_hover_color": "#5c6ac4",
+            "selected_icon_fill_color": "#5c6ac4",
+            "selected_icon_border_color": "#5c6ac4"
           }
         },
         "613a93aa-8edd-4bb9-b8f1-df3133990e99": {
@@ -159,7 +166,8 @@
       },
       "block_order": [
         "title",
-        "advanced_wishlist_wishlist_btn_EQWNGT",
+        "custom_liquid_4KcLzg",
+        "advanced_wishlist_wishlist_btn_mMzej3",
         "613a93aa-8edd-4bb9-b8f1-df3133990e99",
         "judge_me_reviews_preview_badge_dAQLgR",
         "price",
