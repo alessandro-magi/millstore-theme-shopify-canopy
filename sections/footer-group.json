@@ -149,6 +149,9 @@
     },
     "custom_liquid_XHDT3i": {
       "type": "custom-liquid",
+      "custom_css": [
+        "{background-color: #303030; color: white;}"
+      ],
       "settings": {
         "custom_liquid": "<p>DATA CONTRIBUTO 31/12/2022 - ESONERO DAL VERSAMENTO DEI CONTRIBUTI PREVIDENZIALI PER NUOVE ASSUNZIONI/TRASFORMAZIONI A TEMPO INDETERMINATO NEL BIENNIO 2021-2022 (ART.  1 COMMA 10 - 15 L.178/2020) - EROGATO DALL'INPS - EURO 10.567,84.</p>",
         "section_height": "tight",
