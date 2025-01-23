@@ -16,9 +16,20 @@
         "heading_size": "h2",
         "heading_align": "text-center"
       }
+    },
+    "custom_liquid_3nQEAM": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"productgrid--wrapper\">\n    <div class=\"plant-problem-finder-4-element\">\n        <div class=\"plant-problem-finder--item imagestyle--medium productitem--emphasis\">\n            <div class=\"productitem plant-problem-item\">\n                <a href=\"https://millstore.it/pages/parassiti-animali-nella-pianta\" alt=\"Parassiti animali nella pianta\">\n                    <figure class=\"plant-problem-finder\"><img class=\"plant-problem-img\" src=\"https://cdn.shopify.com/s/files/1/0615/2159/2563/t/36/assets/parassiti-animali.png\" alt=\"Parassiti animali nella pianta\" style=\"float: start;\"></figure>\n\n                    <div class=\"plant-problem-finder-text-problem\">\n                        <h3>Parassiti animali</h3>\n                    </div>\n                </a>\n            </div>\n        </div>\n        <div class=\"plant-problem-finder--item imagestyle--medium productitem--emphasis\">\n            <div class=\"productitem plant-problem-item\">\n                <a href=\"https://millstore.it/pages/malattie-fungine-nella-pianta\" alt=\"Malattie fungine nella pianta\">\n                    <figure class=\"plant-problem-finder\"><img class=\"plant-problem-img\" src=\"https://cdn.shopify.com/s/files/1/0615/2159/2563/t/36/assets/malattie-fungine.png\" alt=\"Malattie fungine nella pianta\" style=\"float: start;\"></figure>\n\n                    <div class=\"plant-problem-finder-text-problem\">\n                        <h3>Malattie fungine</h3>\n                    </div>\n                </a>\n            </div>\n        </div>\n        <div class=\"plant-problem-finder--item imagestyle--medium productitem--emphasis\">\n            <div class=\"productitem plant-problem-item\">\n                <a href=\"https://millstore.it/pages/stress-e-avversita-nella-pianta\" alt=\"Parassiti animali nella pianta\">\n                    <figure class=\"plant-problem-finder\"><img class=\"plant-problem-img\" src=\"https://cdn.shopify.com/s/files/1/0615/2159/2563/t/36/assets/stress-e-avversita.png\" alt=\"Parassiti animali nella pianta\" style=\"float: start;\"></figure>\n\n                    <div class=\"plant-problem-finder-text-problem\">\n                        <h3>Stress e Avversità</h3>\n                    </div>\n                </a>\n            </div>\n        </div>\n\n        <div class=\"plant-problem-finder--item imagestyle--medium productitem--emphasis\">\n            <div class=\"productitem plant-problem-item\">\n                <a href=\"https://millstore.it/pages/marciumi-radicali-della-pianta\" alt=\"Marciumi radicali della pianta\">\n                    <figure class=\"plant-problem-finder\"><img class=\"plant-problem-img\" src=\"https://cdn.shopify.com/s/files/1/0615/2159/2563/t/36/assets/marciumi-radicali.png\" alt=\"Marciumi radicali della pianta\" style=\"float: start;\"></figure>\n\n                    <div class=\"plant-problem-finder-text-problem\">\n                        <h3>Marciumi radicali</h3>\n                    </div>\n                </a>\n            </div>\n        </div>\n    </div>\n    \n</div>\n\n<div>\n    <h2>Identifica e risolvi i problemi delle tue piante</h2>\n    <p>Hai notato qualcosa di strano nelle tue piante? Millstore ti aiuta a capire e risolvere i problemi comuni delle tue piante con una guida pratica:</p>\n        <ul>\n            <li>Parassiti: Impara a riconoscere e combattere afidi, acari e altri insetti.</li>\n            <li>Malattie Fungine: Identifica le infezioni fungine e scopri i trattamenti disponibili.</li>\n            <li>Stress Climatico: Scopri come proteggere le tue piante da temperature estreme e altri stress climatici.</li>\n            <li>Marciume Radicale: Prevenzione e cura del marciume delle radici.</li>\n        </ul>\n    <p>Consulta la nostra guida dettagliata per diagnosticare correttamente il problema e trovare la soluzione più adatta.</p>\n</div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_3nQEAM"
   ]
 }
