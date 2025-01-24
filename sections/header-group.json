@@ -41,7 +41,7 @@
       "settings": {
         "announcement_homepage_only": false,
         "link1": "shopify://collections/novita-orto-giardinaggio",
-        "link1_label": "Novità",
+        "link1_label": "❗Novità",
         "link2": "shopify://collections/offerte",
         "link2_label": "Offerte",
         "enable_country_selector": false,
