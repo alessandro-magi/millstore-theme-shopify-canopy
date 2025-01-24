@@ -14,6 +14,12 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "announcement_NKynmK": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>🚚 Imballo per le piante, a prova di Corriere!</p>"
+          }
+        },
         "announcement-1": {
           "type": "announcement",
           "settings": {
@@ -28,6 +34,7 @@
         }
       },
       "block_order": [
+        "announcement_NKynmK",
         "announcement-1",
         "announcement_drNTqy"
       ],
