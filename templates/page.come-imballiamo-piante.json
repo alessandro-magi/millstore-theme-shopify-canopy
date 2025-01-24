@@ -44,10 +44,152 @@
         "color_scheme": "none",
         "only_content_color_scheme": false
       }
+    },
+    "rich_text_Apiz6K": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Jg3eJ7": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>1. Preparazione delle Piante</strong></h4><ul><li><strong>Valutazione dello Stato di Salute:</strong> Controlliamo che le piante siano sane e prive di parassiti.</li><li><strong>Idratazione Adeguata:</strong> Manteniamo il terreno umido per evitare stress durante il trasporto.</li></ul><h4><strong>2. Imballaggio Protettivo</strong></h4><ul><li><strong>Scatole Robuste:</strong> Utilizziamo scatole di alta qualità per proteggere le piante.</li><li><strong>Fissaggio:</strong> Le piante sono fissate per evitare movimenti.</li><li><strong>Materiali di Riempimento:</strong> Riempiano gli spazi vuoti per protezione extra.</li></ul><h4><strong>3. Etichettatura e Indicazioni</strong></h4><ul><li><strong>Indicazioni Chiare:</strong> Ogni scatola è etichettata per indicare l'orientamento corretto.</li></ul><h4><strong>4. Spedizione Tempestiva</strong></h4><ul><li><strong>Pianificazione della spedizione:</strong> Spediamo all'inizio della settimana, dal Lunedì al Martedì per ridurre i tempi di giacenza.</li><li><strong>Monitoraggio Meteo:</strong> Assicuriamo che le piante viaggino in condizioni climatiche ottimali.</li></ul><h3><strong>Perché Scegliere Noi?</strong></h3><p>Garantiamo che le vostre piante arrivino fresche e in perfetto stato, pronte per essere trapiantate.</p><p>Se non ti arriveranno in condizioni ottimali, scrivici su whatsapp, per e-mail o via chat, fai una foto a come ti sono arrivate le piante, lasciandole nel suo imballo ed indicaci quali si sono danneggiate, provvederemo a spedirtene delle nuove, ma quelle che hai ricevuto non buttarle! Si possono sempre recuperare con le dovute cure.</p><p>Ti lascio qui sotto i nostri recapiti:</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_Jg3eJ7"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-start",
+        "mob_center_text": true,
+        "color_scheme": "1",
+        "full_width": true,
+        "prevent_animation": true
+      }
+    },
+    "icons_with_text_Q69Yh6": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_kwty3B": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Free shipping",
+            "text": "<p>On all orders over $100</p>",
+            "link": ""
+          }
+        },
+        "item_MaMhfi": {
+          "type": "item",
+          "settings": {
+            "icon": "price_tag",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Special offers",
+            "text": "<p>Regular sales and discounts</p>",
+            "link": ""
+          }
+        },
+        "item_DtmHU4": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Easy returns",
+            "text": "<p>Hassle free returns policy</p>",
+            "link": ""
+          }
+        },
+        "item_MJWRp3": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Chat facility",
+            "text": "<p>Talk to a real person</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_kwty3B",
+        "item_MaMhfi",
+        "item_DtmHU4",
+        "item_MJWRp3"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "contact_form_Y4x8bD": {
+      "type": "contact-form",
+      "blocks": {
+        "name_7KKEUk": {
+          "type": "name",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "email_p7jBCN": {
+          "type": "email",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "phone_GnA8tL": {
+          "type": "phone",
+          "settings": {
+            "required": false,
+            "half_width": true
+          }
+        },
+        "body_NhihWR": {
+          "type": "body",
+          "settings": {
+            "required": true,
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name_7KKEUk",
+        "email_p7jBCN",
+        "phone_GnA8tL",
+        "body_NhihWR"
+      ],
+      "settings": {
+        "heading": "Se vuoi scriverci per e-mail, lo puoi fare qui:",
+        "heading_align": "text-center",
+        "image_position": "top",
+        "color_scheme": "2",
+        "full_width": true,
+        "button_style": "btn btn--primary"
+      }
     }
   },
   "order": [
     "main",
-    "media_with_text_6hfre4"
+    "media_with_text_6hfre4",
+    "rich_text_Apiz6K",
+    "icons_with_text_Q69Yh6",
+    "contact_form_Y4x8bD"
   ]
 }
