@@ -16,9 +16,38 @@
         "heading_size": "h2",
         "heading_align": "text-center"
       }
+    },
+    "media_with_text_6hfre4": {
+      "type": "media-with-text",
+      "blocks": {
+        "text_gWpXVT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Per noi <strong>è importante</strong> che le piantine da orto arrivino in perfetto stato a destinazione.</p><p>Abbiamo sviluppato questo tipo di imballaggio, dove le vaschette o i vasetti con le piantine (ma anche con i fiori), anche se il corriere dovesse rovesciare il cartone, rimangono ferme e non rischiano di cadere.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_gWpXVT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 60,
+        "media_scale": 100,
+        "text_align": "text-center",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "media_with_text_6hfre4"
   ]
 }
