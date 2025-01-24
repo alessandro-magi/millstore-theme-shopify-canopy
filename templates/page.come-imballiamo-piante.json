@@ -17,6 +17,63 @@
         "heading_align": "text-center"
       }
     },
+    "product_features_PFzmF3": {
+      "type": "product-features",
+      "blocks": {
+        "feature_8TabK8": {
+          "type": "feature",
+          "settings": {
+            "heading": "Imballaggio specifico",
+            "text": "<p>Questo tipo di imballaggio è stato studiato appositamente per evitare che le piantine possano arrivare danneggiate.</p>",
+            "content_align": "text-start",
+            "hotspot_x": 18,
+            "hotspot_y": 47
+          }
+        },
+        "feature_jDBpQR": {
+          "type": "feature",
+          "settings": {
+            "heading": "Bloccate sull'imballo",
+            "text": "<p>Le fissiamo con del nastro di carta, per garantire che non cadano se la scatola venisse capovolta.</p>",
+            "content_align": "text-start",
+            "hotspot_x": 50,
+            "hotspot_y": 50
+          }
+        },
+        "feature_KG9J7V": {
+          "type": "feature",
+          "settings": {
+            "heading": "Scatola rigida",
+            "text": "<p>Lo scatolone è molto rigido, così da prevenire schiacciamenti, dovuti durante il trasporto e/o il contatto con altri pacchi più pesanti.</p>",
+            "content_align": "text-start",
+            "hotspot_x": 84,
+            "hotspot_y": 43
+          }
+        }
+      },
+      "block_order": [
+        "feature_8TabK8",
+        "feature_jDBpQR",
+        "feature_KG9J7V"
+      ],
+      "settings": {
+        "product": "",
+        "show_content": true,
+        "layout": "text_first",
+        "text_align": "text-center",
+        "mob_center_text": false,
+        "heading_size": "h2",
+        "enlarge_text": false,
+        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
+        "title": "Product features",
+        "description": "<p>Highlight unique product features to entice your customers</p>",
+        "button_label": "",
+        "button_link": "",
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      }
+    },
     "media_with_text_6hfre4": {
       "type": "media-with-text",
       "blocks": {
@@ -180,7 +237,7 @@
         "heading": "Se vuoi scriverci per e-mail, lo puoi fare qui:",
         "heading_align": "text-center",
         "image_position": "top",
-        "color_scheme": "2",
+        "color_scheme": "none",
         "full_width": true,
         "button_style": "btn btn--primary"
       }
@@ -188,6 +245,7 @@
   },
   "order": [
     "main",
+    "product_features_PFzmF3",
     "media_with_text_6hfre4",
     "rich_text_Apiz6K",
     "icons_with_text_Q69Yh6",
