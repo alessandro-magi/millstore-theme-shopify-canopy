@@ -202,7 +202,7 @@
           "type": "button",
           "settings": {
             "button_label": "Vuoi vedere come le spediamo?",
-            "button_link": "shopify://pages/danneggiata-sostituita",
+            "button_link": "shopify://pages/come-imballiamo-e-spediamo-le-piante",
             "button_style": "btn btn--primary"
           }
         }
