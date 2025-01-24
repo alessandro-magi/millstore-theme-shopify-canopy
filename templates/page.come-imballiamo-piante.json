@@ -58,7 +58,7 @@
       ],
       "settings": {
         "product": "",
-        "show_content": true,
+        "show_content": false,
         "layout": "text_first",
         "text_align": "text-center",
         "mob_center_text": false,
@@ -74,32 +74,27 @@
         "button_style": "btn btn--primary"
       }
     },
-    "media_with_text_6hfre4": {
-      "type": "media-with-text",
+    "rich_text_dzk9AH": {
+      "type": "rich-text",
       "blocks": {
-        "text_gWpXVT": {
+        "text_kzLyGG": {
           "type": "text",
           "settings": {
-            "text": "<p>Per noi <strong>è importante</strong> che le piantine da orto arrivino in perfetto stato a destinazione.</p><p>Abbiamo sviluppato questo tipo di imballaggio, dove le vaschette o i vasetti con le piantine (ma anche con i fiori), anche se il corriere dovesse rovesciare il cartone, rimangono ferme e non rischiano di cadere.</p>",
+            "text": "<p>Per noi <strong>è fondamentale</strong> che le piantine da orto arrivino in perfetto stato a destinazione.</p><p>Abbiamo sviluppato questo tipo di imballaggio, dove le vaschette o i vasetti con le piantine (ma anche con i fiori), anche se il corriere dovesse rovesciare il cartone, rimangono ferme e non rischiano di cadere.</p>",
             "enlarge_text": true
           }
         }
       },
       "block_order": [
-        "text_gWpXVT"
+        "text_kzLyGG"
       ],
       "settings": {
-        "image": "shopify://shop_images/Imballaggio_piante_scheda_prodotto.jpg",
-        "video_external": "",
-        "video_description": "",
-        "video_autoplay": false,
-        "layout": "left",
-        "image_fit": "contain",
-        "media_width": 60,
-        "media_scale": 100,
+        "text_position": "justify-center",
         "text_align": "text-center",
+        "mob_center_text": true,
         "color_scheme": "none",
-        "only_content_color_scheme": false
+        "full_width": true,
+        "prevent_animation": false
       }
     },
     "rich_text_Apiz6K": {
@@ -246,7 +241,7 @@
   "order": [
     "main",
     "product_features_PFzmF3",
-    "media_with_text_6hfre4",
+    "rich_text_dzk9AH",
     "rich_text_Apiz6K",
     "icons_with_text_Q69Yh6",
     "contact_form_Y4x8bD"
