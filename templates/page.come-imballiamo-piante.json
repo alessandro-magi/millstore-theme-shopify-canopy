@@ -77,30 +77,31 @@
             "icon": "truck",
             "use_custom_icon_color": false,
             "icon_color": "#000000",
-            "heading": "Free shipping",
-            "text": "<p>On all orders over $100</p>",
-            "link": ""
+            "custom_icon": "shopify://shop_images/icona-whatsapp.png",
+            "heading": "Whatsapp",
+            "text": "<p>Inviaci un messaggio a 344 121 2273</p>",
+            "link": "https://wa.me/393441212273"
           }
         },
         "item_MaMhfi": {
           "type": "item",
           "settings": {
-            "icon": "price_tag",
+            "icon": "email",
             "use_custom_icon_color": false,
             "icon_color": "#000000",
-            "heading": "Special offers",
-            "text": "<p>Regular sales and discounts</p>",
+            "heading": "Inviaci una email",
+            "text": "<p>Puoi scriverci a: aiuto@millstore.it</p>",
             "link": ""
           }
         },
         "item_DtmHU4": {
           "type": "item",
           "settings": {
-            "icon": "return",
+            "icon": "phone",
             "use_custom_icon_color": false,
             "icon_color": "#000000",
-            "heading": "Easy returns",
-            "text": "<p>Hassle free returns policy</p>",
+            "heading": "Chiamaci",
+            "text": "<p>Puoi chiamarci al n° +39 344 121 2273</p>",
             "link": ""
           }
         },
@@ -110,8 +111,8 @@
             "icon": "chat_bubble",
             "use_custom_icon_color": false,
             "icon_color": "#000000",
-            "heading": "Chat facility",
-            "text": "<p>Talk to a real person</p>",
+            "heading": "Chatta dal sito",
+            "text": "<p>Parla direttamente con noi attraverso la chat</p>",
             "link": ""
           }
         }
