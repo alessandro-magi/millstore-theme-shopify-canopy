@@ -94,7 +94,7 @@
         "heading_RAFRCV": {
           "type": "heading",
           "settings": {
-            "heading": "Prenota le Patate da Seme",
+            "heading": "Prenota ora le Patate da Seme",
             "heading_size": "h5",
             "show_on_mobile": true,
             "show_on_desktop": true
@@ -103,23 +103,16 @@
         "text_PwkiA7": {
           "type": "text",
           "settings": {
-            "text": "<p>Ottieni il 5% di sconto immediato</p>",
+            "text": "<p>10% di sconto già applicato</p>",
             "enlarge_text": false,
             "show_on_mobile": true,
             "show_on_desktop": true
-          }
-        },
-        "discount_HztBeh": {
-          "type": "discount",
-          "settings": {
-            "discount_code": "PATATE052025"
           }
         }
       },
       "block_order": [
         "heading_RAFRCV",
-        "text_PwkiA7",
-        "discount_HztBeh"
+        "text_PwkiA7"
       ],
       "settings": {
         "section_height": "small",
