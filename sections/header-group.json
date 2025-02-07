@@ -103,7 +103,7 @@
         "text_PwkiA7": {
           "type": "text",
           "settings": {
-            "text": "<p>10% di sconto già applicato - FINO A DOMENICA 9 FEBBRAIO</p>",
+            "text": "<p>10% di sconto - TERMINA DOMENICA 9 FEBBRAIO</p>",
             "enlarge_text": false,
             "show_on_mobile": true,
             "show_on_desktop": true
@@ -115,7 +115,7 @@
         "text_PwkiA7"
       ],
       "settings": {
-        "section_height": "small",
+        "section_height": "xsmall",
         "color_scheme": "2",
         "full_width": true,
         "dividers": "border-bottom",
