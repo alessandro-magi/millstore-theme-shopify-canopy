@@ -201,6 +201,16 @@
         "only_content_color_scheme": false
       }
     },
+    "custom_liquid_Lk7ann": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a name=\"prenota\"></a>",
+        "section_height": "tight",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
     "rich_text_qG39H3": {
       "type": "rich-text",
       "blocks": {
@@ -244,16 +254,6 @@
         "full_width": true,
         "prevent_animation": false
       }
-    },
-    "custom_liquid_Lk7ann": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<a name=\"prenota\"></a>",
-        "section_height": "default",
-        "full_width": false,
-        "dividers": "none",
-        "prevent_animation": true
-      }
     }
   },
   "order": [
@@ -261,8 +261,8 @@
     "media_with_text_ExhWGh",
     "media_with_text_w8UFxa",
     "media_with_text_ppbTkR",
+    "custom_liquid_Lk7ann",
     "media_with_text_eptHn8",
-    "rich_text_qG39H3",
-    "custom_liquid_Lk7ann"
+    "rich_text_qG39H3"
   ]
 }
