@@ -176,7 +176,7 @@
         "button_CynJWR": {
           "type": "button",
           "settings": {
-            "button_label": "Optional button",
+            "button_label": "",
             "button_link": "",
             "button_style": "btn btn--primary"
           }
