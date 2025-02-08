@@ -248,8 +248,8 @@
     "custom_liquid_Lk7ann": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<a name=\"prenote\"></a>",
-        "section_height": "tight",
+        "custom_liquid": "<a name=\"prenota\"></a>",
+        "section_height": "default",
         "full_width": false,
         "dividers": "none",
         "prevent_animation": true
