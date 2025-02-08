@@ -17,20 +17,224 @@
         "heading_align": "text-center"
       }
     },
-    "rich_text_XGfG4M": {
-      "type": "rich-text",
+    "media_with_text_ExhWGh": {
+      "type": "media-with-text",
       "blocks": {
-        "heading_FajKeN": {
+        "heading_AebzMQ": {
           "type": "heading",
           "settings": {
             "heading": "Riscalda la Tua Casa con il Miglior Pellet di Pesaro e Urbino",
             "heading_size": "h3",
             "heading_h1": false
           }
+        },
+        "text_pnVjaN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Benvenuto! Se stai cercando il pellet perfetto per la tua stufa, sei nel posto giusto. Offriamo pellet di alta qualità, selezionato con cura per garantire il massimo rendimento e il minimo residuo. Immagina il calore accogliente e uniforme che avvolge la tua casa nelle fredde giornate invernali. È esattamente ciò che ti offriamo.</p><h3>Offerta Speciale per i Residenti di Pesaro e Urbino</h3><p>Approfitta della nostra offerta speciale per la tua prima fornitura di pellet. Consegniamo direttamente a casa tua, garantendo un servizio rapido e affidabile.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_LUphe7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri l'offerta",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
         }
       },
       "block_order": [
-        "heading_FajKeN"
+        "heading_AebzMQ",
+        "text_pnVjaN",
+        "button_LUphe7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_7fd9ea5d-23fb-4b91-8155-b8c8ea904510.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_w8UFxa": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_qcJEUm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Perché Scegliere il Nostro Pellet?",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_q8D8kc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Qualità Superiore</strong>: Utilizziamo solo legno puro senza additivi. Il nostro pellet è certificato e rispetta i più alti standard europei.</p><p><strong>Efficienza Energetica</strong>: Il nostro pellet ha un alto potere calorifico, garantendo più calore con meno combustibile. Questo significa meno ricariche e più risparmio per te.</p><p><strong>Eco-Friendly</strong>: Il nostro pellet è 100% naturale e prodotto in modo sostenibile. Rispettiamo l'ambiente, così puoi riscaldare la tua casa senza sensi di colpa.</p><p><strong>Basso Residuo</strong>: Meno cenere significa meno pulizia e manutenzione per la tua stufa. Goditi il calore senza preoccupazioni.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_HXi4wn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri l'offerta",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qcJEUm",
+        "text_q8D8kc",
+        "button_HXi4wn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2_c7e3df65-d760-43df-896c-82c6048c8a34.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_ppbTkR": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_zD9jKi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Consegniamo in varie zone",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_iRVBdj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consegniamo abitualmente nelle zone di Fermignano, Urbino, Urbania, Cagli, Acqualagna e Fossombrone, ma se vuoi possiamo arrivare in tutto il territorio di Pesaro e Urbino.</p><p></p><h3>Accettiamo tutti i tipi di pagamento</h3><p>Puoi decidere di pagare come preferisci, tramite Paypal, Carta di Credito, POS allo scarico, Bonifico Bancario, Contanti, oppure in 3 comode rate a tasso zero!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_YjVTiE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri l'offerta",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zD9jKi",
+        "text_iRVBdj",
+        "button_YjVTiE"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/3_022548e4-de6a-4eea-97a6-bc980bb5e4e3.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_eptHn8": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_AxekVm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ora veniamo al dunque!",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_ANVcdm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L'offerta attualmente attiva, fino ad esaurimento scorte è di 5,50€ al sacco da 15 kg.</p><p></p><p></p><p>Il prodotto che commercializziamo è <strong>Ruru pellet</strong>, ecco la scheda tecnica:</p><p></p><p>Legname utilizzato 100 % Abete</p><p>Potere Calorico Massimo <strong>(Nuova direttiva, test senza umidità): </strong>4,6 kWh/Kg</p><p>Tasso di umidità: ≤ 10,0 %</p><p>Ceneri residue: ≤ 0,60 %</p><p>Diametro: 6 mm</p><p>Densità specifica (CA.): &gt; 650 Kg / m3</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_CynJWR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Optional button",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AxekVm",
+        "text_ANVcdm",
+        "button_CynJWR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ADS_Pellet.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "rich_text_qG39H3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gz8MPw": {
+          "type": "heading",
+          "settings": {
+            "heading": "PRENOTA ORA IL TUO BANCALE",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "text_HGJF6q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Non perdere l'opportunità di riscaldare la tua casa con il miglior pellet della zona. Chiama ora per maggiori informazioni e per effettuare il tuo ordine.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_RxK6QV": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Chiamaci al n° 0722330366",
+            "button_1_link": "tel:+390722330366",
+            "button_1_style": "btn--primary",
+            "button_2_label": "Inviaci una e-mail",
+            "button_2_link": "mailto:info@millstore.it",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gz8MPw",
+        "text_HGJF6q",
+        "button_RxK6QV"
       ],
       "settings": {
         "text_position": "justify-center",
@@ -38,12 +242,27 @@
         "mob_center_text": true,
         "color_scheme": "none",
         "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "custom_liquid_Lk7ann": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a name=\"prenote\"></a>",
+        "section_height": "tight",
+        "full_width": false,
+        "dividers": "none",
         "prevent_animation": true
       }
     }
   },
   "order": [
     "main",
-    "rich_text_XGfG4M"
+    "media_with_text_ExhWGh",
+    "media_with_text_w8UFxa",
+    "media_with_text_ppbTkR",
+    "media_with_text_eptHn8",
+    "rich_text_qG39H3",
+    "custom_liquid_Lk7ann"
   ]
 }
