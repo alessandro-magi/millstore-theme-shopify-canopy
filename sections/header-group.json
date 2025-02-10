@@ -114,6 +114,7 @@
         "heading_RAFRCV",
         "text_PwkiA7"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "xsmall",
         "color_scheme": "2",
