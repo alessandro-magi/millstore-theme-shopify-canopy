@@ -29,7 +29,7 @@
         "cart_terms_page": "",
         "show_shipping_calculator": false,
         "shipping_calculator_default_country": "Italy",
-        "promoted_products_visibility": "always",
+        "promoted_products_visibility": "empty-cart",
         "promoted_products_heading": "Promoted products",
         "promoted_products_list": [],
         "promoted_products_layout": "carousel",
