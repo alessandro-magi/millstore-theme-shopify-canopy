@@ -249,7 +249,7 @@
           "settings": {
             "icon": "none",
             "heading": "Quali metodi di pagamento accettate?",
-            "text": "<p>Puoi pagare il tuo ordine come preferisci. Accettiamo: Paypal, Carta di Credito (Visa, Mastercard, American Express, Postepay), Scalapay o Klarna (3 rate a tasso 0), Bonifico Bancario o Pagamento alla consegna (+ 5€). Il pagamento alla consegna ha dei limiti, non è attivo per le categorie Arredamento per la Casa, Piante e fiori, Pellet per stufa, inoltre ha un limite di 200€ di importo massimo.</p>"
+            "text": "<p>Puoi pagare il tuo ordine come preferisci. Accettiamo: Paypal, Carta di Credito (Visa, Mastercard, American Express, Postepay), Scalapay o Klarna (3 rate a tasso 0), Bonifico Bancario. Il pagamento alla consegna non lo accettiamo più.</p>"
           }
         },
         "category_rV3kTA": {
