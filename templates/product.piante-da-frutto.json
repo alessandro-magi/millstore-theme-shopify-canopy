@@ -107,7 +107,7 @@
           "settings": {
             "heading": "Pagamenti",
             "icon": "credit_card",
-            "text": "<p>✔ Paypal, anche in 3 rate senza interessi</p><p>✔ Carta di Credito (Visa, Mastercard e American Express)</p><p>✔ Scalapay e Klarna: 3 Rate senza interessi</p><p>✔ Bonifico Bancario</p><p>✔ Pagamento alla Consegna in contanti (+5€), escluso Arredo Casa, Piante, Piantine e Fiori</p>",
+            "text": "<p>✔ Paypal, anche in 3 rate senza interessi</p><p>✔ Carta di Credito (Visa, Mastercard e American Express)</p><p>✔ Scalapay e Klarna: 3 Rate senza interessi</p><p>✔ Bonifico Bancario</p>",
             "page": "",
             "open": true
           }
