@@ -94,7 +94,7 @@
         "heading_RAFRCV": {
           "type": "heading",
           "settings": {
-            "heading": "Prenota ora le Patate da Seme",
+            "heading": "Benvenuta Primavera 🌷🌱",
             "heading_size": "h5",
             "show_on_mobile": true,
             "show_on_desktop": true
@@ -103,21 +103,27 @@
         "text_PwkiA7": {
           "type": "text",
           "settings": {
-            "text": "<p>10% di sconto - TERMINA DOMENICA 9 FEBBRAIO</p>",
+            "text": "<p>-10% fino al 21 Marzo </p>",
             "enlarge_text": false,
             "show_on_mobile": true,
             "show_on_desktop": true
+          }
+        },
+        "discount_HjagnC": {
+          "type": "discount",
+          "settings": {
+            "discount_code": "DISCOUNTCODE"
           }
         }
       },
       "block_order": [
         "heading_RAFRCV",
-        "text_PwkiA7"
+        "text_PwkiA7",
+        "discount_HjagnC"
       ],
-      "disabled": true,
       "settings": {
         "section_height": "xsmall",
-        "color_scheme": "2",
+        "color_scheme": "1",
         "full_width": true,
         "dividers": "border-bottom",
         "prevent_animation": true
