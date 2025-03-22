@@ -79,6 +79,17 @@
             "size_chart_page": ""
           }
         },
+        "inventory_status_jfTVMF": {
+          "type": "inventory-status",
+          "settings": {
+            "show_urgency_message": true,
+            "text_very_low": "<p>- Sta per finire! Affrettati</p>",
+            "text_low": "<p>- Disponibili gli ultimi pezzi</p>",
+            "text_normal": "",
+            "text_no_stock": "",
+            "text_no_stock_backordered": "<p>Questo prodotto è su ordinazione</p>"
+          }
+        },
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -132,6 +143,7 @@
         "message_Dr4mRg",
         "dr_stacked_discounts_volume_discount_promotion_MhJthh",
         "variant-picker",
+        "inventory_status_jfTVMF",
         "buy-buttons",
         "collapsible_content_R77rxi",
         "collapsible_content_FknY83",
