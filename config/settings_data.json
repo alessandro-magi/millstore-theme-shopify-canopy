@@ -765,10 +765,10 @@
       ".drawer[aria-modal] {z-index: 21474830031;}",
       ".woot-widget-bubble.woot-widget--expanded {z-index: 210000 !important; position: fixed;}",
       ".wishlist-btn.style_3 {padding: 0px !important;}",
-      "/* Inizio sezione Che problemi ha la tua pianta? */.plant-problem-finder {aspect-ratio: var(--product-grid-item-image-aspect-ratio, auto); position: relative; width: 100%; margin: 0; overflow: hidden; background-size: 0; display: flex; justify-content: space-around;}",
-      " @media (min-width: 769px) {.plant-problem-finder-4-element {display: flex; justify-content: space-around; flex-wrap: wrap; } .plant-problem-finder--item {width: 25%; margin: 0; padding: 10px; } .plant-problem-finder--item .plant-problem-img {width: 100%; } .plant-problem-item {text-align: center; } }",
-      " @media (max-width: 768px) {.plant-problem-finder-4-element {display: flex; justify-content: space-around; flex-wrap: wrap; } .plant-problem-finder--item {width: 50%; margin: 0; padding: 10px; } .plant-problem-item {text-align: center; } }",
-      "/* Fine sezione Che problemi ha la tua pianta? */"
+      " /* Inizio sezione Che problemi ha la tua pianta? */.plant-problem-finder {aspect-ratio: var(--product-grid-item-image-aspect-ratio, auto); position: relative; width: 100%; margin: 0; overflow: hidden; background-size: 0; display: flex; justify-content: space-around;}",
+      "@media (min-width: 769px) {.plant-problem-finder-4-element {display: flex; justify-content: space-around; flex-wrap: wrap; } .plant-problem-finder--item {width: 25%; margin: 0; padding: 10px; } .plant-problem-finder--item .plant-problem-img {width: 100%; } .plant-problem-item {text-align: center; }}",
+      "@media (max-width: 768px) {.plant-problem-finder-4-element {display: flex; justify-content: space-around; flex-wrap: wrap; } .plant-problem-finder--item {width: 50%; margin: 0; padding: 10px; } .plant-problem-item {text-align: center; }}",
+      " /* Fine sezione Che problemi ha la tua pianta? */"
     ]
   }
 }
