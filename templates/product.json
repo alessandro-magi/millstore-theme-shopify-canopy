@@ -155,6 +155,12 @@
             "icon": "briefcase",
             "open": true
           }
+        },
+        "custom_liquid_3xG6cP": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% if product.collections.size > 0 %}\n\n  <div class=\"collection-buttons\">\n    {% for collection in product.collections %}\n      {% unless collection.title == product.vendor or collection.title == \"Le ultime novità per l'Orto e Giardino\" %}\n        <a href=\"{{ collection.url }}\" class=\"btn btn--secondary\" style=\"padding: 10px; margin: 5px 0;\">\n          {{ collection.title }}\n        </a>\n      {% endunless %}\n    {% endfor %}\n  </div>\n{% endif %}"
+          }
         }
       },
       "block_order": [
