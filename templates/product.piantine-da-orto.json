@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_3xG6cP": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -72,6 +78,17 @@
             "size_chart_page": ""
           }
         },
+        "inventory_status_Uf8mnK": {
+          "type": "inventory-status",
+          "settings": {
+            "show_urgency_message": true,
+            "text_very_low": "<p>- Affrettati!</p>",
+            "text_low": "<p>- Ultimi pezzi a disposizione</p>",
+            "text_normal": "<p>Disponibile</p>",
+            "text_no_stock": "<p>Esaurito</p>",
+            "text_no_stock_backordered": "<p>Pre ordine</p>"
+          }
+        },
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -111,6 +128,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_3xG6cP",
         "title",
         "613a93aa-8edd-4bb9-b8f1-df3133990e99",
         "judge_me_reviews_preview_badge_dAQLgR",
@@ -119,6 +137,7 @@
         "custom_liquid_qefCkw",
         "dr_stacked_discounts_volume_discount_promotion_MhJthh",
         "variant-picker",
+        "inventory_status_Uf8mnK",
         "buy-buttons",
         "collapsible_content_R77rxi",
         "collapsible_content_FknY83",
