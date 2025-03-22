@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_liquid_3xG6cP": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "{% if product.collections.size > 0 %}\n\n  <div class=\"collection-buttons\">\n    {% for collection in product.collections %}\n      {% unless collection.title == product.vendor or collection.title == \"Le ultime novità per l'Orto e Giardino\" %}\n        <a href=\"{{ collection.url }}\" class=\"btn btn--secondary\">\n          {{ collection.title }}\n        </a>\n      {% endunless %}\n    {% endfor %}\n  </div>\n{% endif %}"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -125,10 +119,15 @@
             "icon": "briefcase",
             "open": true
           }
+        },
+        "custom_liquid_3xG6cP": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% if product.collections.size > 0 %}\n\n  <div class=\"collection-buttons\">\n    {% for collection in product.collections %}\n      {% unless collection.title == product.vendor or collection.title == \"Le ultime novità per l'Orto e Giardino\" %}\n        <a href=\"{{ collection.url }}\" class=\"btn btn--secondary\">\n          {{ collection.title }}\n        </a>\n      {% endunless %}\n    {% endfor %}\n  </div>\n{% endif %}"
+          }
         }
       },
       "block_order": [
-        "custom_liquid_3xG6cP",
         "title",
         "613a93aa-8edd-4bb9-b8f1-df3133990e99",
         "judge_me_reviews_preview_badge_dAQLgR",
@@ -141,7 +140,8 @@
         "buy-buttons",
         "collapsible_content_R77rxi",
         "collapsible_content_FknY83",
-        "1cc6422d-211f-4764-af07-884ee26ed3d7"
+        "1cc6422d-211f-4764-af07-884ee26ed3d7",
+        "custom_liquid_3xG6cP"
       ],
       "settings": {
         "stick_on_scroll": true,
