@@ -11,6 +11,85 @@
   "type": "header",
   "name": "Header Group",
   "sections": {
+    "scrolling_banner_CmfmpP": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_Xf7Vbj": {
+          "type": "text",
+          "settings": {
+            "text": "Gli ordini che contengono piantine o fiori, potranno subire dei ritardi nella evasione e nella consegna, per via delle festività!",
+            "link": "",
+            "font": "heading",
+            "heading_size": "h6"
+          }
+        },
+        "icon_LpHB4T": {
+          "type": "icon",
+          "settings": {
+            "icon": "truck",
+            "icon_size": 20
+          }
+        }
+      },
+      "block_order": [
+        "text_Xf7Vbj",
+        "icon_LpHB4T"
+      ],
+      "settings": {
+        "section_height": "xsmall",
+        "spacing": 32,
+        "speed": 30,
+        "direction": "normal",
+        "pausable": true,
+        "color_scheme": "1",
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
+    "promo_strip_QLcH46": {
+      "type": "promo-strip",
+      "blocks": {
+        "heading_RAFRCV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Gli ordini che contengono piantine o fiori, potranno subire dei ritardi nella evasione e nella consegna, per via delle festività!",
+            "heading_size": "h6",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "text_PwkiA7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>-10% fino al 21 Marzo </p>",
+            "enlarge_text": false,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "discount_HjagnC": {
+          "type": "discount",
+          "disabled": true,
+          "settings": {
+            "discount_code": "PRIMAVERA25"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RAFRCV",
+        "text_PwkiA7",
+        "discount_HjagnC"
+      ],
+      "settings": {
+        "section_height": "xsmall",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "border-bottom",
+        "prevent_animation": true
+      }
+    },
     "announcement": {
       "type": "announcement",
       "blocks": {
@@ -87,53 +166,12 @@
         "mobile_menu_bg_color": "#fcf9f1",
         "mobile_menu_text_color": "#222222"
       }
-    },
-    "promo_strip_QLcH46": {
-      "type": "promo-strip",
-      "blocks": {
-        "heading_RAFRCV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Benvenuta Primavera 🌷🌱",
-            "heading_size": "h5",
-            "show_on_mobile": true,
-            "show_on_desktop": true
-          }
-        },
-        "text_PwkiA7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>-10% fino al 21 Marzo </p>",
-            "enlarge_text": false,
-            "show_on_mobile": true,
-            "show_on_desktop": true
-          }
-        },
-        "discount_HjagnC": {
-          "type": "discount",
-          "settings": {
-            "discount_code": "PRIMAVERA25"
-          }
-        }
-      },
-      "block_order": [
-        "heading_RAFRCV",
-        "text_PwkiA7",
-        "discount_HjagnC"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "xsmall",
-        "color_scheme": "1",
-        "full_width": true,
-        "dividers": "border-bottom",
-        "prevent_animation": true
-      }
     }
   },
   "order": [
+    "scrolling_banner_CmfmpP",
+    "promo_strip_QLcH46",
     "announcement",
-    "header",
-    "promo_strip_QLcH46"
+    "header"
   ]
 }
