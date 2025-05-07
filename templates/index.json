@@ -15,20 +15,19 @@
         "a27f0a3c-58d4-4323-8b2a-1baa1d38d3dc": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify://shop_images/patate-desktop.webp",
-            "image_mobile": "shopify://shop_images/patate-da-seme.webp",
-            "url": "shopify://collections/patate-da-semina",
+            "image_desktop": "shopify://shop_images/piantine_da_orto_novita_2025.jpg",
+            "url": "shopify://collections/novita-piantine-da-orto-2025",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
             "mob_center_text": true,
-            "subheading": "Prenotale ora",
-            "heading": "Patate da Seme",
+            "subheading": "",
+            "heading": "Piantine da Orto: Novità 2025",
             "heading_size": "h0",
             "heading_h1": false,
-            "text": "<p>E' arrivato il momento, prenotale subito!</p>",
+            "text": "<p>Tantissimi Pomodori, nuove Melanzane, Zucchine e tanto altro!</p>",
             "enlarge_text": true,
             "button_1_label": "Scegli le varietà",
-            "button_1_link": "shopify://collections/patate-da-semina",
+            "button_1_link": "shopify://collections/novita-piantine-da-orto-2025",
             "button_1_style": "btn btn--primary",
             "button_2_label": "",
             "button_2_link": "",
@@ -47,47 +46,10 @@
             "bg_color": "#070707",
             "bg_grad": ""
           }
-        },
-        "slide-1": {
-          "type": "slide",
-          "settings": {
-            "image_desktop": "shopify://shop_images/arredo-casa_e082fb35-9178-482e-ad60-abf109862136.webp",
-            "image_mobile": "shopify://shop_images/arredo-casa.webp",
-            "url": "shopify://collections/arredo-casa",
-            "overlay_position": "justify-center items-center",
-            "overlay_text_align": "text-center",
-            "mob_center_text": true,
-            "subheading": "Arredamento Casa",
-            "heading": "Iniziano i Saldi",
-            "heading_size": "h0",
-            "heading_h1": false,
-            "text": "<p>Da oggi partono gli sconti dal 20 al 50% sull'arredamento per la casa</p>",
-            "enlarge_text": false,
-            "button_1_label": "Vai ai Saldi",
-            "button_1_link": "shopify://collections/arredo-casa",
-            "button_1_style": "btn btn--primary",
-            "button_2_label": "",
-            "button_2_link": "",
-            "button_2_style": "btn btn--primary",
-            "transparent_content_color": "#ffffff",
-            "countdown_show": false,
-            "countdown_end_date": "2024-01-07",
-            "countdown_end_time": "23:59",
-            "countdown_end_text": "",
-            "enlarge_end_text": false,
-            "countdown_hide_on_end": false,
-            "countdown_border_radius": 6,
-            "use_custom_colors": false,
-            "count_color": "#ffffff",
-            "count_border_color": "",
-            "bg_color": "#070707",
-            "bg_grad": ""
-          }
         }
       },
       "block_order": [
-        "a27f0a3c-58d4-4323-8b2a-1baa1d38d3dc",
-        "slide-1"
+        "a27f0a3c-58d4-4323-8b2a-1baa1d38d3dc"
       ],
       "settings": {
         "height_mode": "fixed",
