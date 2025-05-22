@@ -166,13 +166,20 @@
           "settings": {
             "collection": "attrezzi-e-accessori"
           }
+        },
+        "collection_jXHjWh": {
+          "type": "collection",
+          "settings": {
+            "collection": "concimazione-e-difesa-orto"
+          }
         }
       },
       "block_order": [
         "collection_wWyHH4",
         "collection_N8pKTf",
         "collection_LQwk4W",
-        "collection_rg6dML"
+        "collection_rg6dML",
+        "collection_jXHjWh"
       ],
       "settings": {
         "title": "Cose da non perdere a Gennaio",
