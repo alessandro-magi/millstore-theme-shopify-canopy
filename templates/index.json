@@ -143,28 +143,16 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection-0": {
+        "collection_wWyHH4": {
           "type": "collection",
           "settings": {
-            "collection": "patate-da-semina"
+            "collection": "insetticidi-per-casa-e-ambienti"
           }
         },
         "collection_N8pKTf": {
           "type": "collection",
           "settings": {
             "collection": "piantine-da-orto"
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "piantine-zampe-asparagi"
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "semi-di-pisello"
           }
         },
         "collection_LQwk4W": {
@@ -181,10 +169,8 @@
         }
       },
       "block_order": [
-        "collection-0",
+        "collection_wWyHH4",
         "collection_N8pKTf",
-        "collection-1",
-        "collection-2",
         "collection_LQwk4W",
         "collection_rg6dML"
       ],
