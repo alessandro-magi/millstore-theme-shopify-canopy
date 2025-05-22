@@ -103,7 +103,7 @@
             "use_custom_icon_color": false,
             "icon_color": "#000000",
             "heading": "Pagamenti",
-            "text": "<p>Paypal, Carta, Scalapay, Bonifico e alla Consegna</p>",
+            "text": "<p>Paypal, Carta di Credito, Scalapay in 3 rate, Bonifico</p>",
             "link": "shopify://policies/terms-of-service"
           }
         },
