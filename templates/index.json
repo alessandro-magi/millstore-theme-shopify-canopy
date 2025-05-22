@@ -240,6 +240,7 @@
         "column_KtyMca",
         "column_XzBiHd"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_align": "text-start",
