@@ -17,7 +17,7 @@
         "text_Xf7Vbj": {
           "type": "text",
           "settings": {
-            "text": "Gli ordini di piante e fiori eseguiti dal 3 al 7 Maggio, verranno evasi Lunedì 12 Maggio. Grazie, Millstore",
+            "text": "ATTENZIONE!! Per via degli scioperi su GLS, non possiamo garantire le consegne tempestive, utilizzeremo BRT momentaneamente!",
             "link": "",
             "font": "heading",
             "heading_size": "h6"
@@ -35,7 +35,6 @@
         "text_Xf7Vbj",
         "icon_LpHB4T"
       ],
-      "disabled": true,
       "settings": {
         "section_height": "xsmall",
         "spacing": 32,
