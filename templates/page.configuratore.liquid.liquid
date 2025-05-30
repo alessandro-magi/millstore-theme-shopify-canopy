@@ -1,4 +1,10 @@
-<!-- page.configuratore.liquid -->
-<div class="container-orto-configuratore">
-  <div id="orto-app"></div>  <!-- Punto di mount per React -->
+<!-- Template: page.configuratore.liquid -->
+{% layout 'theme' %}  <!-- Usa il layout principale del tema (opzionale, a seconda del tema) -->
+<div class="page-width">
+  <!-- Punto di montaggio dell'app React -->
+  <div id="garden-app"></div>
 </div>
+
+<!-- Inclusione degli asset compilati (JS e CSS) dal folder assets -->
+{{ 'garden-app.css' | asset_url | stylesheet_tag }}
+{{ 'garden-app.js' | asset_url | script_tag }}
