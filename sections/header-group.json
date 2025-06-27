@@ -52,9 +52,8 @@
       "blocks": {
         "heading_RAFRCV": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Gli ordini che contengono piantine o fiori, potranno subire dei ritardi nella evasione e nella consegna, per via delle festività!",
+            "heading": "FUORI TUTTO -30% Piantine da Orto!",
             "heading_size": "h6",
             "show_on_mobile": true,
             "show_on_desktop": true
@@ -85,7 +84,7 @@
       ],
       "settings": {
         "section_height": "xsmall",
-        "color_scheme": "1",
+        "color_scheme": "none",
         "full_width": true,
         "dividers": "border-bottom",
         "prevent_animation": true
