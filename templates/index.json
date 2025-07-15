@@ -14,6 +14,28 @@
       "name": "Image banner",
       "settings": {
         "image_desktop": "shopify://shop_images/trappola_cimici_-_desktop.jpg",
+        "image_mobile": "shopify://shop_images/trappola_cimici_-_smarpthone.jpg",
+        "url": "shopify://products/trappola-per-cimici-asiatiche-per-orto-con-2-feromoni-1-attrattivo-1-sessuale",
+        "height_mode": "auto",
+        "fixed_height_desktop": 480,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": false
+      }
+    },
+    "image_banner_cdHtix": {
+      "type": "image-banner",
+      "name": "Image banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/trappola_cimici_-_desktop.jpg",
         "url": "shopify://products/trappola-per-cimici-asiatiche-per-orto-con-2-feromoni-1-attrattivo-1-sessuale",
         "height_mode": "auto",
         "fixed_height_desktop": 480,
@@ -565,6 +587,7 @@
   },
   "order": [
     "image_banner_MymEat",
+    "image_banner_cdHtix",
     "slideshow",
     "3721924b-630b-4a60-b724-521fef7aa78e",
     "collection-list",
