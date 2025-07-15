@@ -15,19 +15,19 @@
         "a27f0a3c-58d4-4323-8b2a-1baa1d38d3dc": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify://shop_images/piantine_da_orto_novita_2025.jpg",
-            "url": "shopify://collections/novita-piantine-da-orto-2025",
+            "image_desktop": "shopify://shop_images/trappola_cimici_-_desktop.jpg",
+            "url": "shopify://products/trappola-per-cimici-asiatiche-per-orto-con-2-feromoni-1-attrattivo-1-sessuale",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
             "mob_center_text": true,
             "subheading": "",
-            "heading": "Piantine da Orto: Novità 2025",
+            "heading": "",
             "heading_size": "h0",
             "heading_h1": false,
-            "text": "<p>Tantissimi Pomodori, nuove Melanzane, Zucchine e tanto altro!</p>",
+            "text": "",
             "enlarge_text": true,
-            "button_1_label": "Scegli le varietà",
-            "button_1_link": "shopify://collections/novita-piantine-da-orto-2025",
+            "button_1_label": "",
+            "button_1_link": "",
             "button_1_style": "btn btn--primary",
             "button_2_label": "",
             "button_2_link": "",
@@ -457,6 +457,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Novità arredo casa",
         "heading_align": "text-start",
@@ -473,6 +474,7 @@
     },
     "featured_collection_Dti7Hy": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Novità per Cani e Gatti",
         "heading_align": "text-start",
