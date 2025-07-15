@@ -56,7 +56,7 @@
         "fixed_height_desktop": 440,
         "fixed_height_mobile": 300,
         "mobile_stacked": false,
-        "nav_style": "arrows",
+        "nav_style": "slideshow_nav_dots",
         "pagination_color": "#ffffff",
         "nav_position": "justify-center",
         "transition": "slide",
