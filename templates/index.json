@@ -36,6 +36,7 @@
       "name": "Image banner",
       "settings": {
         "image_desktop": "shopify://shop_images/trappola_popillia_japonica_-_desktop.jpg",
+        "image_mobile": "shopify://shop_images/trappola_popillia_japonica_-_smartphone.jpg",
         "url": "shopify://products/trappole-per-popillia-japonica-ai-feromoni-coleottero-giapponese-area-fino-a-500-m2",
         "height_mode": "auto",
         "fixed_height_desktop": 480,
