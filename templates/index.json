@@ -11,9 +11,7 @@
   "sections": {
     "image_banner_cdHtix": {
       "type": "image-banner",
-      "custom_css": [
-        "image-banner {padding-bottom: 10px;}"
-      ],
+      "custom_css": [],
       "name": "Image banner",
       "settings": {
         "image_desktop": "shopify://shop_images/trappola_popillia_japonica_-_desktop.jpg",
