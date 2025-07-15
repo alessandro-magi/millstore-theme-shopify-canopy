@@ -9,13 +9,16 @@
  */
 {
   "sections": {
-    "image_banner_MymEat": {
+    "image_banner_cdHtix": {
       "type": "image-banner",
+      "custom_css": [
+        "image-banner {padding-bottom: 10px;}"
+      ],
       "name": "Image banner",
       "settings": {
-        "image_desktop": "shopify://shop_images/trappola_cimici_-_desktop.jpg",
-        "image_mobile": "shopify://shop_images/trappola_cimici_-_smarpthone.jpg",
-        "url": "shopify://products/trappola-per-cimici-asiatiche-per-orto-con-2-feromoni-1-attrattivo-1-sessuale",
+        "image_desktop": "shopify://shop_images/trappola_popillia_japonica_-_desktop.jpg",
+        "image_mobile": "shopify://shop_images/trappola_popillia_japonica_-_smartphone.jpg",
+        "url": "shopify://products/trappole-per-popillia-japonica-ai-feromoni-coleottero-giapponese-area-fino-a-500-m2",
         "height_mode": "auto",
         "fixed_height_desktop": 480,
         "fixed_height_mobile": 350,
@@ -31,13 +34,13 @@
         "prevent_animation": true
       }
     },
-    "image_banner_cdHtix": {
+    "image_banner_MymEat": {
       "type": "image-banner",
       "name": "Image banner",
       "settings": {
-        "image_desktop": "shopify://shop_images/trappola_popillia_japonica_-_desktop.jpg",
-        "image_mobile": "shopify://shop_images/trappola_popillia_japonica_-_smartphone.jpg",
-        "url": "shopify://products/trappole-per-popillia-japonica-ai-feromoni-coleottero-giapponese-area-fino-a-500-m2",
+        "image_desktop": "shopify://shop_images/trappola_cimici_-_desktop.jpg",
+        "image_mobile": "shopify://shop_images/trappola_cimici_-_smarpthone.jpg",
+        "url": "shopify://products/trappola-per-cimici-asiatiche-per-orto-con-2-feromoni-1-attrattivo-1-sessuale",
         "height_mode": "auto",
         "fixed_height_desktop": 480,
         "fixed_height_mobile": 350,
@@ -587,8 +590,8 @@
     }
   },
   "order": [
-    "image_banner_MymEat",
     "image_banner_cdHtix",
+    "image_banner_MymEat",
     "slideshow",
     "3721924b-630b-4a60-b724-521fef7aa78e",
     "collection-list",
