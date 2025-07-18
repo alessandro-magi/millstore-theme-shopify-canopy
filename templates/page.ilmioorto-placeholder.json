@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {},
+      "settings": {
+        "image_desktop": "shopify://shop_images/afidi.jpg",
+        "image_mobile": "shopify://shop_images/afidi.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 480,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Il Mio Orto",
+            "heading_size": "h1",
+            "heading_h1": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Placeholder page for Il Mio Orto. Replace this template with real content that matches the original website.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Prodotti in evidenza",
+        "collection": "",
+        "products_to_show": 4,
+        "show_vendor": false,
+        "view_all": false,
+        "color_scheme": "none"
+      }
+    }
+  },
+  "order": ["image_banner", "rich_text", "featured_collection"],
+  "layout": "page"
+}
