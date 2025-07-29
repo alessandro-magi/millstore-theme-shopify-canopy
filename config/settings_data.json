@@ -161,7 +161,7 @@
     "show_currency_code": false,
     "superscript_decimals": true,
     "cart_icon": "cart",
-    "cart_type": "drawer",
+    "cart_type": "page",
     "dock_cart_drawer": false,
     "after_add_to_cart": "drawer_desktop",
     "cart_show_weight": false,
