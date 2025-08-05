@@ -82,6 +82,7 @@
         "text_PwkiA7",
         "discount_HjagnC"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "xsmall",
         "color_scheme": "none",
