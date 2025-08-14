@@ -9,6 +9,107 @@
  */
 {
   "sections": {
+    "slideshow_V8AWx4": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_CzB6iC": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify://shop_images/Cavoli_e_Cavolfiori_-_Desktop.jpg",
+            "image_mobile": "shopify://shop_images/Blog_-_Cavolfiori.png",
+            "url": "shopify://collections/piantine-di-cavolfiori-cavolo-e-broccoli",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "countdown_border_radius": 6,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "count_border_color": "",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_CzxXhJ": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify://shop_images/Radicchio_e_Cicorie_-_dekstop_1600_x_520_px.jpg",
+            "image_mobile": "shopify://shop_images/Radicchio_e_Cicorie_-_dekstop_774_x_412_px.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "countdown_border_radius": 6,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "count_border_color": "",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_CzB6iC",
+        "slide_CzxXhJ"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height_mode": "auto",
+        "fixed_height_desktop": 640,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "nav_style": "slideshow_nav_dots",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": true,
+        "autoplay_speed": 5,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "accessibility_info": "",
+        "prevent_animation": true
+      }
+    },
     "image_banner_cdHtix": {
       "type": "image-banner",
       "custom_css": [],
@@ -588,6 +689,7 @@
     }
   },
   "order": [
+    "slideshow_V8AWx4",
     "image_banner_cdHtix",
     "image_banner_MymEat",
     "slideshow",
