@@ -53,7 +53,7 @@
           "settings": {
             "image_desktop": "shopify://shop_images/Radicchio_e_Cicorie_-_dekstop_1600_x_520_px.jpg",
             "image_mobile": "shopify://shop_images/Radicchio_e_Cicorie_-_dekstop_774_x_412_px.jpg",
-            "url": "",
+            "url": "shopify://collections/piantine-di-cicoria-e-radicchio",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
             "mob_center_text": false,
